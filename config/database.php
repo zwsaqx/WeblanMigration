@@ -101,7 +101,7 @@ return [
             'port' => env('DB_PORT', '1433'),
             'database' => env('DB_DATABASE', 'Test'),
             'username' => env('DB_USERNAME', 'Mark'),
-            'password' => env('DB_PASSWORD', '123456789'),
+            'password' => env('DB_PASSWORD', 'Mark'),
             'charset' => env('DB_CHARSET', 'utf8'),
             'prefix' => '',
             'prefix_indexes' => true,
