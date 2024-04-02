@@ -34,8 +34,6 @@
             font-size: 13px;
             font-weight: 600;
             font-family: HeliaCoreBold, Arial, sans-serif;
-
-
             line-height: 13px;
         }
         .paragraph{
