@@ -1,0 +1,100 @@
+.menu1 {
+  FONT: bold 12px/21px Verdana, Arial, Helvetica, sans-serif;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFFFFF;
+}
+.menu1 A {
+  DISPLAY: block; BACKGROUND: url(images/Button1.jpg); FONT: bold 12px/21px Verdana, Arial, Helvetica, sans-serif; COLOR: #ffffff; HEIGHT: 22px; TEXT-DECORATION: none
+}
+.menu1 A:link {
+  DISPLAY: block; BACKGROUND: url(images/Button1.jpg); FONT: bold 12px/21px Verdana, Arial, Helvetica, sans-serif; COLOR: #ffffff; HEIGHT: 22px; TEXT-DECORATION: none
+}
+.menu1 A:visited {
+  DISPLAY: block; BACKGROUND: url(images/Button1.jpg); FONT: bold 12px/21px Verdana, Arial, Helvetica, sans-serif; COLOR: #ffffff; HEIGHT: 22px; TEXT-DECORATION: none
+}
+.menu1 A:active {
+  DISPLAY: block; BACKGROUND: url(images/Button1.jpg); FONT: bold 12px/21px Verdana, Arial, Helvetica, sans-serif; COLOR: #ffffff; HEIGHT: 22px; TEXT-DECORATION: none
+}
+.menu1 A:hover {
+  DISPLAY: block; BACKGROUND: url(images/Button1.jpg); FONT: bold 12px/21px Verdana, Arial, Helvetica, sans-serif; CURSOR: pointer; COLOR: #000066; HEIGHT: 22px; TEXT-DECORATION: none
+}
+
+.menu2 {
+  FONT: bold 12px/21px Verdana, Arial, Helvetica, sans-serif;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFFFFF;
+}
+.menu2 A {
+  DISPLAY: block; BACKGROUND: #BFCFFF; FONT: bold 12px/21px Verdana, Arial, Helvetica, sans-serif; COLOR: #000066; HEIGHT: 22px; TEXT-DECORATION: none
+}
+.menu2 A:link {
+  DISPLAY: block; BACKGROUND: #BFCFFF; FONT: bold 12px/21px Verdana, Arial, Helvetica, sans-serif; COLOR: #000066; HEIGHT: 22px; TEXT-DECORATION: none
+}
+.menu2 A:visited {
+  DISPLAY: block; BACKGROUND: #BFCFFF; FONT: bold 12px/21px Verdana, Arial, Helvetica, sans-serif; COLOR: #000066; HEIGHT: 22px; TEXT-DECORATION: none
+}
+.menu2 A:active {
+  DISPLAY: block; BACKGROUND: #BFCFFF; FONT: bold 12px/21px Verdana, Arial, Helvetica, sans-serif; COLOR: #000066; HEIGHT: 22px; TEXT-DECORATION: none
+}
+.menu2 A:hover {
+  DISPLAY: block; BACKGROUND: #BFCFFF; FONT: bold 12px/21px Verdana, Arial, Helvetica, sans-serif; CURSOR: pointer; COLOR: #ffffff; HEIGHT: 22px; TEXT-DECORATION: none
+}
+.normalText {
+  FONT: normal 12px/normal Verdana, Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+.normalTextSmall {
+  FONT: normal 10px/normal Verdana, Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+.redText {
+  FONT: bold 12px/normal Verdana, Arial, Helvetica, sans-serif;
+  color: #993300;
+}
+.errorText {
+  FONT: bold 12px/normal Verdana, Arial, Helvetica, sans-serif;
+  color: red;
+}
+.textBox {
+  FONT: bold 12px/normal Verdana, Arial, Helvetica, sans-serif;
+  color: #666666;
+  border: 1px solid #0000FF;
+}
+.darkBlueText {
+  FONT: bold 12px/normal Verdana, Arial, Helvetica, sans-serif;
+  color: #000066;
+}
+.darkBlueTextJumbo {
+  FONT: bold 23px/normal Verdana, Arial, Helvetica, sans-serif;
+  color: #000066;
+}
+.darkBlueTextSuperJumbo {
+  FONT: bold 24px/normal Verdana, Arial, Helvetica, sans-serif;
+  color: #000066;
+}
+.dottedbox {
+	border: 1px dotted #999999;
+}
+.dottedbox2 {
+	border: 1px dotted #FF0000;
+}
+.infobox {
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+        padding-right: 30px;
+        FONT: normal 12px/normal Verdana, Arial, Helvetica, sans-serif;
+        color: #000000;
+
+}
+.leftmargin {
+	padding-left: 20px;
+}
+.answerPadding {
+	padding-top: 3px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+}

@@ -1,0 +1,1999 @@
+220627 18:34:21 InnoDB: The InnoDB memory heap is disabled
+220627 18:34:21 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220627 18:34:21 InnoDB: Compressed tables use zlib 1.2.11
+220627 18:34:21 InnoDB: Initializing buffer pool, size = 16.0M
+220627 18:34:21 InnoDB: Completed initialization of buffer pool
+220627 18:34:21 InnoDB: highest supported file format is Barracuda.
+220627 18:34:21  InnoDB: Waiting for the background threads to start
+220627 18:34:22 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596899
+220627 18:34:22 [Note] Plugin 'FEEDBACK' is disabled.
+220627 18:34:22 [Note] Server socket created on IP: '::'.
+220627 18:34:23 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+220627 18:34:23 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+220627 18:34:23 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220627 19:40:02 InnoDB: The InnoDB memory heap is disabled
+220627 19:40:02 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220627 19:40:02 InnoDB: Compressed tables use zlib 1.2.11
+220627 19:40:02 InnoDB: Initializing buffer pool, size = 16.0M
+220627 19:40:02 InnoDB: Completed initialization of buffer pool
+220627 19:40:02 InnoDB: highest supported file format is Barracuda.
+220627 19:40:03  InnoDB: Waiting for the background threads to start
+220627 19:40:04 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596899
+220627 19:40:04 [Note] Plugin 'FEEDBACK' is disabled.
+220627 19:40:04 [Note] Server socket created on IP: '::'.
+220627 19:40:05 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+220627 19:40:05 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+220627 19:40:05 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220627 19:58:09 InnoDB: The InnoDB memory heap is disabled
+220627 19:58:09 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220627 19:58:09 InnoDB: Compressed tables use zlib 1.2.11
+220627 19:58:09 InnoDB: Initializing buffer pool, size = 16.0M
+220627 19:58:09 InnoDB: Completed initialization of buffer pool
+220627 19:58:09 InnoDB: highest supported file format is Barracuda.
+220627 19:58:09  InnoDB: Waiting for the background threads to start
+220627 19:58:10 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596899
+220627 19:58:10 [Note] Plugin 'FEEDBACK' is disabled.
+220627 19:58:10 [Note] Server socket created on IP: '::'.
+220627 19:58:10 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+220627 19:58:10 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+220627 19:58:10 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220627 20:17:43 InnoDB: The InnoDB memory heap is disabled
+220627 20:17:43 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220627 20:17:43 InnoDB: Compressed tables use zlib 1.2.11
+220627 20:17:43 InnoDB: Initializing buffer pool, size = 16.0M
+220627 20:17:43 InnoDB: Completed initialization of buffer pool
+220627 20:17:43 InnoDB: highest supported file format is Barracuda.
+220627 20:17:43  InnoDB: Waiting for the background threads to start
+220627 20:17:45 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596899
+220627 20:17:45 [Note] Plugin 'FEEDBACK' is disabled.
+220627 20:17:45 [Note] Server socket created on IP: '::'.
+220627 20:17:45 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+220627 20:17:45 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+220627 20:17:45 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220628 16:00:10 InnoDB: The InnoDB memory heap is disabled
+220628 16:00:10 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220628 16:00:10 InnoDB: Compressed tables use zlib 1.2.11
+220628 16:00:10 InnoDB: Initializing buffer pool, size = 16.0M
+220628 16:00:10 InnoDB: Completed initialization of buffer pool
+220628 16:00:10 InnoDB: highest supported file format is Barracuda.
+220628 16:00:10  InnoDB: Waiting for the background threads to start
+220628 16:00:11 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596899
+220628 16:00:11 [Note] Plugin 'FEEDBACK' is disabled.
+220628 16:00:11 [Note] Server socket created on IP: '::'.
+220628 16:00:12 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+220628 16:00:12 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+220628 16:00:12 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220629  0:08:25 InnoDB: The InnoDB memory heap is disabled
+220629  0:08:25 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220629  0:08:25 InnoDB: Compressed tables use zlib 1.2.11
+220629  0:08:25 InnoDB: Initializing buffer pool, size = 16.0M
+220629  0:08:25 InnoDB: Completed initialization of buffer pool
+220629  0:08:25 InnoDB: highest supported file format is Barracuda.
+220629  0:08:25  InnoDB: Waiting for the background threads to start
+220629  0:08:26 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596899
+220629  0:08:26 [Note] Plugin 'FEEDBACK' is disabled.
+220629  0:08:26 [Note] Server socket created on IP: '::'.
+220629  0:08:26 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+220629  0:08:26 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+220629  0:08:26 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220712 11:10:12 InnoDB: The InnoDB memory heap is disabled
+220712 11:10:12 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220712 11:10:12 InnoDB: Compressed tables use zlib 1.2.11
+220712 11:10:12 InnoDB: Initializing buffer pool, size = 16.0M
+220712 11:10:12 InnoDB: Completed initialization of buffer pool
+220712 11:10:12 InnoDB: highest supported file format is Barracuda.
+220712 11:10:12  InnoDB: Waiting for the background threads to start
+220712 11:10:13 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596899
+220712 11:10:13 [Note] Plugin 'FEEDBACK' is disabled.
+220712 11:10:13 [Note] Server socket created on IP: '::'.
+220712 11:10:14 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+220712 11:10:14 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+220712 11:10:14 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220712 11:13:48 InnoDB: The InnoDB memory heap is disabled
+220712 11:13:48 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220712 11:13:48 InnoDB: Compressed tables use zlib 1.2.11
+220712 11:13:48 InnoDB: Initializing buffer pool, size = 16.0M
+220712 11:13:48 InnoDB: Completed initialization of buffer pool
+220712 11:13:48 InnoDB: highest supported file format is Barracuda.
+220712 11:13:48  InnoDB: Waiting for the background threads to start
+220712 11:13:49 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596899
+220712 11:13:49 [Note] Plugin 'FEEDBACK' is disabled.
+220712 11:13:49 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 0  mariadb.org binary distribution
+220712 11:13:50 [ERROR] Cannot find or open table mysql/gtid_slave_pos from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\mysql\innodb_index_stats.frm'
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\mysql\innodb_table_stats.frm'
+220712 11:13:50 [ERROR] Cannot find or open table mysql/slave_master_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table mysql/slave_relay_log_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table mysql/slave_worker_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__bookmark from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__central_columns from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__column_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__designer_settings from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__export_templates from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__favorite from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__history.frm'
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__navigationhiding from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__pdf_pages from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__recent from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__relation from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__savedsearches from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__table_coords from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__table_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__table_uiprefs.frm'
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__tracking.frm'
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__userconfig.frm'
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__usergroups from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__users from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma_navigationhiding from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma_savedsearches from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_table_uiprefs.frm'
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_tracking.frm'
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_userconfig.frm'
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma_usergroups from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma_users from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table mysql/gtid_slave_pos from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\mysql\innodb_index_stats.frm'
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\mysql\innodb_table_stats.frm'
+220712 11:13:50 [ERROR] Cannot find or open table mysql/slave_master_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table mysql/slave_relay_log_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table mysql/slave_worker_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__bookmark from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__central_columns from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__column_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__designer_settings from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__export_templates from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__favorite from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__history.frm'
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__navigationhiding from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__pdf_pages from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__recent from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__relation from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__savedsearches from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__table_coords from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__table_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__table_uiprefs.frm'
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__tracking.frm'
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__userconfig.frm'
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__usergroups from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma__users from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma_navigationhiding from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma_savedsearches from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_table_uiprefs.frm'
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_tracking.frm'
+220712 11:13:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_userconfig.frm'
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma_usergroups from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] Cannot find or open table phpmyadmin/pma_users from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 11:13:50 [ERROR] mysqld.exe: Table '.\mysql\proc' is marked as crashed and should be repaired
+220712 11:13:50 [Warning] Checking table:   '.\mysql\proc'
+220712 11:13:51 [ERROR] mysqld.exe: Incorrect information in file: '.\performance_schema\events_statements_summary_by_digest.frm'
+220712 11:13:51 [ERROR] mysqld.exe: Incorrect information in file: '.\performance_schema\host_cache.frm'
+220712 11:13:51 [ERROR] mysqld.exe: Incorrect information in file: '.\performance_schema\events_statements_summary_by_digest.frm'
+220712 11:13:51 [ERROR] mysqld.exe: Incorrect information in file: '.\performance_schema\host_cache.frm'
+220712 11:13:51 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+220712 11:13:52  InnoDB: Starting shutdown...
+220712 11:13:53  InnoDB: Shutdown completed; log sequence number 1596909
+220712 11:13:53 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+220712 12:01:21 InnoDB: The InnoDB memory heap is disabled
+220712 12:01:21 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220712 12:01:21 InnoDB: Compressed tables use zlib 1.2.11
+220712 12:01:21 InnoDB: Initializing buffer pool, size = 16.0M
+220712 12:01:21 InnoDB: Completed initialization of buffer pool
+220712 12:01:21 InnoDB: highest supported file format is Barracuda.
+220712 12:01:21  InnoDB: Waiting for the background threads to start
+220712 12:01:22 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596909
+220712 12:01:22 [Note] Plugin 'FEEDBACK' is disabled.
+220712 12:01:22 [Note] Server socket created on IP: '::'.
+220712 12:01:22 [Note] mysqld: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220712 16:18:06 InnoDB: The InnoDB memory heap is disabled
+220712 16:18:06 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220712 16:18:06 InnoDB: Compressed tables use zlib 1.2.11
+220712 16:18:06 InnoDB: Initializing buffer pool, size = 16.0M
+220712 16:18:06 InnoDB: Completed initialization of buffer pool
+220712 16:18:06 InnoDB: highest supported file format is Barracuda.
+220712 16:18:06  InnoDB: Waiting for the background threads to start
+220712 16:18:07 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596909
+220712 16:18:07 [Note] Plugin 'FEEDBACK' is disabled.
+220712 16:18:07 [Note] Server socket created on IP: '::'.
+220712 16:18:08 [Note] Event Scheduler: Loaded 0 events
+220712 16:18:08 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220712 16:21:34 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+220712 16:21:34 [Note] Event Scheduler: Purging the queue. 0 events
+220712 16:21:34  InnoDB: Starting shutdown...
+220712 16:21:37  InnoDB: Shutdown completed; log sequence number 1596909
+220712 16:21:37 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+220712 16:24:41 InnoDB: The InnoDB memory heap is disabled
+220712 16:24:41 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220712 16:24:41 InnoDB: Compressed tables use zlib 1.2.11
+220712 16:24:41 InnoDB: Initializing buffer pool, size = 16.0M
+220712 16:24:41 InnoDB: Completed initialization of buffer pool
+220712 16:24:41 InnoDB: highest supported file format is Barracuda.
+220712 16:24:41  InnoDB: Waiting for the background threads to start
+220712 16:24:42 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596909
+220712 16:24:42 [Note] Plugin 'FEEDBACK' is disabled.
+220712 16:24:42 [Note] Server socket created on IP: '::'.
+220712 16:24:42 [Note] Event Scheduler: Loaded 0 events
+220712 16:24:42 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+------------------------------------------------------------------------------------------------------placed by ramon 12072022-16:35:00220712 16:41:48 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+220712 16:41:48 [Note] Event Scheduler: Purging the queue. 0 events
+220712 16:41:48  InnoDB: Starting shutdown...
+220712 16:41:52  InnoDB: Shutdown completed; log sequence number 1596909
+220712 16:41:52 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+220712 16:42:06 InnoDB: The InnoDB memory heap is disabled
+220712 16:42:06 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220712 16:42:06 InnoDB: Compressed tables use zlib 1.2.11
+220712 16:42:06 InnoDB: Initializing buffer pool, size = 16.0M
+220712 16:42:06 InnoDB: Completed initialization of buffer pool
+220712 16:42:06 InnoDB: highest supported file format is Barracuda.
+220712 16:42:06  InnoDB: Waiting for the background threads to start
+220712 16:42:07 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596909
+220712 16:42:07 [Note] Plugin 'FEEDBACK' is disabled.
+220712 16:42:07 [Note] Server socket created on IP: '::'.
+220712 16:42:07 [Note] Event Scheduler: Loaded 0 events
+220712 16:42:07 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220712 17:00:46 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+220712 17:00:46 [Note] Event Scheduler: Purging the queue. 0 events
+220712 17:00:46  InnoDB: Starting shutdown...
+220712 17:00:47  InnoDB: Shutdown completed; log sequence number 1596909
+220712 17:00:47 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+220712 17:00:48 InnoDB: The InnoDB memory heap is disabled
+220712 17:00:48 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220712 17:00:48 InnoDB: Compressed tables use zlib 1.2.11
+220712 17:00:48 InnoDB: Initializing buffer pool, size = 16.0M
+220712 17:00:48 InnoDB: Completed initialization of buffer pool
+220712 17:00:48 InnoDB: highest supported file format is Barracuda.
+220712 17:00:48  InnoDB: Waiting for the background threads to start
+220712 17:00:49 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596909
+220712 17:00:49 [Note] Plugin 'FEEDBACK' is disabled.
+220712 17:00:49 [Note] C:\xampp\mysql.old\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 0  mariadb.org binary distribution
+220712 17:00:50 [ERROR] Cannot find or open table mysql/gtid_slave_pos from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\mysql\innodb_index_stats.frm'
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\mysql\innodb_table_stats.frm'
+220712 17:00:50 [ERROR] Cannot find or open table mysql/slave_master_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table mysql/slave_relay_log_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table mysql/slave_worker_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__bookmark from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__central_columns from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__column_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__designer_settings from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__export_templates from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__favorite from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__history.frm'
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__navigationhiding from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__pdf_pages from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__recent from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__relation from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__savedsearches from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__table_coords from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__table_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__table_uiprefs.frm'
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__tracking.frm'
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__userconfig.frm'
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__usergroups from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__users from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma_navigationhiding from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma_savedsearches from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_table_uiprefs.frm'
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_tracking.frm'
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_userconfig.frm'
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma_usergroups from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma_users from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table mysql/gtid_slave_pos from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\mysql\innodb_index_stats.frm'
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\mysql\innodb_table_stats.frm'
+220712 17:00:50 [ERROR] Cannot find or open table mysql/slave_master_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table mysql/slave_relay_log_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table mysql/slave_worker_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__bookmark from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__central_columns from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__column_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__designer_settings from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__export_templates from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__favorite from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__history.frm'
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__navigationhiding from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__pdf_pages from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__recent from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__relation from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__savedsearches from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__table_coords from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__table_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__table_uiprefs.frm'
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__tracking.frm'
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__userconfig.frm'
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__usergroups from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma__users from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma_navigationhiding from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma_savedsearches from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_table_uiprefs.frm'
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_tracking.frm'
+220712 17:00:50 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_userconfig.frm'
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma_usergroups from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:50 [ERROR] Cannot find or open table phpmyadmin/pma_users from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:00:51 [Note] C:\xampp\mysql.old\bin\mysqld.exe: Normal shutdown
+220712 17:00:52  InnoDB: Starting shutdown...
+220712 17:00:53  InnoDB: Shutdown completed; log sequence number 1596919
+220712 17:00:53 [Note] C:\xampp\mysql.old\bin\mysqld.exe: Shutdown complete
+
+220712 17:00:53 InnoDB: The InnoDB memory heap is disabled
+220712 17:00:53 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220712 17:00:53 InnoDB: Compressed tables use zlib 1.2.11
+220712 17:00:53 InnoDB: Initializing buffer pool, size = 16.0M
+220712 17:00:53 InnoDB: Completed initialization of buffer pool
+220712 17:00:53 InnoDB: highest supported file format is Barracuda.
+220712 17:00:53  InnoDB: Waiting for the background threads to start
+220712 17:00:54 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596919
+220712 17:00:54 [Note] Plugin 'FEEDBACK' is disabled.
+220712 17:00:54 [Note] Server socket created on IP: '::'.
+220712 17:00:54 [Note] Event Scheduler: Loaded 0 events
+220712 17:00:54 [Note] C:\xampp\mysql.old\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220712 17:01:07 [Note] C:\xampp\mysql.old\bin\mysqld.exe: Normal shutdown
+220712 17:01:07 [Note] Event Scheduler: Purging the queue. 0 events
+220712 17:01:07  InnoDB: Starting shutdown...
+220712 17:01:08  InnoDB: Shutdown completed; log sequence number 1596919
+220712 17:01:08 [Note] C:\xampp\mysql.old\bin\mysqld.exe: Shutdown complete
+
+220712 17:01:08 InnoDB: The InnoDB memory heap is disabled
+220712 17:01:08 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220712 17:01:08 InnoDB: Compressed tables use zlib 1.2.11
+220712 17:01:08 InnoDB: Initializing buffer pool, size = 16.0M
+220712 17:01:08 InnoDB: Completed initialization of buffer pool
+220712 17:01:08 InnoDB: highest supported file format is Barracuda.
+220712 17:01:09  InnoDB: Waiting for the background threads to start
+220712 17:01:10 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596919
+220712 17:01:10 [Note] Plugin 'FEEDBACK' is disabled.
+220712 17:01:10 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 0  mariadb.org binary distribution
+220712 17:01:11 [ERROR] Cannot find or open table mysql/gtid_slave_pos from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\mysql\innodb_index_stats.frm'
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\mysql\innodb_table_stats.frm'
+220712 17:01:11 [ERROR] Cannot find or open table mysql/slave_master_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table mysql/slave_relay_log_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table mysql/slave_worker_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__bookmark from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__central_columns from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__column_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__designer_settings from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__export_templates from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__favorite from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__history.frm'
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__navigationhiding from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__pdf_pages from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__recent from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__relation from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__savedsearches from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__table_coords from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__table_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__table_uiprefs.frm'
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__tracking.frm'
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__userconfig.frm'
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__usergroups from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__users from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma_navigationhiding from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma_savedsearches from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_table_uiprefs.frm'
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_tracking.frm'
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_userconfig.frm'
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma_usergroups from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma_users from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table mysql/gtid_slave_pos from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\mysql\innodb_index_stats.frm'
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\mysql\innodb_table_stats.frm'
+220712 17:01:11 [ERROR] Cannot find or open table mysql/slave_master_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table mysql/slave_relay_log_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table mysql/slave_worker_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__bookmark from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__central_columns from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__column_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__designer_settings from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__export_templates from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__favorite from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__history.frm'
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__navigationhiding from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__pdf_pages from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__recent from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__relation from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__savedsearches from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__table_coords from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__table_info from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__table_uiprefs.frm'
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__tracking.frm'
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma__userconfig.frm'
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__usergroups from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma__users from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma_navigationhiding from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma_savedsearches from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_table_uiprefs.frm'
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_tracking.frm'
+220712 17:01:11 [ERROR] mysqld.exe: Incorrect information in file: '.\phpmyadmin\pma_userconfig.frm'
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma_usergroups from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:11 [ERROR] Cannot find or open table phpmyadmin/pma_users from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.5/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+220712 17:01:12 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+220712 17:01:13  InnoDB: Starting shutdown...
+220712 17:01:14  InnoDB: Shutdown completed; log sequence number 1596945
+220712 17:01:14 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+220712 17:01:14 InnoDB: The InnoDB memory heap is disabled
+220712 17:01:14 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220712 17:01:14 InnoDB: Compressed tables use zlib 1.2.11
+220712 17:01:14 InnoDB: Initializing buffer pool, size = 16.0M
+220712 17:01:14 InnoDB: Completed initialization of buffer pool
+220712 17:01:14 InnoDB: highest supported file format is Barracuda.
+220712 17:01:14  InnoDB: Waiting for the background threads to start
+220712 17:01:15 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+220712 17:01:15 [Note] Plugin 'FEEDBACK' is disabled.
+220712 17:01:15 [Note] Server socket created on IP: '::'.
+220712 17:01:15 [Note] Event Scheduler: Loaded 0 events
+220712 17:01:15 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220712 17:06:40 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+220712 17:06:40 [Note] Event Scheduler: Purging the queue. 0 events
+220712 17:06:40  InnoDB: Starting shutdown...
+220712 17:06:45  InnoDB: Shutdown completed; log sequence number 1596945
+220712 17:06:45 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+220712 17:07:47 InnoDB: The InnoDB memory heap is disabled
+220712 17:07:47 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220712 17:07:47 InnoDB: Compressed tables use zlib 1.2.11
+220712 17:07:47 InnoDB: Initializing buffer pool, size = 16.0M
+220712 17:07:47 InnoDB: Completed initialization of buffer pool
+220712 17:07:47 InnoDB: highest supported file format is Barracuda.
+220712 17:07:48  InnoDB: Waiting for the background threads to start
+220712 17:07:49 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+220712 17:07:49 [Note] Plugin 'FEEDBACK' is disabled.
+220712 17:07:49 [Note] Server socket created on IP: '::'.
+220712 17:07:53 [Note] Event Scheduler: Loaded 0 events
+220712 17:07:53 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220712 17:46:36 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+220712 17:46:36 [Note] Event Scheduler: Purging the queue. 0 events
+220712 17:46:36  InnoDB: Starting shutdown...
+220712 17:46:36  InnoDB: Shutdown completed; log sequence number 1596945
+220712 17:46:36 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+220712 17:47:01 InnoDB: The InnoDB memory heap is disabled
+220712 17:47:01 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220712 17:47:01 InnoDB: Compressed tables use zlib 1.2.11
+220712 17:47:01 InnoDB: Initializing buffer pool, size = 16.0M
+220712 17:47:01 InnoDB: Completed initialization of buffer pool
+220712 17:47:01 InnoDB: highest supported file format is Barracuda.
+220712 17:47:01  InnoDB: Waiting for the background threads to start
+220712 17:47:02 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+220712 17:47:02 [Note] Plugin 'FEEDBACK' is disabled.
+220712 17:47:02 [Note] Server socket created on IP: '::'.
+220712 17:47:02 [Note] Event Scheduler: Loaded 0 events
+220712 17:47:02 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220712 18:08:39 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+220712 18:08:39 [Note] Event Scheduler: Purging the queue. 0 events
+220712 18:08:39  InnoDB: Starting shutdown...
+220712 18:08:43  InnoDB: Shutdown completed; log sequence number 1596945
+220712 18:08:43 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+220712 18:10:15 InnoDB: The InnoDB memory heap is disabled
+220712 18:10:15 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220712 18:10:15 InnoDB: Compressed tables use zlib 1.2.11
+220712 18:10:15 InnoDB: Initializing buffer pool, size = 16.0M
+220712 18:10:15 InnoDB: Completed initialization of buffer pool
+220712 18:10:15 InnoDB: highest supported file format is Barracuda.
+220712 18:10:15  InnoDB: Waiting for the background threads to start
+220712 18:10:16 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+220712 18:10:16 [Note] Plugin 'FEEDBACK' is disabled.
+220712 18:10:16 [Note] Server socket created on IP: '::'.
+220712 18:10:16 [Note] Event Scheduler: Loaded 0 events
+220712 18:10:16 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+------------------------------------------------------------------------------------------------------placed by ramon 12072022-18:15:00
+
+ 220712 18:20:11 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+220712 18:20:11 [Note] Event Scheduler: Purging the queue. 0 events
+220712 18:20:11  InnoDB: Starting shutdown...
+220712 18:20:11  InnoDB: Shutdown completed; log sequence number 1596945
+220712 18:20:11 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+220712 18:29:23 InnoDB: The InnoDB memory heap is disabled
+220712 18:29:23 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220712 18:29:23 InnoDB: Compressed tables use zlib 1.2.11
+220712 18:29:23 InnoDB: Initializing buffer pool, size = 16.0M
+220712 18:29:23 InnoDB: Completed initialization of buffer pool
+220712 18:29:23 InnoDB: highest supported file format is Barracuda.
+220712 18:29:23  InnoDB: Waiting for the background threads to start
+220712 18:29:24 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+220712 18:29:24 [Note] Plugin 'FEEDBACK' is disabled.
+220712 18:29:24 [Note] Server socket created on IP: '::'.
+220712 18:29:24 [Note] Event Scheduler: Loaded 0 events
+220712 18:29:24 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220712 20:19:21 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+220712 20:19:21 [Note] Event Scheduler: Purging the queue. 0 events
+220712 20:19:21  InnoDB: Starting shutdown...
+220712 20:19:25  InnoDB: Shutdown completed; log sequence number 1596945
+220712 20:19:25 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+220712 20:20:57 [Note] Plugin 'FEDERATED' is disabled.
+220712 20:20:57 InnoDB: The InnoDB memory heap is disabled
+220712 20:20:57 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220712 20:20:57 InnoDB: Compressed tables use zlib 1.2.11
+220712 20:20:57 InnoDB: Initializing buffer pool, size = 16.0M
+220712 20:20:57 InnoDB: Completed initialization of buffer pool
+220712 20:20:57 InnoDB: highest supported file format is Barracuda.
+220712 20:20:57  InnoDB: Waiting for the background threads to start
+220712 20:20:58 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+220712 20:20:58 [Note] Plugin 'FEEDBACK' is disabled.
+220712 20:20:58 [Note] Server socket created on IP: '::'.
+220712 20:20:58 [Note] Event Scheduler: Loaded 0 events
+220712 20:20:58 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220712 20:47:29 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+220712 20:47:29 [Note] Event Scheduler: Purging the queue. 0 events
+220712 20:47:29  InnoDB: Starting shutdown...
+220712 20:47:30  InnoDB: Shutdown completed; log sequence number 1596945
+220712 20:47:30 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+220712 20:47:39 [Note] Plugin 'FEDERATED' is disabled.
+220712 20:47:39 InnoDB: The InnoDB memory heap is disabled
+220712 20:47:39 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220712 20:47:39 InnoDB: Compressed tables use zlib 1.2.11
+220712 20:47:39 InnoDB: Initializing buffer pool, size = 16.0M
+220712 20:47:39 InnoDB: Completed initialization of buffer pool
+220712 20:47:39 InnoDB: highest supported file format is Barracuda.
+220712 20:47:39  InnoDB: Waiting for the background threads to start
+220712 20:47:40 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+220712 20:47:40 [Note] Plugin 'FEEDBACK' is disabled.
+220712 20:47:40 [Note] Server socket created on IP: '::'.
+220712 20:47:40 [Note] Event Scheduler: Loaded 0 events
+220712 20:47:40 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220718 15:57:25 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+220718 15:57:25 [Note] Event Scheduler: Purging the queue. 0 events
+220718 15:57:25  InnoDB: Starting shutdown...
+220718 15:57:25  InnoDB: Shutdown completed; log sequence number 1596945
+220718 15:57:25 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+220718 15:57:47 [Note] Plugin 'FEDERATED' is disabled.
+220718 15:57:47 InnoDB: The InnoDB memory heap is disabled
+220718 15:57:47 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220718 15:57:47 InnoDB: Compressed tables use zlib 1.2.11
+220718 15:57:47 InnoDB: Initializing buffer pool, size = 16.0M
+220718 15:57:47 InnoDB: Completed initialization of buffer pool
+220718 15:57:47 InnoDB: highest supported file format is Barracuda.
+220718 15:57:47  InnoDB: Waiting for the background threads to start
+220718 15:57:48 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+220718 15:57:48 [Note] Plugin 'FEEDBACK' is disabled.
+220718 15:57:48 [Note] Server socket created on IP: '::'.
+220718 15:57:48 [Note] Event Scheduler: Loaded 0 events
+220718 15:57:48 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220718 16:01:46 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+220718 16:01:46 [Note] Event Scheduler: Purging the queue. 0 events
+220718 16:01:46  InnoDB: Starting shutdown...
+220718 16:01:48  InnoDB: Shutdown completed; log sequence number 1596945
+220718 16:01:48 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+220718 16:14:17 [Note] Plugin 'FEDERATED' is disabled.
+220718 16:14:17 InnoDB: The InnoDB memory heap is disabled
+220718 16:14:17 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220718 16:14:17 InnoDB: Compressed tables use zlib 1.2.11
+220718 16:14:17 InnoDB: Initializing buffer pool, size = 16.0M
+220718 16:14:17 InnoDB: Completed initialization of buffer pool
+220718 16:14:17 InnoDB: highest supported file format is Barracuda.
+220718 16:14:17  InnoDB: Waiting for the background threads to start
+220718 16:14:18 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+220718 16:14:18 [Note] Plugin 'FEEDBACK' is disabled.
+220718 16:14:18 [Note] Server socket created on IP: '::'.
+220718 16:14:18 [Note] Event Scheduler: Loaded 0 events
+220718 16:14:18 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+220719 11:17:11 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+220719 11:17:11 [Note] Event Scheduler: Purging the queue. 0 events
+220719 11:17:11  InnoDB: Starting shutdown...
+220719 11:17:13  InnoDB: Shutdown completed; log sequence number 1596945
+220719 11:17:13 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+240116 11:34:31 [Note] Plugin 'FEDERATED' is disabled.
+240116 11:34:31 InnoDB: The InnoDB memory heap is disabled
+240116 11:34:31 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240116 11:34:31 InnoDB: Compressed tables use zlib 1.2.11
+240116 11:34:31 InnoDB: Initializing buffer pool, size = 16.0M
+240116 11:34:31 InnoDB: Completed initialization of buffer pool
+240116 11:34:31 InnoDB: highest supported file format is Barracuda.
+240116 11:34:31  InnoDB: Waiting for the background threads to start
+240116 11:34:32 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+240116 11:34:32 [Note] Plugin 'FEEDBACK' is disabled.
+240116 11:34:32 [Note] Server socket created on IP: '::'.
+240116 11:34:32 [Note] Event Scheduler: Loaded 0 events
+240116 11:34:32 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+240116 11:44:18 [Note] Plugin 'FEDERATED' is disabled.
+240116 11:44:18 InnoDB: The InnoDB memory heap is disabled
+240116 11:44:18 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240116 11:44:18 InnoDB: Compressed tables use zlib 1.2.11
+240116 11:44:18 InnoDB: Initializing buffer pool, size = 16.0M
+240116 11:44:18 InnoDB: Completed initialization of buffer pool
+240116 11:44:18 InnoDB: highest supported file format is Barracuda.
+240116 11:44:18  InnoDB: Waiting for the background threads to start
+240116 11:44:19 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+240116 11:44:19 [Note] Plugin 'FEEDBACK' is disabled.
+240116 11:44:19 [Note] Server socket created on IP: '::'.
+240116 11:44:19 [Note] Event Scheduler: Loaded 0 events
+240116 11:44:19 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+240116 11:49:15 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+240116 11:49:15 [Note] Event Scheduler: Purging the queue. 0 events
+240116 11:49:15  InnoDB: Starting shutdown...
+240116 11:49:19  InnoDB: Shutdown completed; log sequence number 1596945
+240116 11:49:19 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+240116 11:50:04 [Note] Plugin 'FEDERATED' is disabled.
+240116 11:50:04 InnoDB: The InnoDB memory heap is disabled
+240116 11:50:04 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240116 11:50:04 InnoDB: Compressed tables use zlib 1.2.11
+240116 11:50:04 InnoDB: Initializing buffer pool, size = 16.0M
+240116 11:50:04 InnoDB: Completed initialization of buffer pool
+240116 11:50:04 InnoDB: highest supported file format is Barracuda.
+240116 11:50:04  InnoDB: Waiting for the background threads to start
+240116 11:50:05 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+240116 11:50:05 [Note] Plugin 'FEEDBACK' is disabled.
+240116 11:50:05 [Note] Server socket created on IP: '::'.
+240116 11:50:05 [Note] Event Scheduler: Loaded 0 events
+240116 11:50:05 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+240116 11:50:29 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+240116 11:50:29 [Note] Event Scheduler: Purging the queue. 0 events
+240116 11:50:29  InnoDB: Starting shutdown...
+240116 11:50:34  InnoDB: Shutdown completed; log sequence number 1596945
+240116 11:50:34 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+240117 10:09:40 [Note] Plugin 'FEDERATED' is disabled.
+240117 10:09:41 InnoDB: The InnoDB memory heap is disabled
+240117 10:09:41 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240117 10:09:41 InnoDB: Compressed tables use zlib 1.2.11
+240117 10:09:41 InnoDB: Initializing buffer pool, size = 16.0M
+240117 10:09:41 InnoDB: Completed initialization of buffer pool
+240117 10:09:41 InnoDB: highest supported file format is Barracuda.
+240117 10:09:41  InnoDB: Waiting for the background threads to start
+240117 10:09:42 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+240117 10:09:42 [Note] Plugin 'FEEDBACK' is disabled.
+240117 10:09:42 [Note] Server socket created on IP: '::'.
+240117 10:09:43 [Note] Event Scheduler: Loaded 0 events
+240117 10:09:43 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+240117 11:46:20 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+240117 11:46:20 [Note] Event Scheduler: Purging the queue. 0 events
+240117 11:46:20  InnoDB: Starting shutdown...
+240117 11:46:26  InnoDB: Shutdown completed; log sequence number 1596945
+240117 11:46:26 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+240122 12:55:58 [Note] Plugin 'FEDERATED' is disabled.
+240122 12:55:58 InnoDB: The InnoDB memory heap is disabled
+240122 12:55:58 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240122 12:55:58 InnoDB: Compressed tables use zlib 1.2.11
+240122 12:55:58 InnoDB: Initializing buffer pool, size = 16.0M
+240122 12:55:58 InnoDB: Completed initialization of buffer pool
+240122 12:55:58 InnoDB: highest supported file format is Barracuda.
+240122 12:55:58  InnoDB: Waiting for the background threads to start
+240122 12:55:59 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+240122 12:55:59 [Note] Plugin 'FEEDBACK' is disabled.
+240122 12:55:59 [Note] Server socket created on IP: '::'.
+240122 12:55:59 [Note] Event Scheduler: Loaded 0 events
+240122 12:55:59 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+240122 12:56:49 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+240122 12:56:49 [Note] Event Scheduler: Purging the queue. 0 events
+240122 12:56:49  InnoDB: Starting shutdown...
+240122 12:56:53  InnoDB: Shutdown completed; log sequence number 1596945
+240122 12:56:53 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+240213 15:49:28 [Note] Plugin 'FEDERATED' is disabled.
+240213 15:49:28 InnoDB: The InnoDB memory heap is disabled
+240213 15:49:28 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240213 15:49:28 InnoDB: Compressed tables use zlib 1.2.11
+240213 15:49:28 InnoDB: Initializing buffer pool, size = 16.0M
+240213 15:49:28 InnoDB: Completed initialization of buffer pool
+240213 15:49:28 InnoDB: highest supported file format is Barracuda.
+240213 15:49:28  InnoDB: Waiting for the background threads to start
+240213 15:49:29 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+240213 15:49:29 [Note] Plugin 'FEEDBACK' is disabled.
+240213 15:49:29 [Note] Server socket created on IP: '::'.
+240213 15:49:29 [Note] Event Scheduler: Loaded 0 events
+240213 15:49:29 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+240213 15:50:52 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+240213 15:50:52 [Note] Event Scheduler: Purging the queue. 0 events
+240213 15:50:52  InnoDB: Starting shutdown...
+240213 15:50:53  InnoDB: Shutdown completed; log sequence number 1596945
+240213 15:50:53 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+240227 11:47:31 [Note] Plugin 'FEDERATED' is disabled.
+240227 11:47:31 InnoDB: The InnoDB memory heap is disabled
+240227 11:47:31 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240227 11:47:31 InnoDB: Compressed tables use zlib 1.2.11
+240227 11:47:31 InnoDB: Initializing buffer pool, size = 16.0M
+240227 11:47:31 InnoDB: Completed initialization of buffer pool
+240227 11:47:31 InnoDB: highest supported file format is Barracuda.
+240227 11:47:31  InnoDB: Waiting for the background threads to start
+240227 11:47:32 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+240227 11:47:32 [Note] Plugin 'FEEDBACK' is disabled.
+240227 11:47:32 [Note] Server socket created on IP: '::'.
+240227 11:47:32 [Note] Event Scheduler: Loaded 0 events
+240227 11:47:32 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+240301 11:28:21 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+240301 11:28:21 [Note] Event Scheduler: Purging the queue. 0 events
+240301 11:28:21  InnoDB: Starting shutdown...
+240301 11:28:26  InnoDB: Shutdown completed; log sequence number 1596945
+240301 11:28:26 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+240301 11:28:56 [Note] Plugin 'FEDERATED' is disabled.
+240301 11:28:56 InnoDB: The InnoDB memory heap is disabled
+240301 11:28:56 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+240301 11:28:56 InnoDB: Compressed tables use zlib 1.2.11
+240301 11:28:56 InnoDB: Initializing buffer pool, size = 16.0M
+240301 11:28:56 InnoDB: Completed initialization of buffer pool
+240301 11:28:56 InnoDB: highest supported file format is Barracuda.
+240301 11:28:56  InnoDB: Waiting for the background threads to start
+240301 11:28:57 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1596945
+240301 11:28:57 [Note] Plugin 'FEEDBACK' is disabled.
+240301 11:28:57 [Note] Server socket created on IP: '::'.
+240301 11:28:58 [Note] Event Scheduler: Loaded 0 events
+240301 11:28:58 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.68-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
