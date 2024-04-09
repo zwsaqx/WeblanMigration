@@ -5,19 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{asset('css/DropdownList.css')}}">
 </head>
 <body>
-    <a href="/Bluetooth/BluetoothTutorial">Go to Bluetooth Tutorial</a>
-    <br>
-    <a href="/Bluetooth/BluetoothQuiz">Go to Bluetooth Quiz</a>
-    <br>
-    <a href="/Bluetooth/BluetoothModelling">Go to Bluetooth Modelling</a>
-    <br>
-    <a href="/Bluetooth/BluetoothScenarios">Go to Bluetooth Scenarios</a>
-    <br>
-    <a href="/Bluetooth/BluetoothKeyTerms">Go to Bluetooth Key Terms</a>
-    <br>
-    <a href="/Bluetooth/BluetoothReview">Go to Bluetooth Review Questions</a>
-    <br>
+<div class="dropdown">
+        <button>Bluetooth Resources</button>
+    <div class="dropdown-content">
+    <a href="/Bluetooth/BluetoothTutorial">Tutorial</a>
+    
+    <a href="/Bluetooth/BluetoothQuiz">Quiz</a>
+    
+    <a href="/Bluetooth/BluetoothModelling">Modelling</a>
+    
+    <a href="/Bluetooth/BluetoothScenarios">Scenarios</a>
+    
+    <a href="/Bluetooth/BluetoothKeyTerms">Key Terms</a>
+    
+    <a href="/Bluetooth/BluetoothReview">Review Questions</a>
+    
+</div>
+    </div>
 </body>
+
 </html>
+

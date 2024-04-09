@@ -1,0 +1,45 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: purple;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    border-radius: 5px;
+  }
+
+  /* Highlight dropdown items on hover */
+.dropdown-content a:hover {
+background-color: black;
+}
+
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Style the dropdown button */
+  .dropdown button {
+background-color: purple;
+color: white;
+padding: 5px; 
+font-size: 11px; 
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
