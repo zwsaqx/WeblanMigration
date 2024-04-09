@@ -12,17 +12,17 @@
         <button>Bluetooth Resources</button>
     <div class="dropdown-content">
     <a href="/Bluetooth/BluetoothTutorial">Tutorial</a>
-    
+
     <a href="/Bluetooth/BluetoothQuiz">Quiz</a>
-    
+
     <a href="/Bluetooth/BluetoothModelling">Modelling</a>
-    
+
     <a href="/Bluetooth/BluetoothScenarios">Scenarios</a>
-    
+
     <a href="/Bluetooth/BluetoothKeyTerms">Key Terms</a>
-    
+
     <a href="/Bluetooth/BluetoothReview">Review Questions</a>
-    
+
 </div>
     </div>
 </body>
