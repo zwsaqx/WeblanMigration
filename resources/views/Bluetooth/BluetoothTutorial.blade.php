@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>Bluetooth Tutorial</h1>
+
 </body>
 </html>
