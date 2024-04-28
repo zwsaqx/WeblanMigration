@@ -7,8 +7,8 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
     <div class="logo_centered">
         <img src="{{asset('Images/AUT_Logo.jpg')}}" alt="AUT_Logo" class="logo"></div>
-     <div class="myDiv"></div>
-    <div class="section2"></div>
+     <div class="DarkPurpleBar"></div>
+    <div class="PurpleBar"></div>
 
 </head>
 <body class="body">
