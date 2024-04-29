@@ -1,9 +1,16 @@
 .DarkPurpleBar {
     background-color: #4f1852;
-    text-align: center;
+    text-align: right;
       width: 100%;
       height: 50px;
   }
+
+.DarkPurpleButtons{
+    display: flex;
+    justify-content: right;
+    padding-right: 19.5%;
+    height: 100%;
+}
 .PurpleBar {
       background-color: #753b76;
       width: 100%;
@@ -13,7 +20,10 @@
 .NavBar {
     width: 100%;
     height: 100%;
-    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
 
 }
 
@@ -22,6 +32,17 @@
       background-color: #964b98;
       text-align: center;
 }
+
+.loggedInBody {
+background-color: white;
+display: absolute;
+margin-left: 13%;
+margin-right: 13%;
+margin-top: 3%;
+padding: 2%;
+}
+
+
 .button{
       background-color: white;
       border-width: 0;
@@ -49,7 +70,51 @@
       color: white;
       cursor: pointer;
       margin-left: 5px;
+}
 
+.button2:hover{
+    background-color:  #69366b;
+    border-width: 0;
+    border-radius: 40px;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: HeliaCoreBold, Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.smallButton{
+    background-color: white;
+    border-width: 0;
+    border-radius: 40px;
+    height: 2rem;
+    width: 4rem;
+    font-weight: bold;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: HeliaCoreBold, Arial, sans-serif;
+    line-height: 13px;
+    cursor: pointer;
+    margin-top: 9px;
+}
+.smallButton:hover{
+    background-color: lightgray;
+    border-width: 0;
+    border-radius: 40px;
+    height: 2rem;
+    width: 4rem;
+    font-weight: bold;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: HeliaCoreBold, Arial, sans-serif;
+    line-height: 13px;
+    cursor: pointer;
+    margin-top: 9px;
 }
 .paragraph{
       font-size: 24px;
@@ -106,14 +171,14 @@
 .webLanTitleDiv{
     background-color: white;
     width: 150px;
-    height: 150px;
+    height: 190px;
     color: #4f1852;
     position: absolute;
     font-size: 24px;
     font-family: HeliaCoreMedium, Arial, sans-serif;
     line-height: 1.2;
     white-space: pre;
-    left: 15%;
+    left: 13%;
 }
 
 .webLanTitle{
@@ -136,10 +201,19 @@
 
 .navbarButton {
     position: fixed;
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
 }
 
 
 .dropdown {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
     position: relative;
     display: inline-block;
 
@@ -157,7 +231,6 @@
     width: 20vw;
     font-family: HeliaCoreMedium, Arial, sans-serif;
 
-
   }
 
   .dropdown-content a {
@@ -168,7 +241,7 @@
     font-size: 18px;
     text-align: left;
     padding-left: 5%;
-    padding: 10%;
+    padding: 5%;
   }
 
 .dropdown-content a:hover {
@@ -178,12 +251,12 @@ font-weight: bold;
 }
 
 
-  .dropdown:hover .dropdown-content {
-    display: block;
-    background-color: #354146;
-  }
+.dropdown:hover .dropdown-content {
+display: block;
+background-color: #354146;
+}
 
-  .dropdown button {
+.dropdown button {
 background-color: transparent;
 color: white;
 padding: 5px;
@@ -192,4 +265,16 @@ font-weight: bold;
 border: none;
 cursor: pointer;
 position: relative;
+display: flex;
 }
+
+.dropdown button:hover {
+background-color: #354146;
+    color: white;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    }

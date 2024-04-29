@@ -15,7 +15,14 @@
         <h1 class="webLanTitle">Web<br />LAN</h1>
     </div>
 
-    <div class="DarkPurpleBar"></div>
+    <div class="DarkPurpleBar">
+        <div class="DarkPurpleButtons">
+            <form action="/logout" method="post">
+                @csrf
+                <button class="smallButton">Logout</button>
+            </form>
+        </div>
+    </div>
     <div class="PurpleBar">
         <div class="NavBar">
             <div class="dropdown">
@@ -36,7 +43,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <button> DataLink </button>
+                <button class='navbarButton'> DataLink </button>
                 <div class="dropdown-content">
                     <a href="/Bluetooth/BluetoothTutorial">Tutorial</a>
 
@@ -53,7 +60,41 @@
                 </div>
             </div>
             <div class="dropdown">
-                <button>TCP / IP</button>
+                <button class='navbarButton'>TCP / IP</button>
+                <div class="dropdown-content">
+                    <a href="/Bluetooth/BluetoothTutorial">Tutorial</a>
+
+                    <a href="/Bluetooth/BluetoothQuiz">Quiz</a>
+
+                    <a href="/Bluetooth/BluetoothModelling">Modelling</a>
+
+                    <a href="/Bluetooth/BluetoothScenarios">Scenarios</a>
+
+                    <a href="/Bluetooth/BluetoothKeyTerms">Key Terms</a>
+
+                    <a href="/Bluetooth/BluetoothReview">Review Questions</a>
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class='navbarButton'>Wired LAN</button>
+                <div class="dropdown-content">
+                    <a href="/Bluetooth/BluetoothTutorial">Tutorial</a>
+
+                    <a href="/Bluetooth/BluetoothQuiz">Quiz</a>
+
+                    <a href="/Bluetooth/BluetoothModelling">Modelling</a>
+
+                    <a href="/Bluetooth/BluetoothScenarios">Scenarios</a>
+
+                    <a href="/Bluetooth/BluetoothKeyTerms">Key Terms</a>
+
+                    <a href="/Bluetooth/BluetoothReview">Review Questions</a>
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class='navbarButton'>Wireless LAN</button>
                 <div class="dropdown-content">
                     <a href="/Bluetooth/BluetoothTutorial">Tutorial</a>
 
@@ -76,15 +117,13 @@
 
 
 <body class="body">
-
-    <br />
-    <h1 class="header">WebLan Designer</h1>
-    <form action="/logout" method="post">
-        @csrf
-        <button class="button">Logout</button>
-    </form>
+    <div class='loggedInBody'>
+        <br />
+        <h1 class="header2">WebLan Designer</h1>
 
 
+
+    </div>
 
 </body>
 
