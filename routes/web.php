@@ -129,7 +129,7 @@ Route::get("/TCPIP/TCPIPReview",function(){
         return view("DataLink.DataLinkQuiz");
     });
     Route::get("/DataLink/DataLinkModelling",function(){
-        return view("DataLink.DataLinkTModelling");
+        return view("DataLink.DataLinkModelling");
     });
     Route::get("/DataLink/DataLinkScenarios",function(){
         return view("DataLink.DataLinkScenarios");
@@ -139,6 +139,14 @@ Route::get("/TCPIP/TCPIPReview",function(){
     });
     Route::get("/DataLink/DataLinkReview",function(){
         return view("DataLink.DataLinkReview");
+    });
+
+
+    Route::get("/Feedback",function(){
+        return view("Feedback");
+    });
+    Route::get("/UsefulLinks",function(){
+        return view("UsefulLinks");
     });
 
 Route::post('/register',[UserController::class,'register']);
