@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\AnswersController;
 use App\Http\Controllers\QuizController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
@@ -151,9 +150,14 @@ Route::get("/TCPIP/TCPIPReview",function(){
         return view("UsefulLinks");
     });
 
-    //BluetoothQuiz
+    //Showing Quizzes
 
-    Route::get('/Bluetooth/BluetoothQuiz', [QuizController::class,'showAll']);
+    Route::get('/Bluetooth/BluetoothQuiz', [QuizController::class,'showBluetoothQuiz']);
+    Route::get('/WirelessLan/WirelessLanQuiz', [QuizController::class,'showWirelessLanQuiz']);
+    Route::get('/WiredLan/WiredLanQuiz', [QuizController::class,'showWiredLanQuiz']);
+    Route::get('/TCPIP/TCPIPQuiz', [QuizController::class,'showTCPIPQuiz']);
+    Route::get('/DataLink/DataLinkQuiz', [QuizController::class,'showDataLinkQuiz']);
+
     Route::post('/SubmitQuiz',[QuizController::class,"SubmitQuiz"]);
    
 

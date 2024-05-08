@@ -6,19 +6,49 @@ namespace App\Http\Controllers;
 use App\Models\Quiz;
 use App\Models\Answers;
 use Illuminate\Http\Request;
-use PhpParser\Node\Stmt\Continue_;
+
 
 class QuizController extends Controller
 {
   
+  //Functions to show Quizzes from each category
+  
+  //Bluetooth Quiz
+    public function showBluetoothQuiz(){
+      $BTquizzes=Quiz::where('ID','like','%BT')->get();
+      return view ("Bluetooth.BluetoothQuiz",["BTquizzes"=>$BTquizzes]);
+     
+    }
 
-    public function showAll(){
-        $quizzes=Quiz::all();
-        return view("Bluetooth.BluetoothQuiz",['quizzes'=>$quizzes]);
+    //WiredLan Quiz
+    public function showWiredLanQuiz(){
+      $WRDquizzes=Quiz::where('ID','like','%WRD')->get();
+      return view ("WiredLan.WiredLanQuiz",["WRDquizzes"=>$WRDquizzes]);
+    }
+
+    //Wireless Lan Quiz
+
+    public function showWirelessLanQuiz(){
+      $WLquizzes=Quiz::where('ID','like','%WL')->get();
+      return view ("WirelessLan.WirelessLanQuiz",["WLquizzes"=>$WLquizzes]);
+    }
+
+    //TCPIP Quiz
+    public function showTCPIPQuiz(){
+      $TIquizzes=Quiz::where('ID','like','%TI')->get();
+      return view ("TCPIP.TCPIPQuiz",["TIquizzes"=>$TIquizzes]);
+    }
+
+    //DataLink Quiz
+
+    public function showDataLinkQuiz(){
+      $DLquizzes=Quiz::where('ID','like','%DL')->get();
+      return view ("DataLink.DataLinkQuiz",["DLquizzes"=>$DLquizzes]);
     }
 
 
-    
+
+    //Function to fetch the user's quiz with calculating the score according to their answers.
     public function SubmitQuiz(Request $request){
 
       //Initiate the answers array that will save the option chosen
@@ -30,16 +60,28 @@ class QuizController extends Controller
         if ($key == "_token") continue;
 
         // The key is in the format 'quiz<ID>', so we remove the 'quiz' prefix to get the ID
-        $questionId = str_replace('quiz', '', $key);
+        if (str_contains($key,"BTquiz")){
+        $questionId = str_replace('BTquiz', '', $key);
+        }
+        elseif(str_contains($key,"WRDquiz")){
+          $questionId=str_replace("WRDquiz",'',$key);
+        }
+        elseif(str_contains($key,"WLquiz")){
+          $questionId=str_replace("WLquiz",'',$key);
+        }
+        elseif(str_contains($key,"DLquiz")){
+          $questionId=str_replace("DLquiz",'',$key);
+        }
+        else
+          $questionId=str_replace("TIquiz",'',$key);
+       
+
+
 
         // Save the question ID and the chosen option in the associative array
         $answers[$questionId] = $value;
       }
-      //echo($answers["1BT"]);
-    //   foreach ($answers as $key => $value) {
-    //     echo "Key: " . $key . "\n";
-    //     echo "Value: " . $value . "\n";
-    // }
+
 
     $score = 0;
 

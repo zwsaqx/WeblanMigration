@@ -10,18 +10,19 @@
 
     <form method="POST" action="/SubmitQuiz">
         @csrf
-        @foreach ($quizzes as $quiz)
+        @foreach ($BTquizzes as $BTquiz)
             <div>
-                <p>{{ $quiz->Questions }}</p>
-                <input type="radio" id="option1" name="quiz{{ $quiz->ID }}" value={{$quiz->Option1}}>
-                <label for="option1">{{ $quiz->Option1 }}</label><br>
-                <input type="radio" id="option2" name="quiz{{ $quiz->ID }}" value={{$quiz->Option2}}>
-                <label for="option2">{{ $quiz->Option2 }}</label><br>
-                <input type="radio" id="option3" name="quiz{{ $quiz->ID }}" value={{$quiz->Option3}}>
-                <label for="option3">{{ $quiz->Option3 }}</label><br>
-                <input type="radio" id="option4" name="quiz{{ $quiz->ID }}" value={{$quiz->Option4}}>
-                <label for="option4">{{ $quiz->Option4 }}</label><br>
+                <p>{{ $BTquiz->Questions }}</p>
+                <input type="radio" id="option1" name="BTquiz{{ $BTquiz->ID }}" value={{$BTquiz->Option1}}>
+                <label for="option1">{{ $BTquiz->Option1 }}</label><br>
+                <input type="radio" id="option2" name="BTquiz{{ $BTquiz->ID }}" value={{$BTquiz->Option2}}>
+                <label for="option2">{{ $BTquiz->Option2 }}</label><br>
+                <input type="radio" id="option3" name="BTquiz{{ $BTquiz->ID }}" value={{$BTquiz->Option3}}>
+                <label for="option3">{{ $BTquiz->Option3 }}</label><br>
+                <input type="radio" id="option4" name="BTquiz{{ $BTquiz->ID }}" value={{$BTquiz->Option4}}>
+                <label for="option4">{{ $BTquiz->Option4 }}</label><br>
             </div>
+            <br>
         @endforeach
         <input type="submit" value="SubmitQuiz">
     </form>
