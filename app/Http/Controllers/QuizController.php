@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
   //Here we control what to do with the data in the table called Quiz
 use App\Models\Quiz;
+use App\Models\Answers;
 use Illuminate\Http\Request;
 use PhpParser\Node\Stmt\Continue_;
 
@@ -35,9 +36,24 @@ class QuizController extends Controller
         $answers[$questionId] = $value;
       }
       //echo($answers["1BT"]);
-      foreach ($answers as $key => $value) {
-        echo "Key: " . $key . "\n";
-        echo "Value: " . $value . "\n";
+    //   foreach ($answers as $key => $value) {
+    //     echo "Key: " . $key . "\n";
+    //     echo "Value: " . $value . "\n";
+    // }
+
+    $score = 0;
+
+    // Loop through the $answers array
+    foreach ($answers as $questionId => $chosenOption) {
+        // Retrieve the correct answer for the question from the Answers table
+        $correctAnswer = Answers::where('ID', $questionId)->first()->Answer;
+
+        // Compare the chosen option with the correct answer
+        if ($chosenOption == $correctAnswer) {
+            // If the chosen option is correct, increment the score
+            $score++;
+        }
     }
+    echo "your score is : $score";
     }
 }

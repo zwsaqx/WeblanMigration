@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AnswersController;
 use App\Http\Controllers\QuizController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
@@ -154,6 +155,7 @@ Route::get("/TCPIP/TCPIPReview",function(){
 
     Route::get('/Bluetooth/BluetoothQuiz', [QuizController::class,'showAll']);
     Route::post('/SubmitQuiz',[QuizController::class,"SubmitQuiz"]);
+   
 
 Route::post('/register',[UserController::class,'register']);
 Route::post('/logout',[UserController::class,'logout']);
