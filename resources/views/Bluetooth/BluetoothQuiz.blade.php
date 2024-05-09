@@ -13,13 +13,13 @@
         @foreach ($BTquizzes as $BTquiz)
             <div>
                 <p>{{ $BTquiz->Questions }}</p>
-                <input type="radio" id="option1" name="BTquiz{{ $BTquiz->ID }}" value={{$BTquiz->Option1}}>
+                <input type="radio" id="option1" name="BTquiz{{ $BTquiz->ID }}" value="{{$BTquiz->Option1}}">
                 <label for="option1">{{ $BTquiz->Option1 }}</label><br>
-                <input type="radio" id="option2" name="BTquiz{{ $BTquiz->ID }}" value={{$BTquiz->Option2}}>
+                <input type="radio" id="option2" name="BTquiz{{ $BTquiz->ID }}" value="{{$BTquiz->Option2}}">
                 <label for="option2">{{ $BTquiz->Option2 }}</label><br>
-                <input type="radio" id="option3" name="BTquiz{{ $BTquiz->ID }}" value={{$BTquiz->Option3}}>
+                <input type="radio" id="option3" name="BTquiz{{ $BTquiz->ID }}" value="{{$BTquiz->Option3}}">
                 <label for="option3">{{ $BTquiz->Option3 }}</label><br>
-                <input type="radio" id="option4" name="BTquiz{{ $BTquiz->ID }}" value={{$BTquiz->Option4}}>
+                <input type="radio" id="option4" name="BTquiz{{ $BTquiz->ID }}" value="{{$BTquiz->Option4}}">
                 <label for="option4">{{ $BTquiz->Option4 }}</label><br>
             </div>
             <br>

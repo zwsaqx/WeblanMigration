@@ -58,6 +58,7 @@ class QuizController extends Controller
       foreach ($request->all() as $key => $value) {
         // Skip the CSRF token
         if ($key == "_token") continue;
+        
 
         // The key is in the format 'quiz<ID>', so we remove the 'quiz' prefix to get the ID
         if (str_contains($key,"BTquiz")){
@@ -91,11 +92,12 @@ class QuizController extends Controller
         $correctAnswer = Answers::where('ID', $questionId)->first()->Answer;
 
         // Compare the chosen option with the correct answer
-        if ($chosenOption == $correctAnswer) {
+        if (strcasecmp(trim($correctAnswer), trim($chosenOption)) == 0) {
             // If the chosen option is correct, increment the score
             $score++;
         }
     }
-    echo "your score is : $score";
+    echo "your score is : $score\n";
+
     }
 }

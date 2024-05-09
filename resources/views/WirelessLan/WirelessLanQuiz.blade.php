@@ -13,13 +13,13 @@
         @foreach ($WLquizzes as $WLquiz)
             <div>
                 <p>{{ $WLquiz->Questions }}</p>
-                <input type="radio" id="option1" name="WLquiz{{ $WLquiz->ID }}" value={{$WLquiz->Option1}}>
+                <input type="radio" id="option1" name="WLquiz{{ $WLquiz->ID }}" value="{{$WLquiz->Option1}}">
                 <label for="option1">{{ $WLquiz->Option1 }}</label><br>
-                <input type="radio" id="option2" name="WLquiz{{ $WLquiz->ID }}" value={{$WLquiz->Option2}}>
+                <input type="radio" id="option2" name="WLquiz{{ $WLquiz->ID }}" value="{{$WLquiz->Option2}}">
                 <label for="option2">{{ $WLquiz->Option2 }}</label><br>
-                <input type="radio" id="option3" name="WLquiz{{ $WLquiz->ID }}" value={{$WLquiz->Option3}}>
+                <input type="radio" id="option3" name="WLquiz{{ $WLquiz->ID }}" value="{{$WLquiz->Option3}}">
                 <label for="option3">{{ $WLquiz->Option3 }}</label><br>
-                <input type="radio" id="option4" name="WLquiz{{ $WLquiz->ID }}" value={{$WLquiz->Option4}}>
+                <input type="radio" id="option4" name="WLquiz{{ $WLquiz->ID }}" value="{{$WLquiz->Option4}}">
                 <label for="option4">{{ $WLquiz->Option4 }}</label><br>
             </div>
             <br>
