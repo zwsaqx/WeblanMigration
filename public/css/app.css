@@ -189,7 +189,7 @@ padding: 2%;
 
 
 .footer{
-    position: absolute;
+    position: static;
     background-color: black;
     bottom: 0;
     width: 100%;
