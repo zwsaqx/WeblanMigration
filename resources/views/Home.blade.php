@@ -26,57 +26,6 @@
     <div class="PurpleBar">
         <div class="NavBar">
             <div class="dropdown">
-                <button class='navbarButton'>Bluetooth</button>
-                <div class="dropdown-content">
-                    <a href="/Bluetooth/BluetoothTutorial">Tutorial</a>
-
-                    <a href="/Bluetooth/BluetoothQuiz">Quiz</a>
-
-                    <a href="/Bluetooth/BluetoothModelling">Modelling</a>
-
-                    <a href="/Bluetooth/BluetoothScenarios">Scenarios</a>
-
-                    <a href="/Bluetooth/BluetoothKeyTerms">Key Terms</a>
-
-                    <a href="/Bluetooth/BluetoothReview">Review Questions</a>
-
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class='navbarButton'> DataLink </button>
-                <div class="dropdown-content">
-                    <a href="/Bluetooth/BluetoothTutorial">Tutorial</a>
-
-                    <a href="/Bluetooth/BluetoothQuiz">Quiz</a>
-
-                    <a href="/Bluetooth/BluetoothModelling">Modelling</a>
-
-                    <a href="/Bluetooth/BluetoothScenarios">Scenarios</a>
-
-                    <a href="/Bluetooth/BluetoothKeyTerms">Key Terms</a>
-
-                    <a href="/Bluetooth/BluetoothReview">Review Questions</a>
-
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class='navbarButton'>TCP / IP</button>
-                <div class="dropdown-content">
-                    <a href="/Bluetooth/BluetoothTutorial">Tutorial</a>
-
-                    <a href="/Bluetooth/BluetoothQuiz">Quiz</a>
-
-                    <a href="/Bluetooth/BluetoothModelling">Modelling</a>
-
-                    <a href="/Bluetooth/BluetoothScenarios">Scenarios</a>
-
-                    <a href="/Bluetooth/BluetoothKeyTerms">Key Terms</a>
-
-                    <a href="/Bluetooth/BluetoothReview">Review Questions</a>
-
-                </div>
-            </div>
-            <div class="dropdown">
                 <button class='navbarButton'>Wired LAN</button>
                 <div class="dropdown-content">
                     <a href="/Bluetooth/BluetoothTutorial">Tutorial</a>
@@ -95,6 +44,59 @@
             </div>
             <div class="dropdown">
                 <button class='navbarButton'>Wireless LAN</button>
+                <div class="dropdown-content">
+                    <a href="/Bluetooth/BluetoothTutorial">Tutorial</a>
+
+                    <a href="/Bluetooth/BluetoothQuiz">Quiz</a>
+
+                    <a href="/Bluetooth/BluetoothModelling">Modelling</a>
+
+                    <a href="/Bluetooth/BluetoothScenarios">Scenarios</a>
+
+                    <a href="/Bluetooth/BluetoothKeyTerms">Key Terms</a>
+
+                    <a href="/Bluetooth/BluetoothReview">Review Questions</a>
+
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class='navbarButton'>TCP / IP</button>
+                <div class="dropdown-content">
+                    <a href="/Bluetooth/BluetoothTutorial">Tutorial</a>
+
+                    <a href="/Bluetooth/BluetoothQuiz">Quiz</a>
+
+                    <a href="/Bluetooth/BluetoothModelling">Modelling</a>
+
+                    <a href="/Bluetooth/BluetoothScenarios">Scenarios</a>
+
+                    <a href="/Bluetooth/BluetoothKeyTerms">Key Terms</a>
+
+                    <a href="/Bluetooth/BluetoothReview">Review Questions</a>
+
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class='navbarButton'> DataLink </button>
+                <div class="dropdown-content">
+                    <a href="/Bluetooth/BluetoothTutorial">Tutorial</a>
+
+                    <a href="/Bluetooth/BluetoothQuiz">Quiz</a>
+
+                    <a href="/Bluetooth/BluetoothModelling">Modelling</a>
+
+                    <a href="/Bluetooth/BluetoothScenarios">Scenarios</a>
+
+                    <a href="/Bluetooth/BluetoothKeyTerms">Key Terms</a>
+
+                    <a href="/Bluetooth/BluetoothReview">Review Questions</a>
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class='navbarButton'>Bluetooth</button>
                 <div class="dropdown-content">
                     <a href="/Bluetooth/BluetoothTutorial">Tutorial</a>
 
