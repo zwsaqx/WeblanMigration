@@ -89,7 +89,7 @@ class QuizController extends Controller
     // Loop through the $answers array
     foreach ($answers as $questionId => $chosenOption) {
         // Retrieve the correct answer for the question from the Answers table
-        $correctAnswer = Answers::where('ID', $questionId)->first()->Answer;
+        $correctAnswer = Answers::where('ID', $questionId)->first()->Answer;  //Answer is the Column name 
 
         // Compare the chosen option with the correct answer
         if (strcasecmp(trim($correctAnswer), trim($chosenOption)) == 0) {
