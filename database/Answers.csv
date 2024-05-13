@@ -1,0 +1,177 @@
+ID,Answer
+1BT,Simple
+2BT,Scatternet
+3BT,8 station
+4BT,Scatternet
+5BT,Radio
+6BT,Router
+7BT,7 Devices
+8BT,FSK
+9BT,Piconet
+10BT,Scatternet
+11BT,frequency hopping spread spectrum
+12BT,bluesnarfing
+13BT,a bluetooth profile for streaming audio
+14BT,can be slave in another piconet
+15BT,2.4 GHz ISM
+16BT,both point-to-point connections and point-to-multipoint connection
+17BT,10 piconets
+18BT,True
+19BT,Wireless LAN
+20BT,255
+21BT,one; seven
+22BT,DSSS
+23BT,6
+24BT,5.5
+25BT,22
+26BT,IEEE 802.11
+27BT,radio
+28BT,none of the above
+29BT,TDD-TDMA
+30BT,True
+31BT,33
+32BT,Bluetooth v2. 1
+33BT,TKIP
+34BT,Authorized twin
+35BT,False
+36BT,False
+37BT,Bluetooth
+38BT,79
+39BT,24
+40BT,high technical feasibility
+41BT,TDD
+42BT,FH-CDMA
+43BT,3
+44BT,1600
+45BT,False
+46BT,Error
+47BT,Active slave
+48BT,10 m
+49BT,100 meters
+50BT,Bluetooth SIG
+51BT,False
+52BT,732.2 kbps
+53BT,ISM
+54BT,True
+55BT,False
+56BT,5 GHz
+57BT,Danish
+58BT,Bluetooth is considered to be a long-distance wireless technology
+59BT,High-speed router
+60BT,Large Images
+61BT,Connecting Bluetooth devices to one another
+62BT,Service Level
+63BT,None of the above
+64BT,May act as a master in a piconet that is part of the scatter net
+65BT,Independent
+66BT,It allows you to use Bluetooth technology to play up to 20 other Zodiacs.
+67BT,ad hoc network
+68BT,"100 Mbps, baseband, twisted pair"
+69BT,All of the above are correct
+70BT,"Both 1 and 2"
+71BT,King Herald Bluetooth
+72BT,GFSK
+73BT,1 Mbps
+74BT,10 to the power of -3
+75BT,Modulation index
+76BT,"Tree, star, and mesh"
+77BT,4 Addresses
+78BT,Simple
+1WRD,A computer network which covers a relatively small geographic area (eg. within a room or a building)
+2WRD,"Network operating system, cabling, network cards, workstations"
+3WRD,"The greater the bandwidth, the higher the data rate"
+4WRD,Both A and B
+5WRD,UTP
+6WRD,Easy to find a fault
+7WRD,Simplex transmission
+8WRD,Token Ring
+9WRD,10Base-T
+10WRD,Ethernet
+11WRD,"A Hub is slower than a Switch"
+12WRD,"A protocol is a collection of rules for formatting, ordering, and error-checking data sent across a network"
+13WRD,Development
+14WRD,Access to the shared medium and error control
+15WRD,Bits
+16WRD,90 kHz
+17WRD,Token Bus
+18WRD,Hertz
+19WRD,1 trillion Hertz
+20WRD,"Its bandwidth is higher compared to UTP cable"
+21WRD,Coaxial cabling
+22WRD,An error detection technique
+23WRD,A Frame
+24WRD,"Control of the communications network. Includes data routing and addressing"
+25WRD,185 metres
+26WRD,32
+1WL,Radio waves
+2WL,Ultraviolet
+3WL,Unguided medium
+4WL,Local telephone system
+5WL,Always the same
+6WL,"All of the above"
+7WL,The characteristics of the carrier signal
+8WL,A cell
+9WL,False
+10WL,It offers high bandwidth
+11WL,True
+12WL,False
+13WL,True
+14WL,True
+15WL,True
+16WL,True
+17WL,True
+18WL,A PC to an infrastructure network
+19WL,Line-of-sight
+20WL,Between 3 KHz and 300 GHz
+21WL,"It offers mobility"
+22WL,11 Mbps
+23WL,A PAN protocol
+24WL,False
+25WL,False
+1TI,Class A
+2TI,8
+3TI,255
+4TI,OSPF
+5TI,A summarization of classful addresses
+6TI,Support for VLSM
+7TI,/16
+8TI,Host
+9TI,Multicast
+10TI,151.129.86.76
+11TI,OSPF
+12TI,"Autonomous system"
+13TI,1.x.x.x to 126.x.x.x
+14TI,EIGRP
+15TI,"8 networks, 24 hosts"
+16TI,0.0.0.0/0
+17TI,Route Redistribution
+18TI,BGP
+19TI,Tracert
+20TI,"Static routing"
+21TI,110
+22TI,Administrative distance refers to the trustworthiness of a particular route
+23TI,The route with a smaller AD
+24TI,192.x.x.x to 223.255.254.x
+1DL,Modem
+2DL,Bit rate
+3DL,Full duplex
+4DL,Medium
+5DL,Light wave
+6DL,Fiber optic
+7DL,Twisted pair
+8DL,"Fiber optic"
+9DL,Infrared waves
+10DL,The remainder
+11DL,Terminal network
+12DL,TCP
+13DL,"POP3, IMAP4"
+14DL,Parallel
+15DL,"Both of the above are correct"
+16DL,"All of the above"
+17DL,Electromagnetic signal
+18DL,Distortion
+19DL,Analog or Digital
+20DL,Noise
+21DL,Either Analog or Digital
+22DL,All of the above
+23DL,Coaxial

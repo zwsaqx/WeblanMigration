@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\QuizController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 
@@ -141,13 +142,24 @@ Route::get("/TCPIP/TCPIPReview",function(){
         return view("DataLink.DataLinkReview");
     });
 
-
+    //Other pages
     Route::get("/Feedback",function(){
         return view("Feedback");
     });
     Route::get("/UsefulLinks",function(){
         return view("UsefulLinks");
     });
+
+    //Showing Quizzes
+
+    Route::get('/Bluetooth/BluetoothQuiz', [QuizController::class,'showBluetoothQuiz']);
+    Route::get('/WirelessLan/WirelessLanQuiz', [QuizController::class,'showWirelessLanQuiz']);
+    Route::get('/WiredLan/WiredLanQuiz', [QuizController::class,'showWiredLanQuiz']);
+    Route::get('/TCPIP/TCPIPQuiz', [QuizController::class,'showTCPIPQuiz']);
+    Route::get('/DataLink/DataLinkQuiz', [QuizController::class,'showDataLinkQuiz']);
+
+    Route::post('/SubmitQuiz',[QuizController::class,"SubmitQuiz"]);
+   
 
 Route::post('/register',[UserController::class,'register']);
 Route::post('/logout',[UserController::class,'logout']);

@@ -1,0 +1,198 @@
+ID,Questions,Option1,Option2,Option3,Option4
+1BT,"If Piconet has only one secondary station, the TDMA operation is very _____________",Complicated,Complexed,Simple,Small
+2BT,"Multiple Piconets form a network called a ____________","Small area","Scatter net","Network allocation vector","Gadgets"
+3BT,"A Piconet network can have up to _________","9 station","8 station","7 station","6 Station"
+4BT,"When the Piconet networks they have been combined, they form what is regarded as _________","Scatternet","Small Net","Large Net","Narrow Net"
+5BT,"A wireless network __________ waves to transmit signals.",Sound,Radio,Mechanical,Luay
+6BT,"What device senses and receives radio signals in a wireless network?",Modem,Router,"Digital translator",Switch
+7BT,"Bluetooth network consists of one primary device and up to","5 devices","7 Devices","9 Devices
+v","11 Devices"
+8BT,"Bluetooth has been used as a sophisticated version of","CSK",FSK,TDMA,CDMA
+9BT,"A Bluetooth is a network called","Wireless Network",WAN,Piconet,LAN
+10BT,"An interconnected collection of piconet is called ___________",scatternet,micronet,mininet,meganet
+11BT,"Bluetooth uses __________","frequency hopping spread spectrum","orthogonal frequency division multiplexing","time division multiplexing","channel division multiplexing"
+12BT,"Unauthorised access of information from a wireless device through a bluetooth connection is called _________",bluemaking,bluesnarfing,bluestring,bluescoping
+13BT,"What is A2DP (advanced audio distribution profile)?","a bluetooth profile for streaming audio","a bluetooth profile for streaming video
+ a bluetooth profile for streaming video
+","a bluetooth profile for security","a bluetooth profile for file management"
+14BT,"In a piconet, one master device ________","can not be slave","can be slave in another piconet","can be slave in the same piconet","can be master in another piconet"
+15BT,"Bluetooth transceiver devices operate in ______ band.","2.4 GHz ISM","2.5 GHz ISM","2.6 GHz ISM","2.7 GHz ISM"
+16BT,"Bluetooth supports _______","point-to-point connections","point-to-multipoint connection","both point-to-point connections and point-to-multipoint connection","multipoint to point connection"
+17BT,"A scatternet can have maximum __________","10 piconets","20 piconets","30 piconets","40 piconets"
+18BT,"Notebook computers are integrated with Wi-Fi adapters.",False,True,NA,Some do and some dont
+19BT,"Bluetooth is a_________ technology which connects devices which are called gadgets in a small area.","Wired LAN","Wireless LAN","VLAN","None of the above"
+20BT,"In a Piconet, there can be up to_________ parked nodes in the net.",63,127,255,511
+21BT,"A Bluetooth Piconet network consists of _________ primary device(s) and up to _________ secondary devices.","one; five","five; three","two; six","one; seven"
+22BT,"Bluetooth uses _________ method in the physical layer to avoid interference from other devices or other networks.",DSSS,FHSS,"FDMA","none of the above"
+23BT,"IEEE 802.11a, has a data rate of _________Mbps.",1,2,6,"none of the above"
+24BT,"IEEE 802.11b, has a data rate of _________ Mbps.",1,2,5.5,"none of the above"
+25BT,"IEEE 802.11g, has a data rate of _________ Mbps.",1,2,11,22
+26BT,"IEEE has defined the specifications for a wireless LAN, called _________, which covers the physical and data link layers.","IEEE 802.3","IEEE 802.5","IEEE 802.11","IEEE 802.2
+v"
+27BT,"In Bluetooth, the _________ layer is roughly equivalent to the physical layer of the Internet model.",radio,baseband,L2CAP,"none of the above"
+28BT,"In Bluetooth, the current data rate is _________ Mbps",2,5,11,"none of the above"
+29BT,"The access method in Bluetooth is _________.",FDMA,"TDD-TDMA","CDMA","none of the above"
+30BT,"Because of the weaknesses of WEP, it is possible for an attacker to identify two packets derived from the same IV.",True,False,Partially True,Partially False
+31BT,"Most Bluetooth devices use a class 2 radio which has a range of ___________ feet.",10,18,15,33
+32BT,"The IEE 802.15.1-2005 Wireless Personal Area Network standard was based on the __________ specifications.","Bluetooth v2. 1","Bluetooth V1. 2","Bluetooth V1.0","Bluetooth V1. 1"
+33BT,"A(n) __________ packet contains a field that indicates the function of the packet and an identifier field used to match requests and responses.",ICMP,TKIP,EAP,RADIUS
+34BT,"An _________ is an AP that is set up by an attacker.","Active twin","Authorized twin","Internal replica","Evil twin"
+35BT,"Because PEAP can be vulnerable to specific types of attacks, CISCO now recommends that users migrate to a more secure EAP than PEAP.",True,False,Partially True,Partially False
+36BT,"Aps use antennas which radiate a signal in all the directions.",True,False,Partially False,Partially True
+37BT,"__________ technology enables users to connect wirelessly to a wide range of computing and telecommunication devices.","Port security",Bluetoothv,Supplicant,Quick Share
+38BT,"Bluetooth includes ________________ channels.",40,50,69,79
+39BT,"Bluetooth operates on _____________ GHZ band.",2,21,24,25
+40BT,"Any one criterion for wireless personal area network is ____________","Less market potential","Less compatibility","Less technical feasibility","high technical feasibility"
+41BT,"Assigning different slots for uplink & downlink using the same frequency is called ____________",FDD,CDD,TDD,EDD
+42BT,"Bluetooth applies _____________ for separation of Piconets.",CDMA,"FH-CDMA","BH-CDMA","FH-BH"
+43BT,"A GSM system consists of how many sub systems.",2,3,4,5
+44BT,"Each Bluetooth device performs frequency hopping with ____________ hops/sec.",1200,1400,1600,1800
+45BT,"Bluetooth devices are not backward compatible with previous versions.",False,Partially True,True,Partially False
+46BT,"Which of the following choices is not one of the three types of packets used by EAP?",Request,Response,Success,Error
+47BT,"Slave devices that are connected to a Piconet and are sending transmissions are known as what?","Active slave","passive slaves","Hybrid drones","Neutral drones"
+48BT,"Class 3 Bluetooth transceiver range.","10 m","100 m","33 m","330 m"
+49BT,"Class 1 Bluetooth transceiver range.","10 meters","100 meters","33 metres","330 metres"
+50BT,"Who is defining Bluetooth specifications?","Bluetooth Forum","IEEE","Bluetooth SIG","Ericsson"
+51BT,"Bluetooth is a Los (line-of-sight) technology.",True,Partially True,False,Partially False
+52BT,"Bluetooth (version 1.1) transfer rate.","128 kbps","56 kbps","2 kbps","732.2 kbps"
+53BT,"Bluetooth’s frequency band.",UNII,GSM,ISM,VHF
+54BT,"Infrared (IrDA) connection set up is faster than Bluetooth.
+Infrared (IrDA) connection set up is faster than Bluetooth.
+",True,Partially True,False,Partially False
+20TI,"Which routing method is most trusted by a router?",Static routing,RIP,EIGRP,OSPF
+55BT,"The Piconet coordinator in a WirelessHD network should be a battery operated device for mobility.",True,Partially True,False,Partially False
+56BT,"In which frequency range does WHDI operate?","2.4 GHz","800 MHz","5 GHz","400 KHZ"
+57BT,"Bluetooth is named after a(n) ____________ King.",Swiss,Danish,German,English
+58BT,"Which of the following is NOT true about Bluetooth?","Bluetooth is considered to be a long-distance wireless technology","Bluetooth has a bandwidth of 720 kbps.","Bluetooth is considered to be low bandwidth wireless technology.","Bluetooth has a range of about 30 feet."
+59BT,"Which of the following is NOT a device that is likely to use Bluetooth technology?","PDA",toy,"cell phone","High-speed router"
+60BT,"Which of the following is difficult to transmit using Bluetooth?","Printing commands","Music","Large Images","Voice"
+61BT,"Pairing is the process of __________","Using two Bluetooth device from the same company","requiring the use of two Bluetooth devices to accomplish a specific task","Connecting Bluetooth devices to one another","Using compatible Bluetooth devices."
+62BT,"Bluetooth allows the station to define a quality of","Time level","Service Level","Data Level","Segment Level"
+63BT,"In a piconet network, one master device","Can be a master in another piconet","Cannot be slave","Can be a slave in the same piconet","None of the above"
+64BT,"In a scatter net, the slave node of one piconet may ___________","May act as a master in a piconet that is part of the scatter net","May act as slave in a piconet that is part of the scatter net","Cannot be slave","Can be slave in the same piconet"
+65BT,"The master-slave connection in Bluetooth networks are",Dependent,Independent,Similar,"Relatively dependent
+ Relatively dependent
+"
+66BT,"Which of the following is NOT true about the Tapwave Zodiac?","It can synchronize with Outlook to store contact information.","It can play MP3 files.","It allows you to use Bluetooth technology to play up to 20 other Zodiacs.","It is a wireless gaming device that uses Bluetooth technology."
+67BT,"A Bluetooth LAN is an ______________?","ad hoc network","infrastructure signals","ad hoc signals","infrastructure LAN"
+68BT,"What does 100BaseT mean?","100 Mbps, baseband, twisted pair","100 bps, baseband, twisted pair","100 meters, baseband, transmit","100 kilometers, baseband, transmit"
+69BT,"Select the correct statement regarding 802.15 Bluetooth","FHSS operates at 1600 hops per second over 79 one MHz channels","Bluetooth is a centralized access model where the master nodes acts as the centralized controller","FHSS is a spread spectrum technology used in 802.15 WPANs","All of the above are correct"
+70BT,"Consider the following statements:
+1. Bluetooth is a wireless technology which creates WPAN to exchange data.
+2. Bluetooth uses the electromagnetic spectrum in the range 2402-2480 MHz.
+Which of the statements given above is/are correct?","only 1
+ only 1
+","only 2","Both 1 and 2","Neither 1 nor 2"
+71BT,"Bluetooth standard is named after ___________","King Ronaldo Bluetooth","Pope Vincent Bluetooth
+v","King Herald Bluetooth","Pope Francis Bluetooth"
+72BT,"
+Which modulation scheme is used by Bluetooth?
+",DQPSK,MSK,"GFSK",BPSK
+73BT,"What is the channel symbol rate in Bluetooth for each user?","270.833 Kbps","1 Gbps","100 Mbps","1 Mbps"
+74BT,"What is the raw channel bit error rate of Bluetooth?",10 to the power of -3,10 to the power of -10,10 to the power of 3,10 to the power of -1
+75BT,"The amount that the Bluetooth frequency varies, which is between 280 and 350 KHz, is called the _______________.","Direct sequence","Modulation index","Hopping sequence
+v","I-phase"
+76BT,"Which of the following topologies are supported by ZigBee?","Scatternet and SCO","Tree, star, and mesh","Inverted tree and ACL","Piconet and master/slave"
+77BT,"The addressing mechanism of the Bluetooth can include up to","2 Addresses","4 Addresses","6 Addresses","8 Addresses"
+78BT,"If a piconet has only one secondary station, the TDMA operation is very",Complicated,Complexed,Simple,Small
+1WRD,"Which of the following statements about a LAN is TRUE?","A computer network which covers a relatively small geographic area (eg. within a room or a building)","A computer network which covers a relatively large geographic area",A computer network which does not cover any geographic area,None of the above
+2WRD,"A network consists of the following basic components:","Repeaters, hubs, cabling, modems, application software","Fibre optic cabling, hubs, workstations, multistation access unit","Network operating system, cabling, network cards, workstations",All of the above
+3WRD,"Which of the following statements about the bandwidth of a channel is TRUE?","The greater the bandwidth, the higher the data rate","The greater the bandwidth, the lower the data rate","The lower the bandwidth, the higher the data rate",All of the above
+4WRD,"Match the description of a LAN topology: A break in a cable anywhere on the network can disable the entire network:",Ring,Bus,Star,"Both A and B"
+5WRD,"Which type of cabling is a Star topology network usually cabled with?",Thin coax,Thick coax,Fiber Optic,UTP
+6WRD,"What single principal (unarguable) advantage does Star topology have over Bus topology?",A Hub/Switch is not required,Uses less cable,Easy to find a fault,Less expensive
+7WRD,"A television broadcast is an example of:",Simplex transmission,Half-duplex transmission,Full-duplex transmission,All of the abov
+8WRD,"Which of the following is not a channel access method for a local area network?",CSMA/CD,Token Passing,CSMA/CA,Token Ring
+9WRD,"Which of the following is not an example of a high speed (at or above 100Mb/s) network protocol?",10Base-T,100Base-T,Gigabit Ethernet,Fast Ethernet
+10WRD,"Which of the following is not a LAN topology?",Star,Ring,Bus,Ethernet
+11WRD,"Which of the following statements is TRUE?",A Hub is faster than a Switch,A Hub is slower than a Switch,A Hub can transmit data simultaneously from two or more sources,All of the above
+12WRD,"Which of the following statements about a computer network protocol is TRUE?","A protocol is a collection of rules for formatting, ordering, and error-checking data sent across a network",A protocol is only required just before data transmission across a network,Data transmission across the network can be successful without a protocol,All of the above
+13WRD,"Which of the following is not an example of an OSI/ISO layer?",Physical,Data link,Application,Development
+14WRD,"The OSI Data Link layer provides:","Functional and procedural means to establish, maintain and release data link connections",Access to the shared medium and error control,Control of the interconnection of data-circuits,All of the above
+15WRD,"The main function of the OSI/ISO Physical layer is to transmit:",Programs,Protocols,Dialogs,Bits
+16WRD,"What is the bandwidth of a signal that ranges from 100 kHz to 10 kHz?",110 kHz,90 kHz,1.10 kHz,9 kHz
+17WRD,"The IEEE 802.4 is an example of:",Ethernet LAN,Token Ring,Token Bus,Wireless LAN
+18WRD,"Frequency is measured in:",bps,Mbyte,Mbit,Hertz
+19WRD,"One TeraHertz is equivalent to:",1 trillion Hertz,1 billion Hertz,1 million Hertz,1 thousand Hertz
+20WRD,"Which of the following statements about optical fibre cable is TRUE?",Its bandwidth is higher compared to UTP cable,Its bandwidth is lower compared to UTP cable,Its bandwidth is the same as the bandwidth of Coaxial cable,None of the above
+21WRD,"BNC connectors are used with:",UTP cabling,STP cabling,Coaxial cabling,Optical fibre cabling
+22WRD,"Cyclic Redundancy Check (CRC) is an example of:",An error correction technique,An error detection technique,Both A and B,None of the above
+23WRD,"Match the definition of a networking term: The block of data sent over an Ethernet network is called:",A Protocol stack,A Frame,A Cell,A Subnet
+24WRD,"Choose the correct definition of the network layer:","Direct provision of services to the user, such as file manipulation","Control of the communications between users. Includes grouping together of messages, and the coordination of data transfer between groups",Control of the communications network. Includes data routing and addressing,"Management of communications between the two end systems. Maps general user services to the communications subnetwork"
+25WRD,"The maximum recommended segment length in a thin Ethernet (10Base-2) network is?",100 feet,185 feet,100 metres,185 metres
+26WRD,"How many bit makes up an Internet Protocol (IP) address?",16,24,32,8
+1WL,"The lower end of the electromagnetic spectrum is known as:",Radio waves,Visible light,Ultraviolet light,Infrared ligh
+2WL,"Which one of the followings has the highest frequency in the electromagnetic spectrum?",Visible light,Radio waves,Ultraviolet,Infrared light
+3WL,"Signals sent using drums are an example of communication through:",Guided medium,Unguided medium,Discrete medium,None of the above
+4WL,"Which of the following primarily uses guided media?",Cellular telephone system,Local telephone system,Satellite communications,Radio broadcasting
+5WL,"If a satellite is in a geosynchronous orbit, the distance between the base and the satellite is:",Always the same,Varies with the time of the day,Varies with the height of the orbit,None of the above
+6WL,"GSM is the accepted cellular standard in:",New Zealand,Australia,Europe,All of the above
+7WL,"Modulation is used to change:",The distance between sender and receiver,The characteristics of the carrier signal,The characteristics of the cabling,The number of cycles per second
+8WL,"What is the basic unit serviced by a base station?",A city,A cell,A town,"A village"
+9WL,"The first cellular systems were digital.",True,False,Partially True,Partially False
+10WL,"IEEE 802.11a is better than the IEEE 802.11b because:",It covers a large geographic area,It offers high bandwidth,Both of the above,None of the above
+11WL,"WAP enabled mobile phone users can retrieve web pages.",True,False,Partially True,Partially False
+12WL,"WAP is an SMS based service.",True,False,Partially True,Partially False
+13WL,"IEEE 802.11 is the name of a protocol for wireless LAN.",True,False,Partially True,Partially False
+14WL,"GSM uses TDMA.
+v",True,False,Partially True,Partially False
+15WL,"Wireless devices with micro browsers can download web pages.",True,False,Partially True,Partially False
+16WL,"A PDA can provide data communication.",True,False,Partially True,Partially False
+17WL,"A mobile phone can connect to the Internet.",True,False,Partially True,Partially False
+18WL,"An access point (AP) is used to connect:",A PC to a telephone,A PC to TV set,A PC to an infrastructure network,A PC to a satellite disk
+19WL,"Microwave communication requires:",Line-of-sight,Non line-of sight,Both 1 and 2,"None of the above"
+20WL,"The range of radio communication frequencies is",Below 3 KHz,Above 300 KHz,Between 3 KHz and 300 GHzBetween 3 KHz and 300 GHz,None of the above
+21WL,"A wireless LAN is better than a wired LAN because:",It offers mobility,It offers high bandwidth,Both of the above,It is more secure
+22WL,"IEEE 802.11b offers data transmission speed up to:",54 Mbps,2 Mbps,11 Mbps,1 Mbps
+23WL,"Bluetooth is the name of:",A voice-to-digital protocol,A ham radio protocol,A protocol for nautical radio devices,A PAN protocol
+24WL,"A gateway is the same as a router and the same as a switch.",True,False,Partially True,Partially False
+25WL,"A wireless LAN always requires an Access Point:",True,False,Partially True,Partially False
+1TI,"To which of the below IP classes does the IP address: 68.56.189.17 belong to?",Class A,Class B,Class C,Class D
+2TI,"How many bits in a byte?",8,16,2,4
+3TI,"The maximum decimal value that can be represented in a byte is:",128,127,255,254
+4TI,"Which of the below routing protocols support VLSM:",OSPF,RIPv1,BGP,STP
+5TI,"What is TRUE about a supernet?",A summarization of classful addresses,A network contains both private and public addresses,Set of discontiguous network controlled by an ISP,A network for the default route
+6TI,"Which is the difference between RIPv1 and RIPv2?",Routing metric,Support for VLSM,Routing algorithm,"Support for hierarchical network"
+7TI,"Given subnet mask 255.255.0.0, which is the correct prefix bits?",/11,/23,/16,/21
+8TI,"What portion of a network address in bits are borrowed from when creating subnets?",Network,Host,Network mask,Prefix
+9TI,"Which type of address is also referred to as a Class D address?",Unicast,Broadcast,Multicast,Private
+10TI,"Given the below IP address, which is a valid Class B address?",15.129.89.76,151.129.86.76,193.129.89.76,223.129.89.76
+11TI,"What routing protocol uses Cost as its metric?",EIGRP,RIP,OSPF,BGP
+12TI,"An internetwork under a common administration is called:",Routing system,Autonomous system,Routing domain,Autonomous domain
+13TI,"Choose the correct Class A IP address range:",1.x.x.x to 126.x.x.x,128.0.x.x to 191.255.x.x,192.0.0.x to 192.255.255.x,224.0.0.0 to 239.255.255.255
+14TI,"Which of these routing protocol cannot be used in a non-Cisco router?",OSPF,RIP,EIGRP,BGP
+15TI,"How many network and host bits does a Class A network provide?","8 networks, 24 hosts","24 networks, 8 hosts","16 networks, 16 hosts","30 networks, 2 hosts"
+16TI,"Which of the following IP addresses is a default route?",0.0.0.0/0,255.255.255.255/0,0.0.0.0/32,255.255.0.0/16
+17TI,"What is the process of sending routes from one routing protocol to another routing protocol?",Route Redistribution,Route Filtering,Route Distribution,Route Prepending
+18TI,"Which of the following protocol is an exterior routing protocol?",OSPF,BGP,RIP,EIGRP
+19TI,"Which of the following command trace the path between the source and the destination of a packet traversal?",Ping,Tracert,Ipconfig,Fat ping
+21TI,"What is the administrative distance of OSPF?",100,110,120,90
+22TI,"What best defines the administrative distance of a routing protocol?",Administrative distance refers to the trustworthiness of a particular route,The metric is always determined based on hop count,The value of an administrative distance cannot be changed,Route with higher administrative distance is preferred by routers
+23TI,"A router receives two identical routes from two different routing protocols. Which route will be chosen to add to the routing table?",The route with a smaller AD,The route with a higher AD,The OSPF route,Both routes
+24TI,"What is the valid Class C IP range?
+
+",192.x.x.x to 223.255.254.x,192.x.x.x to 239.255.255.255,224.x.x.x to 239.255.255.255,128.x.x.x to 192.254.x.x
+1DL,"Which of the following is not a transmission media?",Twisted Pair,Coaxial,Modem,Microwave
+2DL,"Which of the following best defines the number of bit that are conveyed or processed per unit of time?",Baud rate,Bit rate,Bandwidth rate,Wave rate
+3DL,"Communication between two stations, simultaneously in both directions best describes:",Full duplex,Half duplex,Simplex,"Duplex apartment"
+4DL,"The physical path over which a message travels is the definition of:",Protocol,Medium,Signal,All of the above
+5DL,"What kind of signal does fiber optic produce?",Light wave,Radio wave,Infrared,"Very low-frequency"
+6DL,"The type of cable that consists of a central conductor and a shield is:",Coaxial,Fiber optic,Twisted pair,"None of the above"
+7DL,"The type of cable made up from two insulated cooper wires twisted together is:",Coaxial,Fiber optic,Twisted pair,None of the above
+8DL,"Which one of the following cable carry signal in a form of light?",Coaxial,Fiber optic,UTP,None of the above
+9DL,"What kind of signal wave is usually used for short range communication such as between PC and a peripheral device?",Radio waves,Light waves,Microwave,Infrared waves
+10DL,"What is the CRC in cyclic redundancy check?",The divisor,The quotient,The dividend,The remainder
+11DL,"TELNET is an abbreviation stands for:",Terminal network,Telephone network,Telecommunication network,None of the above
+12DL,"FTP uses the service of:",IP,UDP,TCP,SMTP
+13DL,"What two message access protocols are currently available?","POP3, IMAP2","POP4, IMAP1","POP3, IMAP4","POP2, IMAP2"
+14DL,"What type of transmission do bits transmit simultaneously, each across its own wire?",Asynchronous,Synchronous,"Both of the above are correct",Parallel
+15DL,"What type of transmission do bits transmit over a single wire, one bit at a time?",Asynchronous,SynchronousSynchronous,"Both of the above are correct",Parallel
+16DL,"What type of encoding does a transition occur at the middle of each bit?",RZ,Manchester,Differential Manchester,All of the above
+17DL,"Before data can be transmitted, they must be first transformed to:",Periodic signal,Electromagnetic signal Electromagnetic signal,Aperiodic signal,"Low-frequency sine wave"
+18DL,"A transmission impairment in which the signal loses strength, due to the different propagation speeds of each frequency that makes up the signal is:",Distortion,Noise,Attenuation,Decibel
+19DL,"Data can be:",Digital,Analog,Analog or Digital,None of the above
+20DL,"A transmission impairment in which the signal is corrupted by outside interference is:",Distortion,Noise,Attenuation,Decibel
+21DL,"Signal can be:",Analog,Digital,None of the above,Either Analog or Digital
+22DL,"Which of the following can impair a signal?",Distortion,Noise,Attenuation,All of the above
+23DL,"What type of cable consists of an inner copper core and a second conducting outer sheath?",Coaxial,Fiber Optic,Twisted pair,UTP
+24DL,"What material made up the inner core of a fiber optic cable?",Glass or Plastic,Copper,Liquid,None of the above
