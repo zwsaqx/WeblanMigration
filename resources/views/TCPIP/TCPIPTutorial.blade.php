@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    @auth
 
 <head>
     <meta charset="UTF-8">
@@ -86,5 +87,8 @@
             effectivness of the Web-Desinger 3.</li>
     </ul>
 </body>
+@else
+<meta http-equiv="refresh" content="0; URL=/">
+@endauth
 
 </html>

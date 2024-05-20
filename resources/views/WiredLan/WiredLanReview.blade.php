@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+@auth
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -152,4 +153,7 @@ Broadcast address identifies all stations on the network.
 <br />		  
 <a href="#Top">[To Top]</a>
 </body>
+@else
+<meta http-equiv="refresh" content="0; URL=/">
+@endauth
 </html>

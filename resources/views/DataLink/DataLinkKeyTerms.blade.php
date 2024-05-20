@@ -1,7 +1,4 @@
-<?php
-// this is the main file...
-
-?>
+@auth
 
 <div align="center" class="darkBlueTextJumbo">Data Link Protocol Key Terms</div>
 <br />
@@ -313,4 +310,7 @@ in a network is called topology. <a href="#top">[Back to Top]</a><br>
 
 <span class="darkBlueText">Word: </span>The stream of either bits or characters capable of being stored and processed as a unit. <a href="#top">[Back to Top]</a><br>
 <br>
+@else
+<meta http-equiv="refresh" content="0; URL=/">
+@endauth
 

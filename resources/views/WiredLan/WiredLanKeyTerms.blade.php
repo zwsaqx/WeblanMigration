@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+@auth
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -513,4 +514,7 @@ computer that has its own CPU and is used as a client to access
 another computer such as a mainframe computer or a file server. <a href="#top">[Back to Top]</a><br><br>
     
 </body>
+@else
+<meta http-equiv="refresh" content="0; URL=/">
+@endauth
 </html>

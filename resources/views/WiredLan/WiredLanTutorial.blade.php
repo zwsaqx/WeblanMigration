@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+@auth
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -94,4 +95,7 @@
     </ul>
         
 </body>
+@else
+<meta http-equiv="refresh" content="0; URL=/">
+@endauth
 </html>

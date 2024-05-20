@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+@auth
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -169,4 +169,8 @@
     </div>
 </footer>
 
+@else
+<meta http-equiv="refresh" content="0; URL=/" />
+
+@endauth
 </html>

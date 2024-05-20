@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    @auth
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -116,4 +117,8 @@
     <a href="#top">[Back to Top]</a><br />
 
 </body>
+@else
+<meta http-equiv="refresh" content="0; URL=/">
+@endauth
+
 </html>

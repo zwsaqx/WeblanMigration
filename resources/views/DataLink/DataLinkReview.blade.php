@@ -1,3 +1,4 @@
+@auth
 <DIV class=darkBlueTextJumbo align=center>Data Link Review Questions</DIV>
           <p><span class="darkBlueText">Question 1</span>: What are the advantages of fibre optic over other mediums? </p>
           <p><span class="redText">Answer</span>: It is not susceptible to electrical interference. Higher bandwidth. Signal degrading is small over long distances.</p>
@@ -90,3 +91,7 @@
           <p><span class="redText">Answer:</span> Authentication, multilink and compression.  </p>
 		  <br />
 <a href="#Top">[To Top]</a> 
+
+@else
+<meta http-equiv="refresh" content="0; URL=/">
+@endauth

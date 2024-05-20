@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  @auth
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,5 +24,8 @@
       <a href="/TCPIP/TCPIPReview">Review Questions</a>
     </div>
   </div>
+  @else
+  <meta http-equiv="refresh" content="0; URL=/">
+@endauth
 </html>
 

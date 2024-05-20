@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    @auth
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,25 +29,8 @@
     </form>
     
 
-
-
-    {{-- <table>
-        <tr>
-            <th>Questions</th>
-            <th>Answers</th>
-            <!-- Add more columns as needed -->
-        </tr>
-        @foreach ($quizzes as $quiz)
-        <tr>
-            <td>{{ $quiz->Questions }}</td>
-            <td>{{ $quiz->Answers }}</td>
-            <!-- Add more fields as needed -->
-        </tr>
-        @endforeach
-    </table> --}}
-<?php
-
-
-?>
 </body>
+@else
+<meta http-equiv="refresh" content="0; URL=/">
+@endauth
 </html>

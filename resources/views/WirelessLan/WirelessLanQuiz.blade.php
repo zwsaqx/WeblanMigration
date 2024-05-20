@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+@auth
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,4 +28,7 @@
         <input type="submit" value="SubmitQuiz">
     </form>
 </body>
+@else
+<meta http-equiv="refresh" content="0; URL=/">
+@endauth
 </html>

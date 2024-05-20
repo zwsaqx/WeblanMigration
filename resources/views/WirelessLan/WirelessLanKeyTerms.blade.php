@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+@auth
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -334,4 +335,7 @@
    <span class="darkBlueText">WPAN:</span> Stands for Wireless Personal-Area Network. <a href="#top">[Back to Top]</a><br>
    <br>
 </body>
+@else
+<meta http-equiv="refresh" content="0; URL=/">
+@endauth
 </html>
