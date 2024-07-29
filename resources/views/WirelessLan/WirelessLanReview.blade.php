@@ -6,12 +6,12 @@
 
     <body class="body">
         <div class='loggedInBody'>
-            <DIV class=darkBlueTextJumbo align=center>Wireless LAN Review Questions</DIV>
+            <h1 class='header1'>Wireless LAN Review Questions</h1>
             <p><span class="darkBlueText">Question 1:</span> Do wireless LANs have a physical layer? </p>
             <p><span class="redText">Answer:</span> Yes. Radio wave is considered as the physical layer.</p>
             <br />
             <p><span class="darkBlueText">Question 2: </span>Do wireless LANs have a physical components? </p>
-            <p><span class="redText">Answer:</span> Yes � for example, wireless cards, access points.</p>
+            <p><span class="redText">Answer:</span> Yes for example, wireless cards, access points.</p>
             <br />
             <p><span class="darkBlueText">Question 3:</span> How long does it take for geosynchronous satellite to complete
                 one orbit? </p>
@@ -94,8 +94,8 @@
             <br />
             <p><span class="darkBlueText">Question 20: </span>What are three common characteristics of IEEE 802b, IEEE 811a,
                 and IEEE 811g? </p>
-            <p><span class="redText">Answer:</span> They use the same medium access control protocol � CSMA/CA, and have the
-                same frame structure and allow for both �infrastructure mode� and �ad hoc� mode. </p>
+            <p><span class="redText">Answer:</span> They use the same medium access control protocol CSMA/CA, and have the
+                same frame structure and allow for both infrastructure mode and ad hoc mode. </p>
             <br />
             <p><span class="darkBlueText">Question 21: </span>In 802.11 wireless networking, what are the four physical
                 layer technologies being used? </p>

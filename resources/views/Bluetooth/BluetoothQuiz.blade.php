@@ -1,97 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-    @auth
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+@auth
+    @include('partials.header')
 
-    <form method="POST" action="/SubmitQuiz" onsubmit="handleSubmit(event)">
-        @csrf
-        @foreach ($BTquizzes as $BTquiz)
-            <div>
-                <p>{{ $BTquiz->Questions }}</p>
-                <input type="radio" id="option1" name="BTquiz{{ $BTquiz->ID }}" value="{{$BTquiz->Option1}}">
-                <label for="option1">{{ $BTquiz->Option1 }}</label><br>
-                <input type="radio" id="option2" name="BTquiz{{ $BTquiz->ID }}" value="{{$BTquiz->Option2}}">
-                <label for="option2">{{ $BTquiz->Option2 }}</label><br>
-                <input type="radio" id="option3" name="BTquiz{{ $BTquiz->ID }}" value="{{$BTquiz->Option3}}">
-                <label for="option3">{{ $BTquiz->Option3 }}</label><br>
-                <input type="radio" id="option4" name="BTquiz{{ $BTquiz->ID }}" value="{{$BTquiz->Option4}}">
-                <label for="option4">{{ $BTquiz->Option4 }}</label><br>
-            </div>
-            <br>
-        @endforeach
-        <input type="submit" value="SubmitQuiz"  id="submitBtn" disabled>
-    </form>
-
-
+    <body class="body">
+        <div class='loggedInBody'>
+            <h1 class="header1">Bluetooth Quiz</h1>
+            <form method="POST" action="/SubmitQuiz" onsubmit="handleSubmit(event)">
+                @csrf
+                @foreach ($BTquizzes as $BTquiz)
+                    <div>
+                        <p>{{ $BTquiz->Questions }}</p>
+                        <input type="radio" id="option1" name="BTquiz{{ $BTquiz->ID }}" value="{{ $BTquiz->Option1 }}">
+                        <label for="option1">{{ $BTquiz->Option1 }}</label><br>
+                        <input type="radio" id="option2" name="BTquiz{{ $BTquiz->ID }}"
+                            value="{{ $BTquiz->Option2 }}">
+                        <label for="option2">{{ $BTquiz->Option2 }}</label><br>
+                        <input type="radio" id="option3" name="BTquiz{{ $BTquiz->ID }}"
+                            value="{{ $BTquiz->Option3 }}">
+                        <label for="option3">{{ $BTquiz->Option3 }}</label><br>
+                        <input type="radio" id="option4" name="BTquiz{{ $BTquiz->ID }}"
+                            value="{{ $BTquiz->Option4 }}">
+                        <label for="option4">{{ $BTquiz->Option4 }}</label><br>
+                    </div>
+                    <br>
+                @endforeach
+                <input type="submit" value="SubmitQuiz" id="submitBtn" disabled>
+            </form>
 
 
 
 
-<script>
-//After submission, the radio choices should be reset.
-function handleSubmit(event){
-    event.preventDefault(); // Prevent the default form submission
-    const form = event.target;
-    form.submit(); // Submit the form
-    form.reset(); // Reset the form
-}
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    const submitBtn = document.getElementById('submitBtn');
-    const radios = document.querySelectorAll('input[type="radio"]');
+            <script>
+                //After submission, the radio choices should be reset.
+                function handleSubmit(event) {
+                    event.preventDefault(); // Prevent the default form submission
+                    const form = event.target;
+                    form.submit(); // Submit the form
+                    form.reset(); // Reset the form
+                }
 
-    function checkRadios() {
-        let isChecked = false;
-        radios.forEach(radio => {
-            if (radio.checked) {
-                isChecked = true;
-            }
-        });
-        submitBtn.disabled = !isChecked;
-    }
 
-    radios.forEach(radio => {
-        radio.addEventListener('change', checkRadios);
-    });
+                document.addEventListener('DOMContentLoaded', function() {
+                    const submitBtn = document.getElementById('submitBtn');
+                    const radios = document.querySelectorAll('input[type="radio"]');
 
-    // Check the state of the radio buttons on page load
-    checkRadios();
-});
+                    function checkRadios() {
+                        let isChecked = false;
+                        radios.forEach(radio => {
+                            if (radio.checked) {
+                                isChecked = true;
+                            }
+                        });
+                        submitBtn.disabled = !isChecked;
+                    }
 
-window.addEventListener('pageshow', function() {
-    const submitBtn = document.getElementById('submitBtn');
-    const radios = document.querySelectorAll('input[type="radio"]');
+                    radios.forEach(radio => {
+                        radio.addEventListener('change', checkRadios);
+                    });
 
-    function checkRadios() {
-        let isChecked = false;
-        radios.forEach(radio => {
-            if (radio.checked) {
-                isChecked = true;
-            }
-        });
-        submitBtn.disabled = !isChecked;
-    }
+                    // Check the state of the radio buttons on page load
+                    checkRadios();
+                });
 
-    radios.forEach(radio => {
-        radio.addEventListener('change', checkRadios);
-    });
+                window.addEventListener('pageshow', function() {
+                    const submitBtn = document.getElementById('submitBtn');
+                    const radios = document.querySelectorAll('input[type="radio"]');
 
-    // Check the state of the radio buttons on page load
+                    function checkRadios() {
+                        let isChecked = false;
+                        radios.forEach(radio => {
+                            if (radio.checked) {
+                                isChecked = true;
+                            }
+                        });
+                        submitBtn.disabled = !isChecked;
+                    }
 
-    checkRadios();
-});
+                    radios.forEach(radio => {
+                        radio.addEventListener('change', checkRadios);
+                    });
 
-</script>
+                    // Check the state of the radio buttons on page load
 
-</body>
+                    checkRadios();
+                });
+            </script>
+        </div>
+    </body>
+    @include('partials.footer')
 @else
-<meta http-equiv="refresh" content="0; URL=/">
+    <meta http-equiv="refresh" content="0; URL=/">
 @endauth
+
 </html>

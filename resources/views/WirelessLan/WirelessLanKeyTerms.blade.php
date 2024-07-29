@@ -6,14 +6,16 @@
 
     <body class="body">
         <div class='loggedInBody'>
-            <h1>Wireless LAN Key Terms</h1>
+            <h1 class="header1">Wireless LAN Key Terms</h1>
             <br />
-            <a href="#a">[A]</a> <a href="#b">[B]</a> <a href="#c">[C]</a>
-            <a href="#d">[D]</a> <a href="#e">[E]</a> <a href="#f">[F]</a> <a href="#g">[G]</a>
-            <a href="#h">[H]</a> <a href="#i">[I]</a> <a href="#k">[K]</a> <a href="#l">[L]</a>
-            <a href="#m">[M]</a> <a href="#n">[N]</a> <a href="#o">[O]</a> <a href="#p">[P]</a>
-            <a href="#r">[R]</a> <a href="#s">[S]</a> <a href="#t">[T]</a> <a href="#u">[U]</a>
-            <a href="#v">[V]</a> <a href="#w">[W]</a><br>
+            <div class="header1">
+                <a href="#a">[A]</a> <a href="#b">[B]</a> <a href="#c">[C]</a>
+                <a href="#d">[D]</a> <a href="#e">[E]</a> <a href="#f">[F]</a> <a href="#g">[G]</a>
+                <a href="#h">[H]</a> <a href="#i">[I]</a> <a href="#k">[K]</a> <a href="#l">[L]</a>
+                <a href="#m">[M]</a> <a href="#n">[N]</a> <a href="#o">[O]</a> <a href="#p">[P]</a>
+                <a href="#r">[R]</a> <a href="#s">[S]</a> <a href="#t">[T]</a> <a href="#u">[U]</a>
+                <a href="#v">[V]</a> <a href="#w">[W]</a>
+            </div><br>
             <br>
 
 
@@ -550,6 +552,7 @@
             <span class="darkBlueText">WPAN:</span> Stands for Wireless Personal-Area Network. <a href="#top">[Back to
                 Top]</a><br>
             <br>
+        </div>
     </body>
 
     @include('partials.footer')

@@ -5,7 +5,7 @@
 
     <body class="body">
         <div class='loggedInBody'>
-            <div align="center" class="darkBlueTextJumbo">Wired LAN Review Questions</div>
+            <h1 class="header1">Wired LAN Review Questions</h1>
             <p><span class="darkBlueText">Question 1:</span> What is the main purpose of a server in a client-server network?
             </p>
             <p><span class="redText">Answer: </span>A server is a dedicated computer on a network which makes the network

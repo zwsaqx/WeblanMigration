@@ -5,7 +5,7 @@
 
     <body class="body">
         <div class='loggedInBody'>
-            <h1>Wireless Lan Tutorial </h1>
+            <h1 class='header1'>Wireless Lan Tutorial </h1>
 
             <h3>Learning Outcomes</h3>
             <p>By the end of this tutorial, you will be able to:</p>

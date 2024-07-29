@@ -5,7 +5,7 @@
 
     <body class="body">
         <div class='loggedInBody'>
-            <h1>WiredLan Quiz</h1>
+            <h1 class="header1">Wired Lan Quiz</h1>
 
             <form method="POST" action="/SubmitQuiz">
                 @csrf

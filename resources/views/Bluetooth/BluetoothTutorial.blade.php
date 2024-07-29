@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 @auth
-
+    @include('partials.header')
 
     <body class="body">
         <div class='loggedInBody'>
-            <h1>Bluetooth Tutorial</h1>
+            <h1 class='header1'>Bluetooth Tutorial</h1>
             <h3>Learning outcomes</h3>
             <p>By the end of this tutorial, you will be able to:</p>
             <ol type="1">
@@ -78,6 +78,7 @@
             </ul>
         </div>
     </body>
+    @include('partials.footer')
 @else
     <meta http-equiv="refresh" content="0; URL=/">
 @endauth

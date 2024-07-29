@@ -22,7 +22,9 @@
     </div>
     <div class="PurpleBar">
         <div class="NavBar">
-            <div class='dropdown'> <button class='navbarButtonHome' onclick="window.location.href='/Home'">Home</button>
+            <div class='dropdown'> <button class='navbarButtonHome' onclick="window.location.href='/Home'">
+                    <p class="homebuttontext">Home</p>
+                </button>
             </div>
             <div class="dropdown">
                 <button class='navbarButton' onclick="window.location.href='/WiredLan/WiredLanTutorial'">Wired

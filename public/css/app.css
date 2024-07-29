@@ -24,7 +24,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-left: 25px;
+    padding-left: 4%;
 
 }
 
@@ -225,7 +225,7 @@
 .navbarButton {
     padding-left: 20px;
     position: fixed;
-    width: 150px;
+    width: 135px;
     height: 70px;
     text-align: center;
     justify-items: center;
@@ -236,16 +236,18 @@
     position: fixed;
     width: 80px;
     height: 70px;
-    display: fixed;
-    padding-left: 1px;
+    display: flex;
     padding-right: 20px;
+    padding-left: 10px;
     text-align: center;
-    justify-items: center;
+    justify-content: flex-start;
     align-items: center;
+}
+.homebuttontext {
+    padding-left:5%;
 }
 
 .dropdown {
-
     align-items: left;
     justify-content: left;
     justify-items: center;
@@ -253,7 +255,6 @@
     position: relative;
     display: inline-block;
     width:auto;
-
   }
 
   .dropdown-content {

@@ -6,7 +6,7 @@
 
     <body class="body">
         <div class='loggedInBody'>
-            <h1>WiredLan Modelling</h1>
+            <h1 class='header1'>Wired Lan Modelling</h1>
         </div>
     </body>
 

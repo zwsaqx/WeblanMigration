@@ -5,17 +5,18 @@
 
     <body class="body">
         <div class='loggedInBody'>
-            <h1>WiredLan Key Terms</h1>
+            <h1 class="header1">Wired Lan Key Terms</h1>
 
 
             <br />
-
-            <a href="#1">[1]</a> <a href="#a">[A]</a> <a href="#b">[B]</a> <a href="#c">[C]</a>
-            <a href="#d">[D]</a> <a href="#e">[E]</a> <a href="#f">[F]</a> <a href="#g">[G]</a>
-            <a href="#h">[H]</a> <a href="#i">[I]</a> <a href="#k">[K]</a> <a href="#l">[L]</a>
-            <a href="#m">[M]</a> <a href="#n">[N]</a> <a href="#o">[O]</a> <a href="#p">[P]</a>
-            <a href="#r">[R]</a> <a href="#s">[S]</a> <a href="#t">[T]</a> <a href="#u">[U]</a>
-            <a href="#v">[V]</a> <a href="#w">[W]</a><br><br>
+            <div class="header1">
+                <a href="#1">[1]</a> <a href="#a">[A]</a> <a href="#b">[B]</a> <a href="#c">[C]</a>
+                <a href="#d">[D]</a> <a href="#e">[E]</a> <a href="#f">[F]</a> <a href="#g">[G]</a>
+                <a href="#h">[H]</a> <a href="#i">[I]</a> <a href="#k">[K]</a> <a href="#l">[L]</a>
+                <a href="#m">[M]</a> <a href="#n">[N]</a> <a href="#o">[O]</a> <a href="#p">[P]</a>
+                <a href="#r">[R]</a> <a href="#s">[S]</a> <a href="#t">[T]</a> <a href="#u">[U]</a>
+                <a href="#v">[V]</a> <a href="#w">[W]</a>
+            </div><br><br>
 
             <span class="darkBlueText" id="1">10BaseT:</span> The technical
             name for unshielded twisted pair wiring running at 10 Mbps, used for
