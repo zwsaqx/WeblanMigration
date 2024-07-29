@@ -3,12 +3,20 @@
 use App\Http\Controllers\QuizController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use Illuminate\Auth\Events\Verified;
+use Illuminate\Support\Facades\Auth;
+
+Auth::routes(
+    [
+        'verify'=>true
+    ]
+    );
 
 Route::get('/', function () {
     //Views are pages that users can visit
     return view('LandingPage'); // this is the name of the view file in folder views
 
-});
+})->middleware('verified');
 
 Route::get('/Home',function(){
     return view("Home");

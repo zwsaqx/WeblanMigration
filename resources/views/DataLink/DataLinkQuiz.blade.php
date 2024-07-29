@@ -14,13 +14,13 @@
         @foreach ($DLquizzes as $DLquiz)
             <div>
                 <p>{{ $DLquiz->Questions }}</p>
-                <input type="radio" id="option1" name="DLquiz{{ $DLquiz->ID }}" value={{$DLquiz->Option1}}>
+                <input type="radio" id="option1" name="DLquiz{{ $DLquiz->ID }}" value="{{$DLquiz->Option1}}">
                 <label for="option1">{{ $DLquiz->Option1 }}</label><br>
-                <input type="radio" id="option2" name="DLquiz{{ $DLquiz->ID }}" value={{$DLquiz->Option2}}>
+                <input type="radio" id="option2" name="DLquiz{{ $DLquiz->ID }}" value="{{$DLquiz->Option2}}">
                 <label for="option2">{{ $DLquiz->Option2 }}</label><br>
-                <input type="radio" id="option3" name="DLquiz{{ $DLquiz->ID }}" value={{$DLquiz->Option3}}>
+                <input type="radio" id="option3" name="DLquiz{{ $DLquiz->ID }}" value="{{$DLquiz->Option3}}">
                 <label for="option3">{{ $DLquiz->Option3 }}</label><br>
-                <input type="radio" id="option4" name="DLquiz{{ $DLquiz->ID }}" value={{$DLquiz->Option4}}>
+                <input type="radio" id="option4" name="DLquiz{{ $DLquiz->ID }}" value="{{$DLquiz->Option4}}">
                 <label for="option4">{{ $DLquiz->Option4 }}</label><br>
             </div>
             <br>

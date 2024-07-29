@@ -26,7 +26,7 @@
     <div class="PurpleBar">
         <div class="NavBar">
             <div class="dropdown">
-                <button class='navbarButton'>Wired LAN</button>
+                <button class='navbarButton'>Bluetooth</button>
                 <div class="dropdown-content">
                     <a href="/Bluetooth/BluetoothTutorial">Tutorial</a>
 
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <button class='navbarButton'>Wireless LAN</button>
+                <button class='navbarButton'>Data Link</button>
                 <div class="dropdown-content">
                     <a href="/DataLink/DataLinkTutorial">Tutorial</a>
 
@@ -79,7 +79,7 @@
             </div>
 
             <div class="dropdown">
-                <button class='navbarButton'> DataLink </button>
+                <button class='navbarButton'>Wired LAN </button>
                 <div class="dropdown-content">
                     <a href="/WiredLan/WiredLanTutorial">Tutorial</a>
 
@@ -96,7 +96,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <button class='navbarButton'>Bluetooth</button>
+                <button class='navbarButton'>Wireless LAN</button>
                 <div class="dropdown-content">
                     <a href="/WirelessLan/WirelessLanTutorial">Tutorial</a>
 

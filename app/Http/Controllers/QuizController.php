@@ -85,6 +85,7 @@ class QuizController extends Controller
 
 
     $score = 0;
+    $wrongAnswers=0;
 
     // Loop through the $answers array
     foreach ($answers as $questionId => $chosenOption) {
@@ -96,8 +97,16 @@ class QuizController extends Controller
             // If the chosen option is correct, increment the score
             $score++;
         }
+        else{
+          $wrongAnswers++;
+        }
     }
-    echo "your score is : $score\n";
+    $Percentage=($score/($score+$wrongAnswers))*100;
+    echo nl2br("your score is : $score\n");
+    echo nl2br("Your result in percentage:". $Percentage."%"."\n");
 
+
+    //html code to display a RedoQuiz button
+   echo "<button onclick='window.history.back()'>Retake the Quizz</button>";
     }
 }
