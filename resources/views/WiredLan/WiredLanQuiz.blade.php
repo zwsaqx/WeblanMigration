@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<script type="text/javascript" src="{{ URL::asset('js/Quiz.js') }}"></script>
 @auth
     <html lang="en">
     @include('partials.header')
@@ -7,7 +8,7 @@
         <div class='loggedInBody'>
             <h1 class="header1">Wired Lan Quiz</h1>
 
-            <form method="POST" action="/SubmitQuiz">
+            <form method="POST" action="/SubmitQuiz" onsubmit="handleSubmit(event)">
                 @csrf
                 @foreach ($WRDquizzes as $WRDquiz)
                     <div>
@@ -26,7 +27,7 @@
                     </div>
                     <br>
                 @endforeach
-                <input type="submit" value="SubmitQuiz">
+                <input type="submit" value="SubmitQuiz" id="submitBtn" disabled>
             </form>
         </div>
     </body>

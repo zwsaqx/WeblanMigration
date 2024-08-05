@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+<script type="text/javascript" src="{{ URL::asset('js/Quiz.js') }}"></script>
 @auth
     @include('partials.header')
 
     <body class="body">
         <div class='loggedInBody'>
             <h1 class='header1'>Data Link Protocol Quiz</h1>
-            <form method="POST" action="/SubmitQuiz">
+            <form method="POST" action="/SubmitQuiz" onsubmit="handleSubmit(event)">
                 @csrf
                 @foreach ($DLquizzes as $DLquiz)
                     <div>
@@ -25,7 +26,7 @@
                     </div>
                     <br>
                 @endforeach
-                <input type="submit" value="SubmitQuiz">
+                <input type="submit" value="SubmitQuiz" id="submitBtn" disabled>
             </form>
 
         </div>
