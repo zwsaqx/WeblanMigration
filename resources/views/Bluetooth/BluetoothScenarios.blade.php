@@ -8,11 +8,14 @@
         <div class='loggedInBody'>
             <h1 class='header1'>Bluetooth Networking Scenarios</h1>
             <br />
-            <div class="redText">Scenario-based questions and suggested answers, followed by scenario-based exercises.</div>
-            <br />
-            <a href="#Scenario1">[Scenario 1]</a> <a href="#Scenario2">[Scenario 2]</a> <a href="#Scenario3">[Scenario
-                3]</a> <a href="#Scenario4">[Scenario 4]</a><br />
-            <a href="#Exercise1">[Exercise 1]</a> <a href="#Exercise2">[Exercise 2]</a> <br />
+            <div class='header1'>
+                <div class="redText">Scenario-based questions and suggested answers, followed by scenario-based exercises.
+                </div>
+                <br />
+                <a href="#Scenario1">[Scenario 1]</a> <a href="#Scenario2">[Scenario 2]</a> <a href="#Scenario3">[Scenario
+                    3]</a> <a href="#Scenario4">[Scenario 4]</a><br />
+                <a href="#Exercise1">[Exercise 1]</a> <a href="#Exercise2">[Exercise 2]</a> <br />
+            </div>
             <br />
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText"
                 dwcopytype="CopyTableRow">
@@ -27,7 +30,8 @@
                         wireless keyboard
                         How Bluetooth prevents the music frequency from getting in the way of your keyboard?
                         Bluetooth transmitters from both your computer and other devices using 79 different frequencies.
-                        So to prevent the music from getting in the way of your keyboard, it changes frequencies around 1600
+                        So to prevent the music from getting in the way of your keyboard, it changes frequencies around
+                        1600
                         times per
                         second.<br>
                         <br>
@@ -47,7 +51,8 @@
                             in the country moving around during the pandemic. An option called Bluetooth tracing
                             which can be turned on in the application, helps in creating an anonymised record of nearby
                             people.
-                            Bluetooth tracing is user friendly, users only need to turn it on once and the app is good to
+                            Bluetooth tracing is user friendly, users only need to turn it on once and the app is good
+                            to
                             go.
                             The diagram below show how the bluetooth work assume that all subject are close contact.<br>
                             <br>
@@ -82,7 +87,8 @@
                             enabled
                             PC
                             for media communication.
-                            The biggest drawback is that it might not be as fast as when we are using cable connnection, but
+                            The biggest drawback is that it might not be as fast as when we are using cable connnection,
+                            but
                             it
                             can
                             be an alternative way when
@@ -120,9 +126,11 @@
                             </li>
                             <li>Energy-efficient: 70 - 75% Reduction. Source: <a
                                     href="https://www.bluetooth.com/learn-about-bluetooth/use-cases/lighting-control/"
-                                    target="_blank" rel="noopener noreferrer external" data-wpel-link="external">Learn about
+                                    target="_blank" rel="noopener noreferrer external" data-wpel-link="external">Learn
+                                    about
                                     Bluetooth Network Lightning Control</a> </li>
-                            <li>Flexibility in design: Wireless desing offering more flexibility due to wired control are
+                            <li>Flexibility in design: Wireless desing offering more flexibility due to wired control
+                                are
                                 fixed
                                 but
                                 the workspace may change</li>
@@ -146,7 +154,8 @@
                 <tr>
                     <td>
                         <p><span class="darkBlueTextJumbo"><a name="Exercise1"></a>Exercise 1</span><br />
-                            Base on Scenario 2 try to make a simple digram about two Bluetooh device communicate with each
+                            Base on Scenario 2 try to make a simple digram about two Bluetooh device communicate with
+                            each
                             other
                             <br />
                             <a href="#Top">[To Top]</a>

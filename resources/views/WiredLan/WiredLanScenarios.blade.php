@@ -11,14 +11,17 @@
             <h1>
                 <div align="center" class="darkBlueTextJumbo">Wired LAN Scenarios</div>
             </h1>
-            <br />
-            <div class="redText">Scenario-based questions and suggested answers, followed by scenario-based exercises.</div>
-            <br />
-            <br />
-            <a href="#Scenario1">[Scenario 1]</a> <a href="#Scenario2">[Scenario 2]</a> <a href="#Scenario3">[Scenario
-                3]</a> <a href="#Scenario4">[Scenario 4]</a><br />
-            <a href="#Exercise1">[Exercise 1]</a> <a href="#Exercise2">[Exercise 2]</a> <br />
-            <br />
+            <div class='header1'>
+                <br />
+                <div class="redText">Scenario-based questions and suggested answers, followed by scenario-based exercises.
+                </div>
+                <br />
+                <br />
+                <a href="#Scenario1">[Scenario 1]</a> <a href="#Scenario2">[Scenario 2]</a> <a href="#Scenario3">[Scenario
+                    3]</a> <a href="#Scenario4">[Scenario 4]</a><br />
+                <a href="#Exercise1">[Exercise 1]</a> <a href="#Exercise2">[Exercise 2]</a> <br />
+                <br />
+            </div>
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td> <span class="darkBlueTextJumbo"><a name="Scenario1"></a>Scenario 1</span><br />

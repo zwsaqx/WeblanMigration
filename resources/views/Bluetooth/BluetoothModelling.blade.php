@@ -11,6 +11,39 @@
             <style>
                 form {}
 
+                .homebuttontext {
+                    align-content: center;
+                    justify-content: center;
+                    padding-top: 14px;
+                }
+
+                .webLanTitleDiv {
+                    background-color: white;
+                    width: 150px;
+                    height: 190px;
+                    color: #4f1852;
+                    position: absolute;
+                    font-size: 24px;
+                    font-family: HeliaCoreMedium, Arial, sans-serif;
+                    line-height: 1.2;
+                    white-space: pre;
+                    left: 13%;
+                }
+
+                .webLanTitle {
+                    top: -15px;
+                    margin: 0;
+                    margin-top: -35px;
+                }
+
+                .dropdown-content a:hover {
+                    background-color: black;
+                    text-align: left;
+                    font-weight: bold;
+                    color: white;
+                    text-decoration: none;
+                }
+
                 .col-2 {
                     -ms-flex: 0 0 14.666667%;
                     flex: 0 0 14.666667%;
@@ -257,14 +290,6 @@
                     left: 790px;
                 }
 
-                #hovertext {
-                    font-size: 14px;
-                    font-weight: 600;
-                    color: rgb(50, 23, 191);
-                    text-decoration: none solid rgb(0, 0, 0);
-                    display: none;
-                }
-
                 #masterinfo1 p,
                 #txtz p {
                     font-family: Arial, Helvetica, sans-serif;
@@ -288,16 +313,17 @@
             </style>
 
 
+
             <div id="preload">
                 <img src="{{ asset('../Images/Data/s1.png') }}" id="s1" width="1" height="1"
                     alt="Image 01" />
-                <img src="{{ asset('../Images/Data/s2.png') }}" id="s2" width="1" height="1"
+                <img src="{{ asset('../Images/Data/S2.png') }}" id="s2" width="1" height="1"
                     alt="Image 01" />
                 <img src="{{ asset('../Images/Data/s3.png') }}" id="s3" width="1" height="1"
                     alt="Image 01" />
 
 
-                <img src="{{ asset('../Images/Data/L1.png') }}" width="1" height="1" alt="Image 01" />
+                <img src="{{ asset('../../Images/Data/L1.png') }}" width="1" height="1" alt="Image 01" />
                 <img src="{{ asset('../Images/Data/L2.png') }}" width="1" height="1" alt="Image 01" />
                 <img src="{{ asset('../Images/Data/L3.png') }}" width="1" height="1" alt="Image 01" />
                 <img src="{{ asset('../Images/Data/L4.png') }}" width="1" height="1" alt="Image 01" />
@@ -382,9 +408,8 @@
 
 
                 <div class="row mt-2 text-center border-0">
-                    <div id="dx" class="col-10 border border-0"
-                        style="width:1100px;height:500px;position:relative;">
-                        <canvas id="myCanvas" width="1100" height="500" class="border-0">
+                    <div id="dx" style="width:1100px;height:500px;position:relative;margin-left:-7%">
+                        <canvas id="myCanvas" width="1100" height="500" class="border-0" style="margin-left: 4%">
                             <p>Fallback Content. Canvas does not Supported</p>
                         </canvas>
                         <div id="mastermac1" style="position:absolute;top:200px;left:238px;">
@@ -501,7 +526,7 @@
                         <img src="{{ asset('../Images/Data/wifi.png') }}" class="wifi invisible position-absolute zidx1"
                             id="w21" width="32" height="32" />
                     </div>
-                    <div class="col-2 pl-4">
+                    <div class="col-12 pl-4">
                         <div id="masterinfo1" class="d-none text-left pt-5">
                             <p><b>MAC ADDRESS:</b></p>
                             <p>MAC address is a unique identifier assigned to a network interface controller (NIC) for
@@ -513,7 +538,7 @@
                             <p>A MAC address is usually what is displayed on one Bluetooth device when another Bluetooth
                                 device need to be differentiated between other Bluetooth devices.</p>
                         </div>
-                        <div id="masterpico1" class="d-none">
+                        <div id="masterpico1" class="d-none" style="width: 100%">
                             <p>In Bluetooth networks, Master Node to control when and where devices can send data. In
                                 this
                                 model, a single master device can be connected to up to Max seven different slave
@@ -586,11 +611,11 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
     <script>
         $(document).ready(function() {
-
-            sleep = function(seconds) {
-                var e = new Date().getTime() + (seconds * 1000);
-                while (new Date().getTime() <= e) {}
-            }
+            //removed by zach because too slow
+            // sleep = function(seconds) {
+            //     var e = new Date().getTime() + (seconds * 1000);
+            //     while (new Date().getTime() <= e) {}
+            // }
 
             var w = 64;
             var h = 64;
@@ -601,10 +626,10 @@
             var canvas = null;
 
             var rowCount = 6;
-            const imagesFileNames = ["L1.png') }}", "L2.png') }}", "L3.png') }}", "L4.png') }}", "L5.png') }}",
-                "L6.png') }}", "L7.png') }}", "L8.png') }}",
-                "PDA1.png') }}", "PDA2.png') }}", "PDA3.png') }}", "PDA4.png') }}", "PDA5.png') }}",
-                "PDA6.png') }}"
+            const imagesFileNames = ["L1.png", "L2.png", "L3.png", "L4.png", "L5.png",
+                "L6.png", "L7.png", "L8.png",
+                "PDA1.png", "PDA2.png", "PDA3.png", "PDA4.png", "PDA5.png",
+                "PDA6.png"
             ]
             const images = [];
             const wifiImages = [];
@@ -984,7 +1009,7 @@
                             masterNbr++;
 
                             let img = new Image();
-                            img.src = 'images/S3.png';
+                            img.src = "{{ asset('../Images/Data/s3.png') }}";
 
                             ctx.beginPath();
                             ctx.drawImage(img, nx1, ny1, w, h);
@@ -1000,7 +1025,7 @@
                             var img = null;
                             if (idx == 2 && scatternetIndex == 1 && scatternets == 3) {
                                 img = new Image();
-                                img.src = '../Images/Data/S1.png';
+                                img.src = "{{ asset('../Images/Data/S1.png') }}";
 
                                 ctx.font = "bold 15px Arial";
                                 ctx.fillStyle = "#1b1bd6"
@@ -1093,7 +1118,7 @@
                             ctx.drawImage(img, xList[idx - 1] + xAxis + 5, yList[idx - 1] + 20, w, h);
 
                         slaveNbr++;
-                        //console.log("wifiIdx", wifiIdx);
+                        console.log("wifiIdx", wifiIdx);
                         if (wifiIdx != 16)
                             $("#w" + wifiIdx).removeClass("invisible").addClass("visible");
 
@@ -1139,6 +1164,7 @@
 
 
             processNetworks = function() {
+
                 ctx.clearRect(0, 0, canvas.width, canvas.height);
                 nodes = parseInt($("#nodes").val());
                 if (nodes == 15) {
@@ -1163,10 +1189,14 @@
                 let img = new Image();
                 let randomIndex = getRandomInt(0, imagesFileNames.length);
                 let imgName = imagesFileNames[randomIndex];
+                console.log(imgName)
                 img.addEventListener('load', function() {
                     loadedImageCount++;
                 }, false);
-                img.src = '../Images/Data/' + imgName;
+
+
+                img.src = "{{ asset('Images/Data') }}/" + imgName;
+                console.log('Image URL:', img.src);
                 return img;
             }
             insertMacAddress = function() {
@@ -1322,12 +1352,13 @@
                         images.push(img)
 
                         let imgWifi = new Image();
-                        imgWifi.src = '../Images/Data/wifi.png';
+                        imgWifi.src = "{{ asset('../Images/Data/wifi.png') }}";
 
                         wifiImages.push(imgWifi)
                     }
 
                     processNetworks();
+
 
 
                 } else {
@@ -1366,7 +1397,7 @@
                     }
 
 
-                    sleep(0.4);
+                    // sleep(0);  //removed by zach because too slow
 
                     if (animateCount < 15) {
                         left -= 3;
