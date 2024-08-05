@@ -4,12 +4,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WebLan Designer</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('../css/app.css') }}">
-    <div class="logo_right">
-        <img src="{{ asset('../Images/AUT_Logo.jpg') }}" alt="AUT_Logo" class="logo">
-    </div>
-
-    <div class="webLanTitleDiv">
-        <h1 class="webLanTitle">Web<br />LAN</h1>
+    <div>
+        <div class="logo_right">
+            <img src="{{ asset('../Images/AUT_Logo.jpg') }}" alt="AUT_Logo" class="logo">
+        </div>
+        <div class="webLanTitleDiv">
+            <h1 class="webLanTitle">Web<br />LAN</h1>
+        </div>
     </div>
 
     <div class="DarkPurpleBar">
@@ -30,7 +31,6 @@
                 <button class='navbarButton' onclick="window.location.href='/WiredLan/WiredLanTutorial'">Wired
                     LAN</button>
                 <div class="dropdown-content">
-
                     <a href="/WiredLan/WiredLanTutorial">Tutorial</a>
                     <a href="/WiredLan/WiredLanQuiz">Quiz</a>
                     <a href="/WiredLan/WiredLanModelling">Modelling</a>

@@ -11,21 +11,26 @@
     padding-right: 19.5%;
     height: 100%;
 }
+
+
 .PurpleBar {
-      background-color: #753b76;
-      width: 100%;
-      height: 70px;
-
-}
-.NavBar {
-    width: auto;
-    height: 100%;
-    display: flexbox;
-    flex-direction: row;
+    background-color: #753b76;
+    width: 100%;
+    height: 70px;
+    display: flex; /* Use flex to center children */
     align-items: center;
-    justify-content: center;
-    padding-left: 4%;
+    justify-content: center; /* Center children horizontally */
+}
 
+.NavBar {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    overflow:visible;
+    flex-direction: row; /* Align items in a row */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    padding-left: 4%; /* Adjust this if you want padding */
 }
 
 .body {
@@ -34,6 +39,10 @@
       text-align: center;
 }
 
+.modelling {
+    align-items: center;
+    width: 100%;
+}
 .loggedInBody {
     background-color: white;
     display: block;
@@ -254,10 +263,11 @@
 
     position: relative;
     display: inline-block;
-    width:auto;
+
   }
 
   .dropdown-content {
+    font-size: 2vw;
     display: none;
     position: absolute;
     background-color: purple;
