@@ -3,7 +3,6 @@
 use App\Http\Controllers\QuizController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
-
 use Illuminate\Support\Facades\Auth;
 
 Auth::routes(
@@ -21,9 +20,10 @@ Route::get('/', function () {
 Route::get('/Home', function () {
     return view("Home");
 
+})->middleware('auth');
+
     ////////////////////////////////////
     //WiredLan related pages
-})->middleware('verified');
 Route::get("/WiredLan", function () {
     return view("WiredLan.WiredLan");
 });
