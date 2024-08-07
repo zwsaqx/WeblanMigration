@@ -11,20 +11,26 @@
     padding-right: 19.5%;
     height: 100%;
 }
-.PurpleBar {
-      background-color: #753b76;
-      width: 100%;
-      height: 70px;
 
-}
-.NavBar {
+
+.PurpleBar {
+    background-color: #753b76;
     width: 100%;
+    height: 70px;
+    display: flex; /* Use flex to center children */
+    align-items: center;
+    justify-content: center; /* Center children horizontally */
+}
+
+.NavBar {
+    width: 50%;
     height: 100%;
     display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: center;
-
+    overflow:visible;
+    flex-direction: row; /* Align items in a row */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    padding-left: 4%; /* Adjust this if you want padding */
 }
 
 .body {
@@ -33,13 +39,35 @@
       text-align: center;
 }
 
+.modelling {
+    align-items: center;
+    width: 100%;
+}
 .loggedInBody {
-background-color: white;
-display: absolute;
-margin-left: 13%;
-margin-right: 13%;
-margin-top: 3%;
-padding: 2%;
+    background-color: white;
+    display: block;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 3%;
+    padding: 2%;
+    font-family: HeliaCoreMedium, Arial, sans-serif;
+    color: black;
+    text-align: left;
+}
+
+.loggedInBody ul {
+    list-style-position: inside;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.loggedInBody li {
+    text-align: left;
+}
+
+
+.loggedInBody .centered-content {
+    text-align: center;
 }
 
 
@@ -129,6 +157,10 @@ padding: 2%;
       white-space: pre;
       color: white;
 }
+
+.header1{
+    text-align: center;
+}
 .header2{
       font-size: 16px;
       font-family: HeliaCoreMedium, Arial, sans-serif;
@@ -200,32 +232,45 @@ padding: 2%;
 
 
 .navbarButton {
+    padding-left: 20px;
     position: fixed;
-    width: 150px;
+    width: 135px;
     height: 70px;
     text-align: center;
     justify-items: center;
     align-items: center;
 }
 
+.navbarButtonHome {
+    position: fixed;
+    width: 80px;
+    height: 70px;
+    display: flex;
+    padding-right: 20px;
+    padding-left: 10px;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.homebuttontext {
+    padding-left:5%;
+}
 
 .dropdown {
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     justify-items: center;
 
     position: relative;
     display: inline-block;
 
-    padding-left: 1%;
-
   }
 
   .dropdown-content {
+    font-size: 2vw;
     display: none;
     position: absolute;
     background-color: purple;
-    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     width: 20vw;
@@ -278,3 +323,10 @@ background-color: #354146;
     cursor: pointer;
     position: relative;
     }
+
+
+
+.social-icons {
+    padding: 1%;
+    width: auto;
+}
