@@ -15,12 +15,12 @@ Route::get('/', function () {
     //Views are pages that users can visit
     return view('LandingPage'); // this is the name of the view file in folder views
 
-});
+})->name("LandingPage");
 
 Route::get('/Home', function () {
     return view("Home");
 
-})->middleware('auth');
+})->middleware('emailauth');
 
     ////////////////////////////////////
     //WiredLan related pages

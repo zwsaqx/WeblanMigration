@@ -17,9 +17,12 @@ class EmailAuth
      */
     public function handle($request, Closure $next)
     {
-        if (Auth::check()&& is_null(Auth::user()->email_verified_at)) {
-            return redirect()->route('verification.notice');
+        if (!Auth::check() || is_null(Auth::user()->email_verified_at)) {
+            return redirect()->route('LandingPage');
         }
+        // if(!Auth::check()){
+        //     return redirect()->route('LandingPage');
+        // }
 
         return $next($request);
     }
