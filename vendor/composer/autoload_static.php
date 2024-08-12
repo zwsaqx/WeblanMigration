@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit968f73bcf5520ee401d641d0d79555ec
+class ComposerStaticInit743a00fbadd1709e0e1bd6b8bc3abc96
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -547,9 +547,11 @@ class ComposerStaticInit968f73bcf5520ee401d641d0d79555ec
     );
 
     public static $classMap = array (
+        'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\QuizController' => __DIR__ . '/../..' . '/app/Http/Controllers/QuizController.php',
         'App\\Http\\Controllers\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/UserController.php',
+        'App\\Http\\Middleware\\EmailAuth' => __DIR__ . '/../..' . '/app/Http/Middleware/EmailAuth.php',
         'App\\Models\\Answers' => __DIR__ . '/../..' . '/app/Models/Answers.php',
         'App\\Models\\Quiz' => __DIR__ . '/../..' . '/app/Models/Quiz.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
@@ -6691,9 +6693,9 @@ class ComposerStaticInit968f73bcf5520ee401d641d0d79555ec
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit968f73bcf5520ee401d641d0d79555ec::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit968f73bcf5520ee401d641d0d79555ec::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit968f73bcf5520ee401d641d0d79555ec::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit743a00fbadd1709e0e1bd6b8bc3abc96::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit743a00fbadd1709e0e1bd6b8bc3abc96::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit743a00fbadd1709e0e1bd6b8bc3abc96::$classMap;
 
         }, null, ClassLoader::class);
     }
