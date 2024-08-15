@@ -4,6 +4,8 @@ use App\Http\Controllers\QuizController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 
+use App\Http\Controllers\ContentController;
+
 use Illuminate\Support\Facades\Auth;
 
 Auth::routes(
@@ -34,6 +36,19 @@ Route::get("WiredLan/WiredLanTutorial", function () {
 Route::get("WiredLan/WiredLanQuiz", function () {
     return view("WiredLan.WiredLanQuiz");
 });
+
+Route::match(['get', 'post'], '/WiredLan/WiredLanModelling');
+
+
+Route::get('WiredLan/WiredLanModelling/Bus', function () {
+    return view('partials.WiredLanBus');
+});
+
+
+Route::get('/get-bus-content', [ContentController::class, 'getWiredLanBusContent']);
+
+
+
 Route::get("WiredLan/WiredLanModelling", function () {
     return view("WiredLan.WiredLanModelling");
 });
@@ -47,6 +62,8 @@ Route::get("WiredLan/WiredLanKeyTerms", function () {
 Route::get("WiredLan/WiredLanReview", function () {
     return view("WiredLan.WiredLanReview");
 });
+
+
 
 
 ////////////////////////////////////
