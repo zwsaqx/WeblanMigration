@@ -14,9 +14,9 @@ $middleRow = '';
 $bottomRow = '';
 $lanType = '';
 $_SESSION['bus']['type'] = 'bus';
-// $_SESSION['bus']['workstations'] = 11;
-// $_SESSION['bus']['servers'] = 11;
-// $_SESSION['bus']['printers'] = 11;
+$_SESSION['bus']['workstations'] = 4;
+$_SESSION['bus']['servers'] = 3;
+$_SESSION['bus']['printers'] = 2;
 
 if (isset($_SESSION['bus'])) {
     // Define the image paths for the 2 model types
@@ -214,13 +214,13 @@ if (isset($_SESSION['bus'])) {
         window.location.href = sURL;
     }
 </script> --}}
-
+{{--
 <br />
 There are many ways of connecting up a network. To see a different way of<br>
 connecting this network up, press the "F5" button or click <input type="button" value="Refresh" onClick="refresh();">.
 <br /><br />
-Once you have finished viewing the model, click <input type=button value="Close" onClick="javascript:window.close();">
-<br /><br />
+Once you have finished viewing the model, click <input type=button value="Close" onClick="javascript:window.close();"> --}}
+
 <div class="overflow-auto">
     <table border="0" cellspacing="0" cellpadding="0">
         <?php echo "<tr  valign=\"bottom\">\n" . $topRow . "</tr>\n<tr>\n" . $middleRow . "</tr>\n<tr  valign=\"top\">\n" . $bottomRow . "</tr>\n"; ?>

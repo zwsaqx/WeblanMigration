@@ -21,12 +21,16 @@
                     width: 100%;
                     overflow: auto;
                 }
+
+                hr.rounded {
+                    border-top: 3px solid #bbb;
+                }
             </style>
 
 
             <h1 class='header1'>Wired Lan Modelling</h1>
 
-            {{--
+            {{--   my attempt at a niice css look. not needed. just a nice to have if extra time.
             <form method='get' class="form-group row">
                 <label for="nodes" class="col-sm-5 col-form-label text-right">Type</label>
                 <div class="col-sm-3">
@@ -363,7 +367,7 @@
                 </table>
 
             </form>
-
+            <hr class="rounded">
             <div class="contentContainer" id="contentContainer"></div>
 
             {{-- @include('partials.WiredLanBus') --}}

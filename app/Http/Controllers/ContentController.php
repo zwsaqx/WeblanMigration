@@ -10,4 +10,9 @@ class ContentController extends Controller
     {
         return view('partials.WiredLanBus');
     }
+
+    public function getWiredLanStarContent()
+    {
+        return view('partials.WiredLanStar');
+    }
 }
