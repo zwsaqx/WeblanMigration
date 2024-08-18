@@ -8,6 +8,6 @@ class ContentController extends Controller
 {
     public function getWiredLanBusContent()
     {
-        return view('partials.wiredLanBus');
+        return view('partials.WiredLanBus');
     }
 }

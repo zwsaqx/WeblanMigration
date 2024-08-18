@@ -16,6 +16,11 @@
                     justify-content: center;
                     padding-top: 14px;
                 }
+
+                .contentContainer {
+                    width: 100%;
+                    overflow: auto;
+                }
             </style>
 
 
@@ -55,17 +60,15 @@
                   $_SESSION["bus"]["servers"] = (int) $_GET["selServers"];
                   $_SESSION["bus"]["printers"] = (int) $_GET["selPrinters"];
 
-
-                  echo 'zac '. $_GET["selWorkstations"];
                   ?>
 
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-
             <script>
                 $(document).ready(function() {
-                    $('#generateButton').click(function() {
+                    $('#btnGenerate').click(function(event) {
+                        event.preventDefault();
                         $.get('/get-bus-content', function(data) {
                             $('#contentContainer').html(data);
                         });
@@ -351,15 +354,17 @@
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2"><input type="submit" name="btnGenerate" value="Generate Model..."
-                                id="generateButton"></td>
+                        <td colspan="2">
+                            {{-- <input type="sumbit" id="btnGenerate" name="btnGenerate" value="Generate Model..."> --}}
+                            <input type="submit" id="btnGenerate" name="btnGenerate" value="Generate Model...">
+                        </td>
                     </tr>
 
                 </table>
 
             </form>
 
-            <div id="contentContainer"></div>
+            <div class="contentContainer" id="contentContainer"></div>
 
             {{-- @include('partials.WiredLanBus') --}}
 

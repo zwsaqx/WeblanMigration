@@ -13,9 +13,14 @@ $topRow = '';
 $middleRow = '';
 $bottomRow = '';
 $lanType = '';
+$_SESSION['bus']['type'] = 'bus';
+// $_SESSION['bus']['workstations'] = 11;
+// $_SESSION['bus']['servers'] = 11;
+// $_SESSION['bus']['printers'] = 11;
 
 if (isset($_SESSION['bus'])) {
     // Define the image paths for the 2 model types
+
     $workstation = '/Images/Data/client.gif';
     $server = '/Images/Data/server.gif';
     $printer = '/Images/Data/printer.gif';
@@ -203,14 +208,11 @@ if (isset($_SESSION['bus'])) {
 <br />
 
 {{-- <script language="JavaScript">
-    <!--
     var sURL = unescape(window.location.pathname + "?fuseaction=<?php echo $_GET['fuseaction']; ?>");
 
     function refresh() {
         window.location.href = sURL;
     }
-    //
-    -->
 </script> --}}
 
 <br />
@@ -219,6 +221,8 @@ connecting this network up, press the "F5" button or click <input type="button" 
 <br /><br />
 Once you have finished viewing the model, click <input type=button value="Close" onClick="javascript:window.close();">
 <br /><br />
-<table border="0" cellspacing="0" cellpadding="0">
-    <?php echo "<tr  valign=\"bottom\">\n" . $topRow . "</tr>\n<tr>\n" . $middleRow . "</tr>\n<tr  valign=\"top\">\n" . $bottomRow . "</tr>\n"; ?>
-</table>
+<div class="overflow-auto">
+    <table border="0" cellspacing="0" cellpadding="0">
+        <?php echo "<tr  valign=\"bottom\">\n" . $topRow . "</tr>\n<tr>\n" . $middleRow . "</tr>\n<tr  valign=\"top\">\n" . $bottomRow . "</tr>\n"; ?>
+    </table>
+</div>

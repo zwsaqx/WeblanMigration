@@ -179,7 +179,7 @@ if (isset($_SESSION["bus"])) {
     <td width="150">Topology :</td>
     <td width="300" align="left">
 	  <?php if ($lanType == "Bus") {
-	       echo "Physical & Logical Bus";    
+	       echo "Physical & Logical Bus";
 	     }
 		 else {
 		   echo "Physical & Logical Ring";
