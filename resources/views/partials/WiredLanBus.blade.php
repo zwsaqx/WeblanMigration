@@ -1,8 +1,7 @@
 <?php
 // this is the main file...
 
-@session_start();
-
+session_start();
 define('MAX_DEVICES', 56);
 define('WORKSTATIONS', 1);
 define('SERVERS', 2);
@@ -13,10 +12,12 @@ $topRow = '';
 $middleRow = '';
 $bottomRow = '';
 $lanType = '';
-$_SESSION['bus']['type'] = 'bus';
-$_SESSION['bus']['workstations'] = 4;
-$_SESSION['bus']['servers'] = 3;
-$_SESSION['bus']['printers'] = 2;
+
+// forced values for testing
+// $_SESSION['bus']['type'] = 'bus';
+// $_SESSION['bus']['workstations'] = (int) $_GET['selWorkstations'];
+// $_SESSION['bus']['servers'] = (int) $_GET['selServers'];
+// $_SESSION['bus']['printers'] = (int) $_GET['selPrinters'];
 
 if (isset($_SESSION['bus'])) {
     // Define the image paths for the 2 model types
@@ -206,20 +207,6 @@ if (isset($_SESSION['bus'])) {
     </tr>
 </table>
 <br />
-
-{{-- <script language="JavaScript">
-    var sURL = unescape(window.location.pathname + "?fuseaction=<?php echo $_GET['fuseaction']; ?>");
-
-    function refresh() {
-        window.location.href = sURL;
-    }
-</script> --}}
-{{--
-<br />
-There are many ways of connecting up a network. To see a different way of<br>
-connecting this network up, press the "F5" button or click <input type="button" value="Refresh" onClick="refresh();">.
-<br /><br />
-Once you have finished viewing the model, click <input type=button value="Close" onClick="javascript:window.close();"> --}}
 
 <div class="overflow-auto">
     <table border="0" cellspacing="0" cellpadding="0">

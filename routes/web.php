@@ -47,7 +47,7 @@ Route::get('WiredLan/WiredLanModelling/Bus', function () {
 
 Route::get('/get-bus-content', [ContentController::class, 'getWiredLanBusContent']);
 
-Route::get('/get-star-content', [ContentController::class, 'getWiredLanBusContent']);
+Route::get('/get-star-content', [ContentController::class, 'getWiredLanStarContent']);
 
 
 

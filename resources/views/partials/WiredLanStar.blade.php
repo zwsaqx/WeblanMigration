@@ -6,8 +6,7 @@
 
 <?php
 // this is the main file...
-
-@session_start();
+session_start();
 
 define('MAX_DEVICES', 48);
 define('WORKSTATIONS', 1);
@@ -22,12 +21,11 @@ $starType3 = 'none';
 
 $logicalType = '3';
 $type = '';
-echo 'hellooooo';
 // Find out what logical topology the client has selected
 // Check if 'star' key and 'type' key exist in the session before accessing them
+
 if (isset($_SESSION['star']) && isset($_SESSION['star']['type'])) {
     // Find out what logical topology the client has selected
-    echo 'session star exists';
     if ($_SESSION['star']['type'] == 'star') {
         // Logical Star
         $type = 'star';
@@ -48,9 +46,10 @@ for ($i = 0; $i < MAX_DEVICES; $i++) {
 
 if (isset($_SESSION['star'])) {
     // Define the image paths
-    $workstation = './images/client.gif';
-    $server = './images/server.gif';
-    $printer = './images/printer.gif';
+
+    $workstation = '/Images/Data/client.gif';
+    $server = '/Images/Data/server.gif';
+    $printer = '/Images/Data/printer.gif';
     $devices = null;
     // Count the number of network devices
     if ($_SESSION['star']['workstations'] > 0) {
@@ -98,18 +97,18 @@ if (isset($_SESSION['star'])) {
     // Figure out what star layout is needed
     if ($totalDevices <= 16) {
         // Use 1 star
-        $starType1 = "<img src=\"./images/$type$totalDevices.gif\">";
+        $starType1 = "<img src=\"/Images/Data/$type$totalDevices.gif\">";
     } elseif ($totalDevices <= 30) {
         // Use mesh... aka 2 stars
-        $starType1 = "<img src=\"./images/" . $type . "16.gif\">";
+        $starType1 = "<img src=\"/Images/Data/" . $type . "16.gif\">";
         $secondStarConnCount = $totalDevices - 16 + 2;
-        $starType2 = "<img src=\"./images/$type$secondStarConnCount.gif\">";
+        $starType2 = "<img src=\"/Images/Data/$type$secondStarConnCount.gif\">";
     } else {
         // Use suppa 3 stars
-        $starType1 = "<img src=\"./images/" . $type . "16.gif\">";
-        $starType2 = "<img src=\"./images/" . $type . "16.gif\">";
+        $starType1 = "<img src=\"/Images/Data/" . $type . "16.gif\">";
+        $starType2 = "<img src=\"/Images/Data/" . $type . "16.gif\">";
         $thirdStarConnCount = $totalDevices - 30 + 2;
-        $starType3 = "<img src=\"./images/$type$thirdStarConnCount.gif\">";
+        $starType3 = "<img src=\"/Images/Data/$type$thirdStarConnCount.gif\">";
     }
 }
 ?>
@@ -150,14 +149,14 @@ if (isset($_SESSION['star'])) {
 </table>
 <br />
 <script language="JavaScript">
-    <!--
-    var sURL = unescape(window.location.pathname + "?fuseaction=<?php echo isset($_GET['fuseaction']) ? $_GET['fuseaction'] : 'error'; ?>");
+    // <!--
+    // var sURL = unescape(window.location.pathname + "?fuseaction=<?php echo isset($_GET['fuseaction']) ? $_GET['fuseaction'] : 'error'; ?>");
 
-    function refresh() {
-        window.location.href = sURL;
-    }
-    //
-    -->
+    // function refresh() {
+    //     window.location.href = sURL;
+    // }
+    // //
+    // -->
 </script>
 There are many ways of connecting up a network. To see a different way of<br>
 connecting this network up, press the "F5" button or click <input type="button" value="Refresh" onClick="refresh();">.
@@ -223,9 +222,9 @@ Once you have finished viewing the model, click <input type=button value="Close"
 
     <tr valign="top">
         <td width="60"><?php echo $deviceLayout[13]; ?></td>
-        <td width="60 "rowspan="2"><?php echo "<img src=\"./images/line.gif\"><br>
-                                                                                                                                                                                                                                                                                                                                    				   <img src=\"./images/line.gif\"><br>
-                                                                                                                                                                                                                                                                                                                                    				   <img src=\"./images/line.gif\">"; ?></td>
+        <td width="60 "rowspan="2"><?php echo "<img src=\"/Images/Data/line.gif\"><br>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    				   <img src=\"/Images/Data/line.gif\"><br>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    				   <img src=\"/Images/Data/line.gif\">"; ?></td>
         <td width="60"><?php echo $deviceLayout[11]; ?></td>
         <td width="60"><?php echo $deviceLayout[7]; ?></td>
         <td width="60"><?php echo $deviceLayout[5]; ?></td>
@@ -285,7 +284,7 @@ Once you have finished viewing the model, click <input type=button value="Close"
 
     <tr valign="top">
         <td width="60"><?php echo $deviceLayout[13]; ?></td>
-        <td width="60 "rowspan="2"><?php echo "<img src=\"./images/line.gif\"><br> <img src=\"./images/line.gif\"><br><img src=\"./images/line.gif\">"; ?></td>
+        <td width="60 "rowspan="2"><?php echo "<img src=\"/Images/Data/line.gif\"><br> <img src=\"/Images/Data/line.gif\"><br><img src=\"/Images/Data/line.gif\">"; ?></td>
         <td width="60"><?php echo $deviceLayout[11]; ?></td>
         <td width="60"><?php echo $deviceLayout[7]; ?></td>
         <td width="60"><?php echo $deviceLayout[5]; ?></td>
@@ -310,7 +309,7 @@ Once you have finished viewing the model, click <input type=button value="Close"
 
     <tr valign="top">
         <td width="60"><?php echo $deviceLayout[26]; ?></td>
-        <td width="60 "rowspan="2"><?php echo "<img src=\"./images/line.gif\"><br> <img src=\"./images/line.gif\"><br> <img src=\"./images/line.gif\">"; ?></td>
+        <td width="60 "rowspan="2"><?php echo "<img src=\"/Images/Data/line.gif\"><br> <img src=\"/Images/Data/line.gif\"><br> <img src=\"/Images/Data/line.gif\">"; ?></td>
         <td width="60"><?php echo $deviceLayout[24]; ?></td>
         <td width="60"><?php echo $deviceLayout[20]; ?></td>
         <td width="60"><?php echo $deviceLayout[18]; ?></td>
@@ -345,5 +344,5 @@ Once you have finished viewing the model, click <input type=button value="Close"
     </tr>
 </table>
 <?php
-    }
-  ?>
+}
+?>

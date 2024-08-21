@@ -48,9 +48,10 @@
 
             <?php
             // this is the main file...
-
+            session_start();
             if (isset($_GET["btnGenerate"])) {
-              // do generate stuff
+              // do generation
+
               switch($_GET["selTopology"]) {
                 case "1":
                 case "2":
@@ -64,6 +65,7 @@
                   $_SESSION["bus"]["servers"] = (int) $_GET["selServers"];
                   $_SESSION["bus"]["printers"] = (int) $_GET["selPrinters"];
 
+
                   ?>
 
 
@@ -71,12 +73,10 @@
 
             <script>
                 $(document).ready(function() {
-                    $('#btnGenerate').click(function(event) {
-                        event.preventDefault();
-                        $.get('/get-bus-content', function(data) {
-                            $('#contentContainer').html(data);
-                        });
+                    $.get('/get-bus-content', function(data) {
+                        $('#contentContainer').html(data);
                     });
+
                 });
             </script>
 
@@ -85,17 +85,24 @@
             <?php
                   break;
                 case "3":
-                echo ' STAR TYPEEEE';
+
+                // session_start();
                   // This is a logical star
                   $_SESSION["star"]["type"] = "star";
                   $_SESSION["star"]["workstations"] = (int) $_GET["selWorkstations"];
                   $_SESSION["star"]["servers"] = (int) $_GET["selServers"];
                   $_SESSION["star"]["printers"] = (int) $_GET["selPrinters"];
+
                   ?>
-            <script language="JavaScript">
-                <!--
-                popUp("?fuseaction=<?php echo $XFA['wiredStarModel']; ?>");
-                -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+            <script>
+                $(document).ready(function() {
+                    $.get('/get-star-content', function(data) {
+                        $('#contentContainer').html(data);
+                    });
+
+                });
             </script>
             <?php
                   break;
@@ -106,10 +113,15 @@
                   $_SESSION["star"]["servers"] = (int) $_GET["selServers"];
                   $_SESSION["star"]["printers"] = (int) $_GET["selPrinters"];
                   ?>
-            <script language="JavaScript">
-                <!--
-                popUp("?fuseaction=<?php echo $XFA['wiredStarModel']; ?>");
-                -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+            <script>
+                $(document).ready(function() {
+                    $.get('/get-star-content', function(data) {
+                        $('#contentContainer').html(data);
+                    });
+
+                });
             </script>
             <?php
                   break;
@@ -120,10 +132,15 @@
                   $_SESSION["star"]["servers"] = (int) $_GET["selServers"];
                   $_SESSION["star"]["printers"] = (int) $_GET["selPrinters"];
                   ?>
-            <script language="JavaScript">
-                <!--
-                popUp("?fuseaction=<?php echo $XFA['wiredStarModel']; ?>");
-                -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+            <script>
+                $(document).ready(function() {
+                    $.get('/get-star-content', function(data) {
+                        $('#contentContainer').html(data);
+                    });
+
+                });
             </script>
             <?php
                   break;
