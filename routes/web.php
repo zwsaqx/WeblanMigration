@@ -4,6 +4,7 @@ use App\Http\Controllers\QuizController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\WirelesslanController;
 
 Auth::routes(
     [
@@ -21,6 +22,24 @@ Route::get('/Home', function () {
     return view("Home");
 
 })->middleware('emailauth');
+
+
+
+
+
+Route::get('/wireless-access-point-model', [WirelesslanController::class, 'showAccessPointModel'])
+->name('wireless.access.point.model');
+
+
+
+Route::post('/generate-model', [WirelesslanController::class, 'generateModel'])
+->name('generate.model');
+
+Route::get('/wireless-ad-hoc-model', [WirelesslanController::class, 'showAdHocModel'])->
+name('wireless.ad.hoc.model');
+
+
+
 
     ////////////////////////////////////
     //WiredLan related pages
