@@ -45,6 +45,11 @@
                 {{ session('error') }}
             </div>
         @endif
+        @if(session('msg'))
+        <div>
+            {{session('msg')}}
+        </div>
+        @endif
     </div>
 
 </body>

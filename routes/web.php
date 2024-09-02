@@ -7,6 +7,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\ContentController;
 
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\WirelesslanController;
 
 Auth::routes(
     [
@@ -18,14 +19,33 @@ Route::get('/', function () {
     //Views are pages that users can visit
     return view('LandingPage'); // this is the name of the view file in folder views
 
-});
+})->name("LandingPage");
 
 Route::get('/Home', function () {
     return view("Home");
 
-    ////////////////////////////////////
-    //WiredLan related pages
-})->middleware('verified');
+})->middleware('emailauth');
+
+
+
+
+
+Route::get('/wireless-access-point-model', [WirelesslanController::class, 'showAccessPointModel'])
+    ->name('wireless.access.point.model');
+
+
+
+Route::post('/generate-model', [WirelesslanController::class, 'generateModel'])
+    ->name('generate.model');
+
+Route::get('/wireless-ad-hoc-model', [WirelesslanController::class, 'showAdHocModel'])->
+    name('wireless.ad.hoc.model');
+
+
+
+
+////////////////////////////////////
+//WiredLan related pages
 Route::get("/WiredLan", function () {
     return view("WiredLan.WiredLan");
 });

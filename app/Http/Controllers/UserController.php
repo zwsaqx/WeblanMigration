@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
-
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
+use Illuminate\Auth\Events\Registered;
+
 
 class UserController extends Controller
 {
@@ -20,7 +21,8 @@ class UserController extends Controller
         $incomingFields['password'] = bcrypt($incomingFields['password']);
         $user = User::create($incomingFields);
         auth()->login($user);
-        return redirect('/Home');
+        event(new Registered($user));
+        return redirect()->back()->with('msg', "A verification email was sent to you");
     }
 
     public function login(Request $request)
