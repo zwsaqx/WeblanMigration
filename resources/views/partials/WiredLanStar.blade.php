@@ -1,8 +1,6 @@
 {{-- /////////////////// wired lan STAR modelling ////////////////////////// --}}
 
-<form method="GET">
-    <input type="submit" name="set_star_topology" value="Set Star Topology">
-</form>
+
 
 <?php
 // this is the main file...
@@ -158,11 +156,6 @@ if (isset($_SESSION['star'])) {
     // //
     // -->
 </script>
-There are many ways of connecting up a network. To see a different way of<br>
-connecting this network up, press the "F5" button or click <input type="button" value="Refresh" onClick="refresh();">.
-<br /><br />
-Once you have finished viewing the model, click <input type=button value="Close" onClick="javascript:window.close();">
-<br /><br />
 
 <?php
     if ($totalDevices <=16) {
@@ -223,8 +216,8 @@ Once you have finished viewing the model, click <input type=button value="Close"
     <tr valign="top">
         <td width="60"><?php echo $deviceLayout[13]; ?></td>
         <td width="60 "rowspan="2"><?php echo "<img src=\"/Images/Data/line.gif\"><br>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                    				   <img src=\"/Images/Data/line.gif\"><br>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                    				   <img src=\"/Images/Data/line.gif\">"; ?></td>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    				   <img src=\"/Images/Data/line.gif\"><br>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    				   <img src=\"/Images/Data/line.gif\">"; ?></td>
         <td width="60"><?php echo $deviceLayout[11]; ?></td>
         <td width="60"><?php echo $deviceLayout[7]; ?></td>
         <td width="60"><?php echo $deviceLayout[5]; ?></td>
