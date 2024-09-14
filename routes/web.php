@@ -27,13 +27,8 @@ Route::get('/Home', function () {
 })->middleware('emailauth');
 
 
-
-
-
 Route::get('/wireless-access-point-model', [WirelesslanController::class, 'showAccessPointModel'])
     ->name('wireless.access.point.model');
-
-
 
 Route::post('/generate-model', [WirelesslanController::class, 'generateModel'])
     ->name('generate.model');
@@ -41,7 +36,12 @@ Route::post('/generate-model', [WirelesslanController::class, 'generateModel'])
 Route::get('/wireless-ad-hoc-model', [WirelesslanController::class, 'showAdHocModel'])->
     name('wireless.ad.hoc.model');
 
+// datalink
 
+
+Route::get("/DataLink/DataLinkModelling", function () {
+    return view("DataLink.DataLinkModelling");
+})->name('dataModelling');
 
 
 ////////////////////////////////////
@@ -139,6 +139,8 @@ Route::get("/TCPIP/TCPIPReview", function () {
     return view("TCPIP.TCPIPReview");
 });
 
+Route::get('/downloads/Network_Simulator_C.jar', [FileController::class, 'downloadJar'])->name('downloadJar');
+
 
 ////////////////////////////////////
 // Bluetooth related pages
@@ -179,6 +181,9 @@ Route::get("/DataLink/DataLinkQuiz", function () {
 Route::get("/DataLink/DataLinkModelling", function () {
     return view("DataLink.DataLinkModelling");
 });
+Route::get("/DataLink/DataLinkModelling2", function () {
+    return view("DataLink.DataLinkModelling2");
+});
 Route::get("/DataLink/DataLinkScenarios", function () {
     return view("DataLink.DataLinkScenarios");
 });
@@ -188,6 +193,9 @@ Route::get("/DataLink/DataLinkKeyTerms", function () {
 Route::get("/DataLink/DataLinkReview", function () {
     return view("DataLink.DataLinkReview");
 });
+
+
+
 
 //Other pages
 Route::get("/Feedback", function () {

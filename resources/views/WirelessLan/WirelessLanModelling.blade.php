@@ -9,7 +9,7 @@
 
             @extends('layouts.app')
 
-            <div class="darkBlueTextJumbo" align="center">Wireless LAN Modelling</div>
+            <h1 class='header1'>Wireless LAN Modelling</h1>
             <br />
             <form id="wirelessLanForm" action="{{ route('generate.model') }}" method="post">
                 @csrf
