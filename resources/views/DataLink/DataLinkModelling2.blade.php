@@ -7,26 +7,28 @@
         <div class='loggedInBody'>
             <h1 class='header1'>Data Link Protocol Modelling</h1>
             <br />
-            <div class="redText">Animation-based Models</div>
+            <div class='header1'>Animation-based Models</div>
             <br />
-            <br />
+            <div style="text-align: center; margin: 0 auto; width: fit-content;">
+                <a href="/DataLink/DataLinkModelling">[Model 1]</a>
+                <a href="/DataLink/DataLinkModelling2">[Model 2]</a><br />
+            </div>
 
-            <a href="/DataLink/DataLinkModelling">[Model 1]</a>
-            <a href="/DataLink/DataLinkModelling2">[Model 2]</a><br />
-
-            {{-- <a href="index.php?fuseaction=<?php echo $XFA['dataModelling']; ?>">[Model 1]</a>
-            <a href="index.php?fuseaction=<?php echo $XFA['dataModel2']; ?>">[Model 2]</a></a><br /> --}}
+            {{-- <a href="index.php?fuseaction=<?php echo $XFA['dataModelling']; ?>">[Model 1]</a> <a
+            href="index.php?fuseaction=<?php echo $XFA['dataModel2']; ?>">[Model 2]</a></a><br /> --}}
 
             <br />
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
-                    <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Model1"></a>Model 2: Data travelling from host-to-host
-                                on different subnets</span> <br />
-                            <br />
-                            In this model, PC1 is sending packets to PC3, PC4, Laptop 1 and Laptop 2.
-                            PC1 is the &ldquo;source host&rdquo;, PC3, PC4, Laptop 1 and Laptop 2 are the &ldquo;destination
-                            hosts&rdquo;.
+                    <td> <span class="title">
+                            <div style="text-align: center; margin: 0 auto; width: fit-content;">Model 2: Data travelling
+                                from host-to-host
+                                on different subnets</div>
+                        </span> <br />
+                        <br />
+                        In this model, PC1 is sending packets to PC3, PC4, Laptop 1 and Laptop 2.
+                        PC1 is the &ldquo;source host&rdquo;, PC3, PC4, Laptop 1 and Laptop 2 are the &ldquo;destination
+                        hosts&rdquo;.
 
                         <p>As the packet travels from source host to destination hosts, it will cross devices using various
                             protocol types. The Data Link Layer not only performs the initial encapsulation of the frames,
@@ -174,7 +176,9 @@
                 </tr>
             </table>
             <br>
+        </div>
     </body>
+
     @include('partials.footer')
 @else
     <meta http-equiv="refresh" content="0; URL=/">

@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 @auth
+    <script type="text/javascript" charset="utf-8" src="https://animate.adobe.com/runtime/5.0.1/edge.5.0.1.min.js"></script>
+
     @include('partials.header')
 
     <body class="body">
         <div class='loggedInBody'>
             <h1 class='header1'>Data Link Protocol Modelling</h1>
             <br />
-            <div class="redText">Animation-based Models</div>
+            <div class='header1'>Animation-based Models</div>
             <br />
-            <br />
-
-            <a href="/DataLink/DataLinkModelling">[Model 1]</a>
-            <a href="/DataLink/DataLinkModelling2">[Model 2]</a><br />
-
+            <div style="text-align: center; margin: 0 auto; width: fit-content;">
+                <a href="/DataLink/DataLinkModelling">[Model 1]</a>
+                <a href="/DataLink/DataLinkModelling2">[Model 2]</a><br />
+            </div>
 
             {{-- <a href="index.php?fuseaction=<?php echo $XFA['dataModelling']; ?>">[Model 1]</a> <a
                 href="index.php?fuseaction=<?php echo $XFA['dataModel2']; ?>">[Model 2]</a></a><br /> --}}
@@ -21,9 +22,12 @@
             <br />
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
-                    <td> <span class="title"><a name="Model1"></a>Model 1: Data travelling from host-to-host on
-                            the same subnet</span> <br />
-                        <br />
+                    <td> <span class="title">
+                            <div style="text-align: center; margin: 0 auto; width: fit-content;">Model 1: Data travelling
+                                from host-to-host on
+                                the same subnet</div>
+                        </span> <br />
+
                         <p>In this scenario, PC1 is connected to PC2 and PC3 via a switch. <br>
                             PC1 is the &ldquo;source host&rdquo;, where as PC2 and PC3 are the &ldquo;destination
                             hosts&rdquo;.</p>
@@ -41,26 +45,45 @@
                         <br />
                         <!--Adobe Edge Runtime-->
                         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-                        <script type="text/javascript" charset="utf-8" src="http://animate.adobe.com/runtime/5.0.1/edge.5.0.1.min.js"></script>
-                        <style>
-                            .edgeLoad-EDGE-15569127 {
-                                visibility: hidden;
-                            }
-                        </style>
-                        <script>
-                            AdobeEdge.loadComposition('DataModel1', 'EDGE-15569127', {
-                                scaleToFit: "none",
-                                centerStage: "none",
-                                minW: "0",
-                                maxW: "undefined",
-                                width: "650px",
-                                height: "450px"
-                            }, {
-                                "dom": {}
-                            }, {
-                                "dom": {}
+                        <script type="text/javascript">
+                            document.addEventListener('DOMContentLoaded', function() {
+                                try {
+                                    var script = document.createElement('script');
+                                    script.type = 'text/javascript';
+                                    script.src = "{{ asset('DataModel1_edge.js') }}";
+                                    script.onload = function() {
+                                        try {
+                                            AdobeEdge.loadComposition('DataModel1', 'EDGE-15569127', {
+                                                scaleToFit: "none",
+                                                centerStage: "both",
+                                                minW: "0",
+                                                maxW: "undefined",
+                                                width: "650px",
+                                                height: "450px"
+                                            }, {
+                                                "dom": {}
+                                            }, {
+                                                "dom": {}
+                                            });
+                                        } catch (e) {
+                                            console.error('Adobe Edge composition initialization error:', e);
+                                        }
+                                    };
+                                    script.onerror = function(e) {
+                                        console.error('Error loading script:', e.message);
+                                    };
+                                    document.head.appendChild(script);
+                                } catch (e) {
+                                    console.error('Script setup error:', e);
+                                }
                             });
                         </script>
+                        <style>
+                            .edgeLoad-EDGE-15569127 {
+                                visibility: visible;
+                                /* Ensure the composition is visible */
+                            }
+                        </style>
                         <!--Adobe Edge Runtime End-->
                         <div id="Stage" class="EDGE-15569127">
                         </div>
