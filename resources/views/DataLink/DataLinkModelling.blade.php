@@ -2,8 +2,14 @@
 <html lang="en">
 @auth
     <script type="text/javascript" charset="utf-8" src="https://animate.adobe.com/runtime/5.0.1/edge.5.0.1.min.js"></script>
+    <style>
+        .edgeLoad-EDGE-15569127 {
+            visibility: visible;
 
+        }
+    </style>
     @include('partials.header')
+
 
     <body class="body">
         <div class='loggedInBody'>
@@ -53,6 +59,7 @@
                                     script.src = "{{ asset('DataModel1_edge.js') }}";
                                     script.onload = function() {
                                         try {
+                                            console.log('hellooo');
                                             AdobeEdge.loadComposition('DataModel1', 'EDGE-15569127', {
                                                 scaleToFit: "none",
                                                 centerStage: "both",
@@ -78,12 +85,7 @@
                                 }
                             });
                         </script>
-                        <style>
-                            .edgeLoad-EDGE-15569127 {
-                                visibility: visible;
-                                /* Ensure the composition is visible */
-                            }
-                        </style>
+
                         <!--Adobe Edge Runtime End-->
                         <div id="Stage" class="EDGE-15569127">
                         </div>

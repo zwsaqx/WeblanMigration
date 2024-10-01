@@ -36,26 +36,46 @@
                             media from one device to another.<br />
                             <!--Adobe Edge Runtime-->
                             <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-                            <script type="text/javascript" charset="utf-8" src="http://animate.adobe.com/runtime/5.0.1/edge.5.0.1.min.js"></script>
-                            <style>
-                                .edgeLoad-EDGE-5752837 {
-                                    visibility: hidden;
-                                }
-                            </style>
-                            <script>
-                                AdobeEdge.loadComposition('DataModel2', 'EDGE-5752837', {
-                                    scaleToFit: "none",
-                                    centerStage: "none",
-                                    minW: "0",
-                                    maxW: "undefined",
-                                    width: "850px",
-                                    height: "550px"
-                                }, {
-                                    "dom": {}
-                                }, {
-                                    "dom": {}
+                            <script type="text/javascript" charset="utf-8" src="https://animate.adobe.com/runtime/5.0.1/edge.5.0.1.min.js"></script>
+                            <script type="text/javascript">
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    try {
+                                        var script = document.createElement('script');
+                                        script.type = 'text/javascript';
+                                        script.src = "{{ asset('DataModel2_edge.js') }}";
+                                        script.onload = function() {
+                                            try {
+                                                console.log('call datamodel2')
+                                                AdobeEdge.loadComposition('DataModel2', 'EDGE-5752837', {
+                                                    scaleToFit: "none",
+                                                    centerStage: "none",
+                                                    minW: "0",
+                                                    maxW: "undefined",
+                                                    width: "850px",
+                                                    height: "550px"
+                                                }, {
+                                                    "dom": {}
+                                                }, {
+                                                    "dom": {}
+                                                });
+                                            } catch (e) {
+                                                console.error('Adobe Edge composition initialization error:', e);
+                                            }
+                                        };
+                                        script.onerror = function(e) {
+                                            console.error('Error loading script:', e.message);
+                                        };
+                                        document.head.appendChild(script);
+                                    } catch (e) {
+                                        console.error('Script setup error:', e);
+                                    }
                                 });
                             </script>
+                            <style>
+                                .edgeLoad-EDGE-5752837 {
+                                    visibility: visible;
+                                }
+                            </style>
                             <!--Adobe Edge Runtime End-->
                         <div id="Stage" class="EDGE-5752837">
                         </div>
