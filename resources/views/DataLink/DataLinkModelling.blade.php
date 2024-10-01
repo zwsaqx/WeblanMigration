@@ -51,6 +51,17 @@
                         <br />
                         <!--Adobe Edge Runtime-->
                         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+                        {{-- <script type="text/javascript" charset="utf-8" src="{{ asset('edge.5.0.1.min.js') }}"></script> --}}
+                        <script>
+                            if (typeof AdobeEdge !== 'undefined') {
+                                console.log('Adobe Edge Animate is initialized.');
+                            } else {
+                                console.error('Adobe Edge Animate failed to load.');
+                            }
+                        </script>
+
+                        {{-- <script type="text/javascript" charset="utf-8" src="DataModel1_edge.js"></script> --}}
+
                         <script type="text/javascript">
                             document.addEventListener('DOMContentLoaded', function() {
                                 try {
