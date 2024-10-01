@@ -54,7 +54,7 @@
                             will
                             be set up. </P>
                         <P><span class="redText">Answer: </span><img src="{{ asset('Images/Wired/scenario1_wired.gif') }}"
-                                alt=""> width="600" height="500" align="top"></P>
+                                alt=""></P>
                         <br />
                         <a href="#Top">[To Top]</a>
                     </td>
@@ -95,7 +95,7 @@
                                 connection. </li>
                         </ul>
                         <P><span class="redText">Answer: </span><img src="{{ asset('Images/Wired/scenario2_wired.jpg') }}"
-                                alt=""> align="top" width="600" height="500"></P>
+                                alt=""> </P>
                         <br />
                         <a href="#Top">[To Top]</a>
                     </td>
