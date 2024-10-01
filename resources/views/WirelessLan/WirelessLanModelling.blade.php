@@ -59,8 +59,10 @@
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2"><input type="submit" name="btnGenerate" value="Generate Model..."></td>
+                        <td colspan="2"><input type="submit" name="btnGenerate" value="Generate Model..."
+                                class="button2"></td>
                     </tr>
+                    <tr></tr>
                     <tr>
                         <td colspan="2">The model will open in a new window, please enable JavaScript popup for this
                             site.</td>

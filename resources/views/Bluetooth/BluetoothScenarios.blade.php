@@ -20,10 +20,11 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText"
                 dwcopytype="CopyTableRow">
                 <tr>
-                    <td><span class="darkBlueTextJumbo"><a name="Scenario1"></a>Scenario 1: Connect multiple wireless
-                            devices
-                            without
-                            interfering with each other.</span><br />
+                    <td><span class="darkBlueTextJumbo"><a name="Scenario1"></a><strong>Scenario 1: Connect multiple
+                                wireless
+                                devices
+                                without
+                                interfering with each other.</strong></span><br />
                         You are listening to music from your laptop using wireless headphones and also typing on the
                         computer
                         using a
@@ -44,9 +45,10 @@
                 dwcopytype="CopyTableRow">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Scenario2"></a>Scenario 2: Detecing Covid-19 close
-                                contact
-                                using Bluetooth tracing.</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Scenario2"></a><strong>Scenario 2: Detecing Covid-19
+                                    close
+                                    contact
+                                    using Bluetooth tracing.</strong></span><br />
                             Covid-19 Trace Application which is used for keeping a track record of every person
                             in the country moving around during the pandemic. An option called Bluetooth tracing
                             which can be turned on in the application, helps in creating an anonymised record of nearby
@@ -78,9 +80,10 @@
                 dwcopytype="CopyTableRow">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Scenario3"></a>Scenario 3: Tranfering files wireless
-                                using
-                                Bluetooth</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Scenario3"></a><strong>Scenario 3: Tranfering files
+                                    wireless
+                                    using
+                                    Bluetooth</strong></span><br />
                             We are all know that we can tranfer files between smartphones using Bluetooth. However,
                             we can also tranfering
                             files between a smartphones and an Bluetooth enabled PC. This also apply to a two Bluetooth
@@ -114,8 +117,8 @@
                 dwcopytype="CopyTableRow">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Scenario4"></a>Scenario 4: Light control using
-                                Bluetooh</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Scenario4"></a><strong>Scenario 4: Light control using
+                                    Bluetooh</strong></span><br />
                             Using Bluetooth for light control have a lot of benefits instead of using wired for
                             lightning operations such as:
 
@@ -153,7 +156,7 @@
             <table width="102%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Exercise1"></a>Exercise 1</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Exercise1"></a><strong>Exercise 1</strong></span><br />
                             Base on Scenario 2 try to make a simple digram about two Bluetooh device communicate with
                             each
                             other
@@ -168,7 +171,7 @@
             <table width="102%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Exercise2"></a>Exercise 2</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Exercise2"></a><strong>Exercise 2</strong> </span><br />
                             Base on Scenario 4, Draw your own diagram about Smart control using Bluetooth. For example:
                             <br />
                             <br />

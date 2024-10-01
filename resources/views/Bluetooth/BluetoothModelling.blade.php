@@ -378,7 +378,8 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <input type="button" id="btnGenerate" name="btnGenerate" value="Generate Model...">
+                    <input type="button" id="btnGenerate" name="btnGenerate" class="button2"
+                        value="Generate Model...">
                 </div>
 
 
@@ -581,9 +582,10 @@
                 </div>
                 <div id="grp" class="d-none">
                     <section class="my-5 text-center">
-                        <input type="button" name="btnPlay" id="btnPlay" value="Play">
-                        <input type="button" name="btnPauseOrResume" id="btnPauseOrResume" value="Pause/Resume">
-                        <input type="button" name="btnStop" id="btnStop" value="Stop">
+                        <input type="button" name="btnPlay" id="btnPlay" value="Play" class="button2">
+                        <input type="button" name="btnPauseOrResume" id="btnPauseOrResume"
+                            value="Pause/Resume"class="button2">
+                        <input type="button" name="btnStop" id="btnStop" value="Stop" class="button2">
                     </section>
                     <div class="row">
                         <div class="col-3 col-form-label" style="color:Red">No of Scatternet</div>

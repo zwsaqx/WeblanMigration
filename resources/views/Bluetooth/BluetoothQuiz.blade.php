@@ -3,11 +3,12 @@
 <script type="text/javascript" src="{{ URL::asset('js/Quiz.js') }}"></script>
 
 {{-- <script> src="{{asset('js/Quiz.js')}}"</script> --}}
+
 <head>
     {{-- <script type="text/javascript" src="{{ URL::asset('js/Quiz.js') }}"></script> --}}
 </head>
 
-    
+
 @auth
     @include('partials.header')
 
@@ -33,7 +34,7 @@
                     </div>
                     <br>
                 @endforeach
-                <input type="submit" value="SubmitQuiz" id="submitBtn" disabled>
+                <input type="submit" value="Submit Quiz" class="button2" id="submitBtn" disabled>
             </form>
 
         </div>

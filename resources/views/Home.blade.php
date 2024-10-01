@@ -29,7 +29,7 @@
                 The Auckland University of Technology, School of Engineering, Computer and Mathematical Sciences hosts
                 the WebLan-Designer at <a href="http://weblandesigner.aut.ac.nz">http://weblandesigner.aut.ac.nz</a>
             </p>
-            <p>Last updated: May 2024.<br />
+            <p>Last updated: October 2024.<br />
                 Version 5.0</p>
 
             <p>For further information or enquiries please contact at <a

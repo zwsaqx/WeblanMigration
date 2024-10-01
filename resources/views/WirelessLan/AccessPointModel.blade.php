@@ -41,10 +41,10 @@
                 }
             </script>
             There are many ways of connecting up a network. To see a different way of<br>
-            connecting this network up, press the "F5" button or click <input type="button" value="Refresh"
+            connecting this network up, press the "F5" button or click <input type="button" value="Refresh" class="button2"
                 onClick="refresh();">.
             <br /><br />
-            Once you have finished viewing the model, click <input type="button" value="Close"
+            Once you have finished viewing the model, click <input type="button" value="close" class="button2"
                 onClick="javascript:window.close();">
             <br /><br />
             <table width="747" border="0" cellspacing="0" cellpadding="0">

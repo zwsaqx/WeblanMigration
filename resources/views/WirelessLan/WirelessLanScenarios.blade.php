@@ -23,7 +23,7 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText"
                 dwcopytype="CopyTableRow">
                 <tr>
-                    <td><span class="darkBlueTextJumbo"><a name="Scenario1"></a>Scenario 1</span><br />
+                    <td><span class="darkBlueTextJumbo"><a name="Scenario1"></a><strong>Scenario 1</strong></span><br />
                         &#8221;Real Houses&#8221; is real estate agency with a small office in Auckland.
                         They have two computers (one on each of the two rooms of the office). The
                         computers are connected to the Internet via an ADSL connection. One of the
@@ -49,7 +49,7 @@
                 dwcopytype="CopyTableRow">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Scenario2"></a>Scenario 2</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Scenario2"></a><strong>Scenario 2</strong></span><br />
                             The International University of Technology (IUT) has decided to offer
                             visitors access to some of the services offered with the Intranet, provided
                             that the visitor has a valid authentication code. Once I visitor is allocated
@@ -62,11 +62,11 @@
                             Visitors room is set up and how the visitor connects to the IUT network.
                         </p>
                         <P><span class="redText">Answer: </span>
-                            <img
-                                src="{{ asset('Images/Wireless/scenario2_wireless.gif') }}</P>
+                            <img src="{{ asset('Images/Wireless/scenario2_wireless.gif') }}">
+                        </P>
 
-	 <br />
-      <a href="#Top">[To
+                        <br />
+                        <a href="#Top">[To
                             Top]</a>
                     </td>
                     </td>
@@ -77,7 +77,7 @@
                 dwcopytype="CopyTableRow">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Scenario3"></a>Scenario 3</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Scenario3"></a><strong>Scenario 3</strong></span><br />
                             Pizza House wants to attract more customers to its pizza parlour in King
                             Street, and has decided to offer a Hotspot Internet Coupon (Hroup) with
                             every pizza ordered on the spot. One Hroup gives 30 minutes free Internet
@@ -107,7 +107,7 @@
                 dwcopytype="CopyTableRow">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Scenario4"></a>Scenario 4</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Scenario4"></a><strong>Scenario 4</strong></span><br />
                             &#8221;Pacific Couriers&#8221; is an international company with many offices
                             in South-East Asia. Most offices are located on islands with no telecommunication
                             coverage.<br>
@@ -139,7 +139,7 @@
             <table width="102%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Exercise1"></a>Exercise 1</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Exercise1"></a><strong>Exercise 1</strong></span><br />
                             The International University of Technology (IUT) university with some
                             10000 students, has recently introduced the Course planner- a Web based
                             course planning tool to help students plan their course of studies. <br />
@@ -184,7 +184,7 @@
             <table width="102%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Exercise2"></a>Exercise 2</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Exercise2"></a><strong>Exercise 2</strong></span><br />
                             The International University of technology (IUT) university has set up
                             a new campus in Lingolonga Bay. <br>
                             There are three classrooms and 5 offices there. Each classroom can accommodate

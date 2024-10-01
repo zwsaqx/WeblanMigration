@@ -28,7 +28,7 @@
                 </ul>
 
                 <!-- Redo Quiz Button -->
-                <button onclick="window.history.back()">Retake the Quiz</button>
+                <button onclick="window.history.back()" class="button2">Retake the Quiz</button>
             </div>
         </div>
     </body>

@@ -7,6 +7,7 @@
     <body class="body">
         <div class='loggedInBody'>
 
+            @extends('layouts.app')
             <link rel="stylesheet" type="text/css"
                 href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
@@ -377,7 +378,8 @@
                     <tr>
                         <td colspan="2">
                             {{-- <input type="sumbit" id="btnGenerate" name="btnGenerate" value="Generate Model..."> --}}
-                            <input type="submit" id="btnGenerate" name="btnGenerate" value="Generate Model...">
+                            <input type="submit" id="btnGenerate" name="btnGenerate" value="Generate Model..."
+                                class="button2">
                         </td>
                     </tr>
 
