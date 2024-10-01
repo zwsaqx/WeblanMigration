@@ -21,9 +21,10 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td> <span class="title">
-                            <div style="text-align: center; margin: 0 auto; width: fit-content;">Model 2: Data travelling
-                                from host-to-host
-                                on different subnets</div>
+                            <div style="text-align: center; margin: 0 auto; width: fit-content;"><strong>Model 2: Data
+                                    travelling
+                                    from host-to-host
+                                    on different subnets</strong></div>
                         </span> <br />
                         <br />
                         In this model, PC1 is sending packets to PC3, PC4, Laptop 1 and Laptop 2.

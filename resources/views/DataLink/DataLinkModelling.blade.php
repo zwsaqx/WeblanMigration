@@ -29,9 +29,10 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td> <span class="title">
-                            <div style="text-align: center; margin: 0 auto; width: fit-content;">Model 1: Data travelling
-                                from host-to-host on
-                                the same subnet</div>
+                            <div style="text-align: center; margin: 0 auto; width: fit-content;"><strong> Model 1: Data
+                                    travelling
+                                    from host-to-host on
+                                    the same subnet</strong></div>
                         </span> <br />
 
                         <p>In this scenario, PC1 is connected to PC2 and PC3 via a switch. <br>
