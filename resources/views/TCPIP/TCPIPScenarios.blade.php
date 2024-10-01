@@ -25,7 +25,7 @@
                             Headquarter is connected to each of its branches using high speed WAN serial connections. Branch
                             A
                             and Branch B each has 2 department: Payroll and Technical and each department occupies a LAN
-                            connecting to its Branch�s main router.</p>
+                            connecting to its Branch's main router.</p>
                         <p>You are currently hired by Freedom Internet to help them design an IP addressing scheme and
                             assuming
                             you are given the network address of 192.168.20.0/24 to start off with. You are also given a
@@ -33,10 +33,10 @@
                             addressing requirements below:</p>
                         <blockquote>
                             <ul>
-                                <li>Branch A�s Payroll requires 20 hosts</li>
-                                <li>Branch B�s Payroll requires 20 hosts</li>
-                                <li>Branch A�s Technical requires 20 hosts</li>
-                                <li>Brach A�s Technical requires 20 hosts</li>
+                                <li>Branch A's Payroll requires 20 hosts</li>
+                                <li>Branch B's Payroll requires 20 hosts</li>
+                                <li>Branch A's Technical requires 20 hosts</li>
+                                <li>Brach A's Technical requires 20 hosts</li>
                                 <li>The link from Branch A to Headquarter requires and IP address for each end of the link
                                 </li>
                                 <li>The link from Branch B to Headquarter requires an IP address for each end of the link
