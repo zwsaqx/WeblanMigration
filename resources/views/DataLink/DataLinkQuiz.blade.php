@@ -26,7 +26,7 @@
                     </div>
                     <br>
                 @endforeach
-                <input type="submit" value="SubmitQuiz" id="submitBtn" disabled>
+                <input type="submit" value="Submit Quiz" class="button2" id="submitBtn" disabled>
             </form>
 
         </div>

@@ -146,9 +146,11 @@ var sURL = unescape(window.location.pathname + "?fuseaction=<?php echo ($_GET["f
     //-->
 </script>
 There are many ways of connecting up a network. To see a different way of<br>
-connecting this network up, press the "F5" button or click <input type="button" value="Refresh" onClick="refresh();">.
+connecting this network up, press the "F5" button or click <input type="button" value="Refresh" class="button2"
+    onClick="refresh();">.
 <br /><br />
-Once you have finished viewing the model, click <input type=button value="Close" onClick="javascript:window.close();">
+Once you have finished viewing the model, click <input type=button value="close" class="button2"
+    onClick="javascript:window.close();">
 <br /><br />
 
 <?php

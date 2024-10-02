@@ -19,13 +19,13 @@
             </div>
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
-                    <td> <span class="darkBlueTextJumbo"><a name="Scenario1"></a>Scenario 1</span><br />
+                    <td> <span class="darkBlueTextJumbo"><a name="Scenario1"></a><strong>Scenario 1</strong></span><br />
                         <span class="darkBlueText">Simple Subnetting</span><br>
                         <p>A small ISP called Freedom Internet has 3 branches namely Headquarter, Branch A and Branch B. The
                             Headquarter is connected to each of its branches using high speed WAN serial connections. Branch
                             A
                             and Branch B each has 2 department: Payroll and Technical and each department occupies a LAN
-                            connecting to its Branch�s main router.</p>
+                            connecting to its Branch's main router.</p>
                         <p>You are currently hired by Freedom Internet to help them design an IP addressing scheme and
                             assuming
                             you are given the network address of 192.168.20.0/24 to start off with. You are also given a
@@ -33,10 +33,10 @@
                             addressing requirements below:</p>
                         <blockquote>
                             <ul>
-                                <li>Branch A�s Payroll requires 20 hosts</li>
-                                <li>Branch B�s Payroll requires 20 hosts</li>
-                                <li>Branch A�s Technical requires 20 hosts</li>
-                                <li>Brach A�s Technical requires 20 hosts</li>
+                                <li>Branch A's Payroll requires 20 hosts</li>
+                                <li>Branch B's Payroll requires 20 hosts</li>
+                                <li>Branch A's Technical requires 20 hosts</li>
+                                <li>Brach A's Technical requires 20 hosts</li>
                                 <li>The link from Branch A to Headquarter requires and IP address for each end of the link
                                 </li>
                                 <li>The link from Branch B to Headquarter requires an IP address for each end of the link
@@ -57,7 +57,7 @@
             <br>
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
-                    <td> <span class="darkBlueTextJumbo"><a name="Scenario2"></a>Scenario 2</span><br />
+                    <td> <span class="darkBlueTextJumbo"><a name="Scenario2"></a><strong>Scenario 2</strong></span><br />
                         <span class="darkBlueText">IP Communication Troubleshooting</span><br>
                         <p>Given the below topology:</p>
                         </span><img src="{{ asset('Images/TCPIP/TCPIP_Scenario2.png') }}" align="top" width="600"
@@ -128,7 +128,7 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Scenario3"></a>Scenario 3</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Scenario3"></a><strong>Scenario 3</strong></span><br />
                             <span class="darkBlueText">Port Forwarding</span><br>
                         <p>Given the below topology:</p>
                         <img src="{{ asset('Images/TCPIP/TCPIP_Scenario3.png') }}">
@@ -153,10 +153,10 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Scenario4"></a>Scenario 4</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Scenario4"></a><strong>Scenario 4</strong></span><br />
                             <span class="darkBlueText">Troubleshooting Routing Information Protocol (RIP)</span><br>
                         <p>Given the below topology</p>
-                        </span><img src="{{ asset('Images/TCPIP/TCPIP_Scenario4.png') }}" align="top">
+                        </span><img src="{{ asset('Images/TCPIP/TCPIP_Scenario4.png') }}">
                         <p>The ABC Company has deployed RIP as their routing protocol. Recently, a User from Branch A
                             reports
                             that he cannot access and retrieve files from the Remote Server located on a remote Branch.
@@ -184,7 +184,7 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Exercise1"></a>Exercise 1</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Exercise1"></a><strong>Exercise 1</strong></span><br />
                             You are given a Class b address of 152.152.0.0. 223 networks need to be created. <br /><br />
 
 
@@ -203,7 +203,8 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Exercise2"></a>Exercise 2</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Exercise2"></a><strong>Exercise
+                                    2</strong></span><br />
                             Given the Routing table of Router R below <br /><br />
                             <img src="{{ asset('Images/TCPIP/TCPIP_Exercise.png') }}" width="401" height="155"
                                 alt="" /> <br />

@@ -24,7 +24,7 @@
             </div>
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
-                    <td> <span class="darkBlueTextJumbo"><a name="Scenario1"></a>Scenario 1</span><br />
+                    <td> <span class="darkBlueTextJumbo"><a name="Scenario1"></a><strong>Scenario 1</strong></span><br />
                         Kiwi International Limited (KIL) is a telecommunications equipment manufacturing company based in
                         Wellington. The company has leased space in Auckland city consisting of one level of an office block
                         and a warehouse in a separate location, some 1000 meters away. KIL wishes to purchase and install
@@ -54,7 +54,7 @@
                             will
                             be set up. </P>
                         <P><span class="redText">Answer: </span><img src="{{ asset('Images/Wired/scenario1_wired.gif') }}"
-                                alt=""> width="600" height="500" align="top"></P>
+                                alt=""></P>
                         <br />
                         <a href="#Top">[To Top]</a>
                     </td>
@@ -64,7 +64,7 @@
             <br>
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
-                    <td> <span class="darkBlueTextJumbo"><a name="Scenario2"></a>Scenario 2</span><br />
+                    <td> <span class="darkBlueTextJumbo"><a name="Scenario2"></a><strong>Scenario 2</strong></span><br />
                         eMART, an international company (with a head office in Wellington), has
                         recently established three regional branches located in Auckland, Christchurch,
                         and Japan. Based on the following description, <span class="redText">draw up a detailed diagram
@@ -95,7 +95,7 @@
                                 connection. </li>
                         </ul>
                         <P><span class="redText">Answer: </span><img src="{{ asset('Images/Wired/scenario2_wired.jpg') }}"
-                                alt=""> align="top" width="600" height="500"></P>
+                                alt=""> </P>
                         <br />
                         <a href="#Top">[To Top]</a>
                     </td>
@@ -106,7 +106,7 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Scenario3"></a>Scenario 3</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Scenario3"></a><strong>Scenario 3</strong></span><br />
                             <span class="darkBlueText">Designing a network on multiple floors in two
                                 buildings</span><br>
                             Kiwi Computer Company (KCC) Limited is a manufacturer of computer supplies
@@ -211,7 +211,7 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Scenario4"></a>Scenario 4</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Scenario4"></a><strong>Scenario 4</strong></span><br />
                             <span class="darkBlueText">University Network Design</span><br>
                             Two of the departments of the University are about to be rehoused, and
                             jointly need to install a new computer laboratory. This laboratory will
@@ -242,7 +242,8 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Exercise1"></a>Exercise 1</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Exercise1"></a><strong>Exercise
+                                    1</strong></span><br />
                             JOY PHYSICIAN GROUP &#8211; A group of physicians is building a new four-story
                             building which is 1,000 meters away from the hospital. Draw up a detailed
                             diagram of the proposed network for the JOY PHYSICIAN GROUP to meet the
@@ -270,7 +271,8 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Exercise2"></a>Exercise 2</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Exercise2"></a><strong>Exercise
+                                    2</strong></span><br />
                             KIWI BUSINESS LIMITED (KBL), an International company (with a head office
                             in Auckland), has recently established three regional branches located
                             in Wellington, Christchurch, and Singapore. Based on the following description,

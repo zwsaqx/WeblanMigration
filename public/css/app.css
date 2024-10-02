@@ -102,6 +102,7 @@
       margin-left: 5px;
 }
 
+
 .button2:hover{
     background-color:  #69366b;
     border-width: 0;
@@ -298,6 +299,7 @@ background-color: black;
 text-align: left;
 font-weight: bold;
 }
+
 
 
 .dropdown:hover .dropdown-content {

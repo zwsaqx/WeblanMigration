@@ -16,7 +16,7 @@
             </div> <br />
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
-                    <td> <span class="darkBlueTextJumbo"><a name="Scenario1"></a>Scenario 1</span><br />
+                    <td> <span class="darkBlueTextJumbo"><a name="Scenario1"></a><strong>Scenario 1</strong></span><br />
                         An international company deploys VPN (Virtual Private Network) to enhance security for remote
                         staff.
                         Few
@@ -44,7 +44,7 @@
             <br>
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
-                    <td> <span class="darkBlueTextJumbo"><a name="Scenario2"></a>Scenario 2</span><br />
+                    <td> <span class="darkBlueTextJumbo"><a name="Scenario2"></a><strong>Scenario 2</strong></span><br />
                         A company provides hotspot solution to a residential area. The company faces a problem when some
                         customers still cannot get optimal speed despite getting 5 bars in their laptops. The company
                         has
@@ -81,7 +81,7 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Scenario3"></a>Scenario 3</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Scenario3"></a><strong>Scenario 3</strong></span><br />
                             A company ABC plans to open another office which is 5 km away from ABC headquarter. The new
                             system
                             in the office must synchronise its data with the central database at real-time to ensure
@@ -106,7 +106,7 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="normalText">
                 <tr>
                     <td>
-                        <p><span class="darkBlueTextJumbo"><a name="Scenario4"></a>Scenario 4</span><br />
+                        <p><span class="darkBlueTextJumbo"><a name="Scenario4"></a><strong>Scenario 4</strong></span><br />
                             An institute has a lab for student which consists of about 50 PCs. As growing demands of
                             laptop
                             users, IT department deploy Wi-Fi access points throughout the lab. A problem starts arising
