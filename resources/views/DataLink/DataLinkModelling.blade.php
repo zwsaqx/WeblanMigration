@@ -48,9 +48,7 @@
     <body class="body">
         <div class='loggedInBody'>
             <h1 class='header1'>Data Link Protocol Modelling</h1>
-            <br />
-            <div class='header1'>Animation-based Models</div>
-            <br />
+
             <div style="text-align: center; margin: 0 auto; width: fit-content;">
                 <a href="/DataLink/DataLinkModelling">[Model 1]</a>
                 <a href="/DataLink/DataLinkModelling2">[Model 2]</a><br />
@@ -66,24 +64,12 @@
                         </span>
                         <br />
 
-                        <p>In this scenario, PC1 is connected to PC2 and PC3 via a switch. <br>
-                            PC1 is the “source host”, whereas PC2 and PC3 are the “destination hosts.”</p>
-                        <p>
-                            The Data Link Layer is divided into two sublayers: the Media Access Control layer (MAC)
-                            and the Logical Link Control layer (LLC).
-                        </p>
-                        <p>The MAC addresses you see on each device are implemented on the devices' adapters.</p>
-                        <p>
-                            The model below shows a wired network topology, where an Ethernet Frame is used to encapsulate
-                            PC1's data before transmission over the link to PC3.
-                        </p>
-                        <br />
-
                         <div id="container">
                             <div id="PC1" class="device" style="left: 66px; top: 46px;">PC1</div>
                             <div id="PC2" class="device" style="left: 66px; top: 173px;">PC2</div>
                             <div id="PC3" class="device" style="left: 62px; top: 291px;">PC3</div>
                             <div id="Switch" class="device" style="left: 372px; top: 188px;">Switch</div>
+                            <div id="Packet" class="packet" style="left: 66px; top: 46px;">Packet</div>
                         </div>
 
                         <div>
@@ -91,7 +77,7 @@
                             <button id="PauseButton">Pause/Resume</button>
                             <button id="StopButton">Stop</button>
                         </div>
-                        <div id="info">Hover over a device to see its MAC address.</div>
+
 
                         <script type="text/javascript">
                             document.addEventListener('DOMContentLoaded', function() {
@@ -165,8 +151,64 @@
 
                         <br />
                         <br />
-                        <p>When the switch receives a frame, it inspects the MAC address of the source host...</p>
-                        <p>... (additional content here) ...</p>
+
+                        <p>In this scenario, PC1 is connected to PC2 and PC3 via a switch. <br>
+                            PC1 is the “source host”, whereas PC2 and PC3 are the “destination hosts.”</p>
+                        <p>
+                            The Data Link Layer is divided into two sublayers: the Media Access Control layer (MAC)
+                            and the Logical Link Control layer (LLC).
+                        </p>
+                        <p>The MAC addresses you see on each device are implemented on the devices' adapters.</p>
+                        <p>
+                            The model below shows a wired network topology, where an Ethernet Frame is used to encapsulate
+                            PC1's data before transmission over the link to PC3.
+                        </p>
+                        <br />
+                        <p>When the switch receives a frame, the switch inspects the MAC address of the source host, learns
+                            the source host's location, stores the information in the switch table and use a
+                            &ldquo;time-to-live&rdquo; (TTL) field to forget the mapping in the end. It indexes the switch
+                            table using the destination's/destinations' MAC address. If it has a destination appointed, it
+                            would forward the frame on the interface indicated, or else the frame would forward out to all
+                            the interfaces except for the interface it arrived at. <br /><br />Hover over the switch in the
+                            animation to see its switching table.</p>
+                        <p>All network layer packets are encapsulated into frames. Once formatted into frames, they can
+                            travel across different network topologies using different types of protocols. (See Model 2 for
+                            more
+                            details)</a><br /><br />In a frame, a Header and Trailer are given to create a Protocol Data
+                            Unit. This is encapsulation.
+                        </p>
+                        <span class="redText"><strong><em>Structure of Frame</em></strong></span>
+                        <br />
+                        <img src="../images/Basic Frame Structure.png" width="745" height="99" alt="" />
+                        <p><span class="redText">Header: </span>Contains information as to what network interface and
+                            protocols are being used.</p>
+                        <p><span class="redText">Payload:</span> Contains the actual information being transmitted.
+                        <p><span class="redText">Trailer:</span> Used to determine whether the frame contains any errors.
+                        </p>
+                        <br />
+
+                        <span class="redText"><em><strong>Ethernet Frame Structure</strong></em></span>
+                        <p><img src="../images/Ethernet Frame Sturcture.png" width="806" height="137" alt="" />
+                        </p>
+                        <p><span class="redText">Preamble (8 bytes): </span>Each of the first 7 bytes has a value of
+                            10101010; followed by one last byte of 10101011. The first 7 bytes are used to wake up the
+                            receiver and synchronize their clock to the senders. The last 2 bits of the 8th byte is to alert
+                            the receiver data is about to come.
+                        </p>
+                        <p><span class="redText">Destination Address (6 bytes): </span>Contains the MAC address of the
+                            destination adapter. If the address does not match, the frame is dropped.</p>
+                        <p><span class="redText">Source Address (6 bytes): </span>Contains the MAC address of the source
+                            adapter.</p>
+                        <p><span class="redText">Type (2 bytes): </span>Indicates the network layer protocol used. </p>
+                        <p><span class="redText">Payload (46 to 1,500 bytes): </span>Contains the data transferred from the
+                            source host to the destination host(s). If the minimum size of this field is less than 46, the
+                            data field needs to fill up the frame size to minimum length. If it exceeds 1,500 bytes, the
+                            source host has to de-fragment the data.</p>
+                        <p><span class="redText">Cyclic Redundancy Check (CRC) (4 bytes): </span>An error-detection
+                            technique. The receiver adapter detects bit errors in the frame; the frame is dropped if error
+                            is detected.</p>
+                        <br />
+                        <br />
                         <a href="#Top">[To Top]</a>
                     </td>
                 </tr>
