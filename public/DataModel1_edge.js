@@ -1,35 +1,279 @@
-
 console.log('datamodel1');
-(function(compId){var _=null,y=true,n=false,x12='break-word',x13='nowrap',x2='5.0.0',x4='rgba(0,0,0,0)',x1='5.0.1',g='image',e37='${Ethernet-FrameCopy4}',b='block',x16='none solid rgb(0, 0, 0)',x='text',m='rect',i='none',x8='rgba(192,192,192,1)',x3='5.0.1.386',p='px',e36='${Ethernet-Frame}',x25='700',l='normal',d='display',e38='${switch_table}',x29='none solid rgb(78, 201, 30)',x27='600',x35='rgba(255,255,255,1)',x24='14',x10='24',x15='400',x11='Arial, Helvetica, sans-serif',xc='rgba(0,0,0,1)',x19='12';var g33='Ethernet-Frame.png',g6='Switch.PNG',g34='switch%20table.PNG',g5='PC1.PNG',g7='Line.PNG';var s14="Pause/Resume",s18="PC1",s32="1",s30="3",s26="Hover over each device or press the Pause/Resume button to see the MAC addresses.",s21="PC3",s20="PC2 ",s22="Switch",s23="PC1 can send data to PC2 and PC3. The data is encapsulated in the Ethernet Frame.<br><br>See \"Ethernet Frame Structure\" below for more details.",s31="2",s28="The switch stores and forwards the frames received. It examines the incoming MAC addresses and selectively forwards the frame to a link.",s9="Play",s17="Stop";var im='images/',aud='media/',vid='media/',js='js/',fonts={},opts={'gAudioPreloadPreference':'auto','gVideoPreloadPreference':'auto'},resources=[],scripts=[],symbols={"stage":{v:x1,mv:x2,b:x3,stf:i,cg:i,rI:n,cn:{dom:[{id:'DataModel1',t:'group',r:['10px','-3px','587px','370px','auto','auto'],c:[{id:'PC2',t:g,r:['66px','173px','73px','59px','auto','auto'],f:[x4,im+g5,'0px','0px']},{id:'PC3',t:g,r:['62px','291px','73px','59px','auto','auto'],f:[x4,im+g5,'0px','0px']},{id:'PC1',t:g,r:['66px','46px','73px','59px','auto','auto'],f:[x4,im+g5,'0px','0px']},{id:'Switch',t:g,r:['372px','188px','63px','30px','auto','auto'],f:[x4,im+g6,'0px','0px']},{id:'Line',t:g,r:['125px','131px','265px','13px','auto','auto'],f:[x4,im+g7,'0px','0px'],tf:[[],['19']]},{id:'Line2',t:g,r:['130px','203px','250px','13px','auto','auto'],f:[x4,im+g7,'0px','0px']},{id:'Line3',t:g,r:['118px','269px','273px','13px','auto','auto'],f:[x4,im+g7,'0px','0px'],tf:[[],['-22']]}]},{id:'PlayButton',t:m,r:['330px','412px','63px','30px','auto','auto'],br:["10px","10px","10px","10px"],f:[x8],s:[0,xc,i],c:[{id:'Play',t:x,r:['8px','2px','auto','auto','auto','auto'],text:s9,n:[x11,[x10,],xc,l,i,"",x12,x13]}]},{id:'PauseButton',t:m,r:['400px','412px','173px','30px','auto','auto'],br:["10px","10px","10px","10px"],f:[x8],s:[0,"rgb(0, 0, 0)",i],c:[{id:'Pause',t:x,r:['6px','2px','172px','25px','auto','auto'],text:s14,align:"left",n:[x11,[x10,p],xc,x15,x16,l,x12,""]}]},{id:'StopButton',t:m,r:['578px','412px','63px','30px','auto','auto'],br:["10px","10px","10px","10px"],f:[x8],s:[0,"rgb(0, 0, 0)",i],c:[{id:'Stop',t:x,r:['7px','0px','auto','auto','auto','auto'],text:s17,align:"left",n:[x11,[x10,p],xc,x15,x16,l,x12,x13]}]},{id:'PC1_info',t:x,r:['82px','108px','108px','52px','auto','auto'],text:s18,align:"left",n:[x11,[x19,p],xc,x15,x16,l,x12,l]},{id:'PC2_info',t:x,r:['85px','229px','119px','52px','auto','auto'],text:s20,align:"left",n:[x11,[x19,p],xc,x15,x16,l,x12,l]},{id:'PC3_info',t:x,r:['87px','347px','135px','52px','auto','auto'],text:s21,align:"left",n:[x11,[x19,p],xc,x15,x16,l,x12,l]},{id:'Switch_info',t:x,r:['405px','215px','46px','14px','auto','auto'],text:s22,align:"left",n:[x11,[x19,p],xc,x15,x16,l,x12,l]},{id:'Model_Detail',t:x,r:['336px','6px','261px','105px','auto','auto'],text:s23,align:"left",n:[x11,[x24,p],"rgba(78,201,30,1.00)",x25,i,l,x12,l]},{id:'Text4Copy',t:x,r:['4px','404px','318px','46px','auto','auto'],text:s26,align:"left",n:[x11,[x24,p],"rgba(50,23,191,1.00)",x27,x16,l,x12,l]},{id:'Text',t:x,r:['272px','314px','294px','85px','auto','auto'],text:s28,align:"left",n:[x11,[x24,p],"rgba(201,99,29,1.00)",x25,x29,l,x12,l]},{id:'TextCopy',t:x,r:['261px','280px','12px','16px','auto','auto'],text:s30,n:[x11,[x24,p],xc,l,i,"",x12,l]},{id:'TextCopy2',t:x,r:['253px','192px','12px','16px','auto','auto'],text:s31,n:[x11,[x24,p],xc,l,i,"",x12,l]},{id:'TextCopy3',t:x,r:['261px','114px','12px','16px','auto','auto'],text:s32,n:[x11,[x24,p],xc,l,i,"",x12,l]},{id:'Ethernet-Frame',v:b,t:g,r:['367px','165px','94px','68px','auto','auto'],f:[x4,im+g33,'0px','0px']},{id:'Ethernet-FrameCopy4',v:i,t:g,r:['61px','288px','94px','68px','auto','auto'],f:[x4,im+g33,'0px','0px']},{id:'switch_table',v:i,t:g,r:['451px','170px','199px','103px','auto','auto'],f:[x4,im+g34,'0px','0px']}],style:{'${Stage}':{isStage:true,r:['null','null','650px','450px','auto','auto'],overflow:'visible',f:[x35]}}},tt:{d:11000,a:n,l:{"animation":0,"end":11000},data:[["eid80",d,6000,0,"linear",e36,b,i],["eid77",d,11000,0,"linear",e36,i,i],["eid75",d,0,0,"linear",e37,i,i],["eid76",d,6000,0,"linear",e37,i,b],["eid74",d,11000,0,"linear",e37,b,i],["eid49","location",0,5000,"linear",e36,[[113,85,0,0,0,0,0],[414,199,0,0,0,0,321.86]]],["eid50","location",5000,1000,"linear",e36,[[414,199,0,0,0,0,0],[416,207,0,0,0,0,8.25]]],["eid79",d,0,0,"linear",e38,i,i],["eid78",d,11000,0,"linear",e38,i,i],["eid73","location",6000,5000,"linear",e37,[[416,207,0,0,0,0,0],[108,325,0,0,0,0,329.83]]]]}}};AdobeEdge.registerCompositionDefn(compId,symbols,fonts,scripts,resources,opts);})("EDGE-15569127");
-(function($,Edge,compId){var Composition=Edge.Composition,Symbol=Edge.Symbol;Edge.registerEventBinding(compId,function($){
-//Edge symbol: 'stage'
-(function(symbolName){Symbol.bindElementAction(compId,symbolName,"${Play}","click",function(sym,e){sym.play("animation");});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${PlayButton}","click",function(sym,e){sym.play("animation");});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${PauseButton}","click",function(sym,e){if(sym.isPlaying("ethernet-frame")){sym.stop();sym.$("PC1_info").html("1A:23:F9:CD:06:9B ");sym.$("PC2_info").html("5C:66:AB:90:75:B1");sym.$("PC3_info").html("49:BD:D2:C7:56:2A");sym.$("switch_table").show();}else{sym.play();sym.$("PC1_info").html("PC1");sym.$("PC2_info").html("PC2");sym.$("PC3_info").html("PC3");sym.$("switch_table").hide();}});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${StopButton}","click",function(sym,e){sym.stop("end");});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${Stop}","click",function(sym,e){sym.stop("end");});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${PC1}","mouseover",function(sym,e){sym.$("PC1_info").html("1A:23:F9:CD:06:9B ");});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${PC1}","mouseout",function(sym,e){sym.$("PC1_info").html("PC1");});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${PC2}","mouseout",function(sym,e){sym.$("PC2_info").html("PC2");});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${PC2}","mouseover",function(sym,e){sym.$("PC2_info").html("5C:66:AB:90:75:B1");});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${PC3}","mouseover",function(sym,e){sym.$("PC3_info").html("49:BD:D2:C7:56:2A");});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${PC3}","mouseout",function(sym,e){sym.$("PC3_info").html("PC3");});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${Switch}","mouseover",function(sym,e){sym.$("switch_table").show();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${Switch}","mouseout",function(sym,e){sym.$("switch_table").hide();});
-//Edge binding end
-})("stage");
-//Edge symbol end:'stage'
-})})(AdobeEdge.$,AdobeEdge,"EDGE-15569127");
 
+(function(compId) {
+    var _ = null,
+        y = true,
+        n = false;
+    var im = 'images/',
+        aud = 'media/',
+        vid = 'media/',
+        js = 'js/',
+        fonts = {},
+        opts = {
+            'gAudioPreloadPreference': 'auto',
+            'gVideoPreloadPreference': 'auto'
+        },
+        resources = [],
+        scripts = [];
+    
+    var symbols = {
+        "stage": {
+            v: "5.0.1",
+            mv: "5.0.0",
+            b: "5.0.1.386",
+            stf: "none",
+            cg: "none",
+            rI: n,
+            cn: {
+                dom: [
+                    {
+                        id: 'DataModel1',
+                        t: 'group',
+                        r: ['10px', '-3px', '587px', '370px', 'auto', 'auto'],
+                        c: [
+                            { id: 'PC2', t: 'image', r: ['66px', '173px', '73px', '59px', 'auto', 'auto'], f: ['rgba(0,0,0,0)', im + 'PC1.PNG', '0px', '0px'] },
+                            { id: 'PC3', t: 'image', r: ['62px', '291px', '73px', '59px', 'auto', 'auto'], f: ['rgba(0,0,0,0)', im + 'PC1.PNG', '0px', '0px'] },
+                            { id: 'PC1', t: 'image', r: ['66px', '46px', '73px', '59px', 'auto', 'auto'], f: ['rgba(0,0,0,0)', im + 'PC1.PNG', '0px', '0px'] },
+                            { id: 'Switch', t: 'image', r: ['372px', '188px', '63px', '30px', 'auto', 'auto'], f: ['rgba(0,0,0,0)', im + 'Switch.PNG', '0px', '0px'] },
+                            { id: 'Line', t: 'image', r: ['125px', '131px', '265px', '13px', 'auto', 'auto'], f: ['rgba(0,0,0,0)', im + 'Line.PNG', '0px', '0px'], tf: [[], ['19']] },
+                            { id: 'Line2', t: 'image', r: ['130px', '203px', '250px', '13px', 'auto', 'auto'], f: ['rgba(0,0,0,0)', im + 'Line.PNG', '0px', '0px'] },
+                            { id: 'Line3', t: 'image', r: ['118px', '269px', '273px', '13px', 'auto', 'auto'], f: ['rgba(0,0,0,0)', im + 'Line.PNG', '0px', '0px'], tf: [[], ['-22']] }
+                        ]
+                    },
+                    {
+                        id: 'PlayButton',
+                        t: 'rect',
+                        r: ['330px', '412px', '63px', '30px', 'auto', 'auto'],
+                        br: ["10px", "10px", "10px", "10px"],
+                        f: ['rgba(192,192,192,1)'],
+                        s: [0, 'rgba(0,0,0,1)', 'none'],
+                        c: [
+                            { id: 'Play', t: 'text', r: ['8px', '2px', 'auto', 'auto', 'auto', 'auto'], text: 'Play', n: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(0,0,0,1)', 'normal', 'none', '', 'break-word', 'nowrap'] }
+                        ]
+                    },
+                    {
+                        id: 'PauseButton',
+                        t: 'rect',
+                        r: ['400px', '412px', '173px', '30px', 'auto', 'auto'],
+                        br: ["10px", "10px", "10px", "10px"],
+                        f: ['rgba(192,192,192,1)'],
+                        s: [0, 'rgba(0,0,0,1)', 'none'],
+                        c: [
+                            { id: 'Pause', t: 'text', r: ['6px', '2px', '172px', '25px', 'auto', 'auto'], text: 'Pause/Resume', align: 'left', n: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(0,0,0,1)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', ''] }
+                        ]
+                    },
+                    {
+                        id: 'StopButton',
+                        t: 'rect',
+                        r: ['578px', '412px', '63px', '30px', 'auto', 'auto'],
+                        br: ["10px", "10px", "10px", "10px"],
+                        f: ['rgba(192,192,192,1)'],
+                        s: [0, 'rgba(0,0,0,1)', 'none'],
+                        c: [
+                            { id: 'Stop', t: 'text', r: ['7px', '0px', 'auto', 'auto', 'auto', 'auto'], text: 'Stop', align: 'left', n: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(0,0,0,1)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'nowrap'] }
+                        ]
+                    },
+                    {
+                        id: 'PC1_info',
+                        t: 'text',
+                        r: ['82px', '108px', '108px', '52px', 'auto', 'auto'],
+                        text: 'PC1',
+                        align: 'left',
+                        n: ['Arial, Helvetica, sans-serif', [12, 'px'], 'rgba(0,0,0,1)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal']
+                    },
+                    {
+                        id: 'PC2_info',
+                        t: 'text',
+                        r: ['85px', '229px', '119px', '52px', 'auto', 'auto'],
+                        text: 'PC2',
+                        align: 'left',
+                        n: ['Arial, Helvetica, sans-serif', [12, 'px'], 'rgba(0,0,0,1)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal']
+                    },
+                    {
+                        id: 'PC3_info',
+                        t: 'text',
+                        r: ['87px', '347px', '135px', '52px', 'auto', 'auto'],
+                        text: 'PC3',
+                        align: 'left',
+                        n: ['Arial, Helvetica, sans-serif', [12, 'px'], 'rgba(0,0,0,1)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal']
+                    },
+                    {
+                        id: 'Switch_info',
+                        t: 'text',
+                        r: ['405px', '215px', '46px', '14px', 'auto', 'auto'],
+                        text: 'Switch',
+                        align: 'left',
+                        n: ['Arial, Helvetica, sans-serif', [12, 'px'], 'rgba(0,0,0,1)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal']
+                    },
+                    {
+                        id: 'Model_Detail',
+                        t: 'text',
+                        r: ['336px', '6px', '261px', '105px', 'auto', 'auto'],
+                        text: 'PC1 can send data to PC2 and PC3. The data is encapsulated in the Ethernet Frame.<br><br>See "Ethernet Frame Structure" below for more details.',
+                        align: 'left',
+                        n: ['Arial, Helvetica, sans-serif', [14, 'px'], 'rgba(78,201,30,1.00)', '700', 'none', 'normal', 'break-word', 'normal']
+                    },
+                    {
+                        id: 'Text4Copy',
+                        t: 'text',
+                        r: ['4px', '404px', '318px', '46px', 'auto', 'auto'],
+                        text: 'Hover over each device or press the Pause/Resume button to see the MAC addresses.',
+                        align: 'left',
+                        n: ['Arial, Helvetica, sans-serif', [14, 'px'], 'rgba(50,23,191,1.00)', '600',
+                        'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal']
+                    },
+                    {
+                        id: 'Text',
+                        t: 'text',
+                        r: ['272px', '314px', '294px', '85px', 'auto', 'auto'],
+                        text: 'The switch stores and forwards the frames received. It examines the incoming MAC addresses and selectively forwards the frame to a link.',
+                        align: 'left',
+                        n: ['Arial, Helvetica, sans-serif', [14, 'px'], 'rgba(201,99,29,1.00)', '700', 'none solid rgb(78, 201, 30)', 'normal', 'break-word', 'normal']
+                    },
+                    {
+                        id: 'TextCopy',
+                        t: 'text',
+                        r: ['261px', '280px', '12px', '16px', 'auto', 'auto'],
+                        text: '3',
+                        n: ['Arial, Helvetica, sans-serif', [14, 'px'], 'rgba(0,0,0,1)', 'normal', 'none', '', 'break-word', 'normal']
+                    },
+                    {
+                        id: 'TextCopy2',
+                        t: 'text',
+                        r: ['253px', '192px', '12px', '16px', 'auto', 'auto'],
+                        text: '2',
+                        n: ['Arial, Helvetica, sans-serif', [14, 'px'], 'rgba(0,0,0,1)', 'normal', 'none', '', 'break-word', 'normal']
+                    },
+                    {
+                        id: 'TextCopy3',
+                        t: 'text',
+                        r: ['261px', '114px', '12px', '16px', 'auto', 'auto'],
+                        text: '1',
+                        n: ['Arial, Helvetica, sans-serif', [14, 'px'], 'rgba(0,0,0,1)', 'normal', 'none', '', 'break-word', 'normal']
+                    },
+                    {
+                        id: 'Ethernet-Frame',
+                        v: 'block',
+                        t: 'image',
+                        r: ['367px', '165px', '94px', '68px', 'auto', 'auto'],
+                        f: ['rgba(0,0,0,0)', im + 'Ethernet-Frame.png', '0px', '0px']
+                    },
+                    {
+                        id: 'Ethernet-FrameCopy4',
+                        v: 'none',
+                        t: 'image',
+                        r: ['61px', '288px', '94px', '68px', 'auto', 'auto'],
+                        f: ['rgba(0,0,0,0)', im + 'Ethernet-Frame.png', '0px', '0px']
+                    },
+                    {
+                        id: 'switch_table',
+                        v: 'none',
+                        t: 'image',
+                        r: ['451px', '170px', '199px', '103px', 'auto', 'auto'],
+                        f: ['rgba(0,0,0,0)', im + 'switch%20table.PNG', '0px', '0px']
+                    }
+                ],
+                style: {
+                    '${Stage}': {
+                        isStage: true,
+                        r: ['null', 'null', '650px', '450px', 'auto', 'auto'],
+                        overflow: 'visible',
+                        f: ['rgba(255,255,255,1)']
+                    }
+                }
+            },
+            tt: {
+                d: 11000,
+                a: n,
+                l: { "animation": 0, "end": 11000 },
+                data: [
+                    ["eid80", "display", 6000, 0, "linear", "${Ethernet-Frame}", 'block', 'none'],
+                    ["eid77", "display", 11000, 0, "linear", "${Ethernet-Frame}", 'none', 'none'],
+                    ["eid75", "display", 0, 0, "linear", "${Ethernet-FrameCopy4}", 'none', 'none'],
+                    ["eid76", "display", 6000, 0, "linear", "${Ethernet-FrameCopy4}", 'none', 'block'],
+                    ["eid74", "display", 11000, 0, "linear", "${Ethernet-FrameCopy4}", 'block', 'none'],
+                    ["eid49", "location", 0, 5000, "linear", "${Ethernet-Frame}", [[113, 85, 0, 0, 0, 0, 0], [414, 199, 0, 0, 0, 0, 321.86]]],
+                    ["eid50", "location", 5000, 1000, "linear", "${Ethernet-Frame}", [[414, 199, 0, 0, 0, 0, 0], [416, 207, 0, 0, 0, 0, 8.25]]],
+                    ["eid79", "display", 0, 0, "linear", "${switch_table}", 'none', 'none'],
+                    ["eid78", "display", 11000, 0, "linear", "${switch_table}", 'none', 'none'],
+                    ["eid73", "location", 6000, 5000, "linear", "${Ethernet-FrameCopy4}", [[416, 207, 0, 0, 0, 0, 0], [108, 325, 0, 0, 0, 0, 329.83]]]
+                ]
+            }
+        }
+    };
+
+    AdobeEdge.registerCompositionDefn(compId, symbols, fonts, scripts, resources, opts);
+})("EDGE-15569127");
+
+(function($, Edge, compId) {
+    var Composition = Edge.Composition,
+        Symbol = Edge.Symbol;
+
+    Edge.registerEventBinding(compId, function($) {
+        (function(symbolName) {
+            Symbol.bindElementAction(compId, symbolName, "${Play}", "click", function(sym, e) {
+                sym.play("animation");
+            });
+
+            Symbol.bindElementAction(compId, symbolName, "${PlayButton}", "click", function(sym, e) {
+                sym.play("animation");
+            });
+
+            Symbol.bindElementAction(compId, symbolName, "${PauseButton}", "click", function(sym, e) {
+                if (sym.isPlaying("ethernet-frame")) {
+                    sym.stop();
+                    sym.$("PC1_info").html("1A:23:F9:CD:06:9B ");
+                    sym.$("PC2_info").html("5C:66:AB:90:75:B1");
+                    sym.$("PC3_info").html("49:BD:D2:C7:56:2A");
+                    sym.$("switch_table").show();
+                } else {
+                    sym.play();
+                    sym.$("PC1_info").html("PC1");
+                    sym.$("PC2_info").html("PC2");
+                    sym.$("PC3_info").html("PC3");
+                    sym.$("switch_table").hide();
+                }
+            });
+
+            Symbol.bindElementAction(compId, symbolName, "${StopButton}", "click", function(sym, e) {
+                sym.stop("end");
+            });
+
+            Symbol.bindElementAction(compId, symbolName, "${Stop}", "click", function(sym, e) {
+                sym.stop("end");
+            });
+
+            Symbol.bindElementAction(compId, symbolName, "${PC1}", "mouseover", function(sym, e) {
+                sym.$("PC1_info").html("1A:23:F9:CD:06:9B ");
+            });
+
+            Symbol.bindElementAction(compId, symbolName, "${PC1}", "mouseout", function(sym, e) {
+                sym.$("PC1_info").html("PC1");
+            });
+
+            Symbol.bindElementAction(compId, symbolName, "${PC2}", "mouseover", function(sym, e) {
+                sym.$("PC2_info").html("5C:66:AB:90:75:B1");
+            });
+
+            Symbol.bindElementAction(compId, symbolName, "${PC2}", "mouseout", function(sym, e) {
+                sym.$("PC2_info").html("PC2");
+            });
+
+            Symbol.bindElementAction(compId, symbolName, "${PC3}", "mouseover", function(sym, e) {
+                sym.$("PC3_info").html("49:BD:D2:C7:56:2A");
+            });
+
+            Symbol.bindElementAction(compId, symbolName, "${PC3}", "mouseout", function(sym, e) {
+                sym.$("PC3_info").html("PC3");
+            });
+
+            Symbol.bindElementAction(compId, symbolName, "${Switch}", "mouseover", function(sym, e) {
+                sym.$("switch_table").show();
+            });
+
+            Symbol.bindElementAction(compId, symbolName, "${Switch}", "mouseout", function(sym, e) {
+                sym.$("switch_table").hide();
+            });
+        })("stage");
+    });
+})(AdobeEdge.$, AdobeEdge, "EDGE-15569127");
