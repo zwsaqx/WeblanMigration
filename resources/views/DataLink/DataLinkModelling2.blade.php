@@ -276,25 +276,22 @@
                 animation = anime({
                     targets: frame,
                     translateX: [{
-                            value: 50,
-                            duration: 2000
+                            value: 10,
+                            duration: 1000
                         }, // Move to Switch
                         {
                             // value: 1,
                             // duration: 2000
                         }, // Reset to PC1
                         {
-                            value: 200,
+                            value: 150,
                             duration: 2000
                         }, // Move to PC3
                         {
                             value: 300,
                             duration: 2000
                         }, // Move to PC4
-                        {
-                            value: 400,
-                            duration: 2000
-                        }, // Back to Switch
+
                         {
                             value: 500,
                             duration: 2000
@@ -457,37 +454,40 @@
 
                         <p>As the packet travels from source host to destination hosts, it will cross devices using various
                             protocol types...</p>
-
-                        <div id="animation-container">
-                            <img src="{{ asset('../Images/Data/PC1.png') }}" id="PC1" class="device"
-                                style="left: 50px; top: 100px;" alt="PC1">
-                            <img src="{{ asset('../Images/Data/PC3.png') }}" id="PC3" class="device"
-                                style="left: 250px; top: 100px;" alt="PC3">
-                            <img src="{{ asset('../Images/Data/PC4.png') }}" id="PC4" class="device"
-                                style="left: 350px; top: 100px;" alt="PC4">
-                            <img src="{{ asset('../Images/Data/Laptop1.png') }}" id="Laptop1" class="device"
-                                style="left: 500px; top: 100px;" alt="Laptop1">
-                            <img src="{{ asset('../Images/Data/Laptop2.png') }}" id="Laptop2" class="device"
-                                style="left: 650px; top: 100px;" alt="Laptop2">
-                            <img src="{{ asset('../Images/Data/Switch.png') }}" id="Switch" class="device"
-                                style="left: 140px; top: 110px;" alt="Switch">
-                            <img src="{{ asset('../Images/Data/Ethernet Frame Sturcture.png') }}" id="EthernetFrame"
-                                class="frame" alt="Ethernet Frame">
-
-                            <!-- Lines connecting devices to the switch -->
-                            <div id="line1" class="line"
-                                style="left: 120px; top: 120px; width: 30px; transform: rotate(0deg);"></div>
-                            <div id="line2" class="line"
-                                style="left: 200px; top: 120px; width: 55px; transform: rotate(0deg);"></div>
-
-                            <div id="line3" class="line"
-                                style="left: 300px; top: 120px; width: 55px; transform: rotate(0deg);"></div>
-                            <div id="line3" class="line"
-                                style="left: 400px; top: 120px; width: 125px; transform: rotate(0deg);"></div>
-                            <div id="line4" class="line"
-                                style="left: 580px; top: 120px; width: 105px; transform: rotate(0deg);"></div>
-
-                        </div>
+                            <div id="animation-container">
+                                <div class="device" style="left: 50px; top: 100px;">
+                                    <img src="{{ asset('../Images/Data/PC1.png') }}" id="PC1" alt="PC1">
+                                    <span>PC1</span>
+                                </div>
+                                <div class="device" style="left: 250px; top: 100px;">
+                                    <img src="{{ asset('../Images/Data/PC3.png') }}" id="PC3" alt="PC3">
+                                    <span>PC3</span>
+                                </div>
+                                <div class="device" style="left: 350px; top: 100px;">
+                                    <img src="{{ asset('../Images/Data/PC4.png') }}" id="PC4" alt="PC4">
+                                    <span>PC4</span>
+                                </div>
+                                <div class="device" style="left: 500px; top: 100px;">
+                                    <img src="{{ asset('../Images/Data/Laptop1.png') }}" id="Laptop1" alt="Laptop1">
+                                    <span>Laptop1</span>
+                                </div>
+                                <div class="device" style="left: 650px; top: 100px;">
+                                    <img src="{{ asset('../Images/Data/Laptop2.png') }}" id="Laptop2" alt="Laptop2">
+                                    <span>Laptop2</span>
+                                </div>
+                                <div class="device" style="left: 140px; top: 110px;">
+                                    <img src="{{ asset('../Images/Data/Switch.png') }}" id="Switch" alt="Switch">
+                                    <span>Switch</span>
+                                </div>
+                                <img src="{{ asset('../Images/Data/Ethernet Frame Sturcture.png') }}" id="EthernetFrame" class="frame" alt="Ethernet Frame">
+                            
+                                <!-- Lines connecting devices to the switch -->
+                                <div id="line1" class="line" style="left: 120px; top: 120px; width: 30px; transform: rotate(0deg);"></div>
+                                <div id="line2" class="line" style="left: 200px; top: 120px; width: 55px; transform: rotate(0deg);"></div>
+                                <div id="line3" class="line" style="left: 300px; top: 120px; width: 55px; transform: rotate(0deg);"></div>
+                                <div id="line3" class="line" style="left: 400px; top: 120px; width: 125px; transform: rotate(0deg);"></div>
+                                <div id="line4" class="line" style="left: 580px; top: 120px; width: 105px; transform: rotate(0deg);"></div>
+                            </div>
 
                         <div>
                             <button id="PlayButton">Play</button>
