@@ -383,31 +383,6 @@
                 </div>
 
 
-
-                <div class="pl-3">
-                    <p class="text-center mt-5 d-none s_head" id="cani">Click On Play Button for Bluetooth
-                        Animation
-                    </p>
-                    <div id="txtz" class="d-none">
-                        <p class="" id="">General Operation of Master and Slave: The Master transmits
-                            information to the Slave and the Slave listens to master.</p>
-
-                        <p>
-                            <b>Inquiry Process:</b> First time Master and Slave devices know nothing about each other,
-                            so
-                            they must discover each other. Thus, one device sends an inquiry to the other. The listening
-                            device will then respond with its unique network address (MAC ADDRESS).
-                        </p>
-                        <p>
-                            <b>Paring Process:</b> Once the Master and Slave exchanged their identification (MAC
-                            ADDRESS).
-                            Next, they form the actual Bluetooth connection by having each other’s network address (MAC
-                            ADDRESS), which is exchanged in Inquiry Process.
-                        </p>
-                    </div>
-                </div>
-
-
                 <div class="row mt-2 text-center border-0">
                     <div id="dx" style="width:1100px;height:500px;position:relative;margin-left:-7%">
                         <canvas id="myCanvas" width="1100" height="500" class="border-0" style="margin-left: 4%">
@@ -527,55 +502,7 @@
                         <img src="{{ asset('../Images/Data/wifi.png') }}" class="wifi invisible position-absolute zidx1"
                             id="w21" width="32" height="32" />
                     </div>
-                    <div class="col-12 pl-4">
-                        <div id="masterinfo1" class="d-none text-left pt-5">
-                            <p><b>MAC ADDRESS:</b></p>
-                            <p>MAC address is a unique identifier assigned to a network interface controller (NIC) for
-                                use
-                                as a network address in communications within a network segment</p>
-                            <p>A Bluetooth address sometimes referred to as a Bluetooth MAC address, is a 48-bit value
-                                that
-                                uniquely identifies a Bluetooth device.</p>
-                            <p>A MAC address is usually what is displayed on one Bluetooth device when another Bluetooth
-                                device need to be differentiated between other Bluetooth devices.</p>
-                        </div>
-                        <div id="masterpico1" class="d-none" style="width: 100%">
-                            <p>In Bluetooth networks, Master Node to control when and where devices can send data. In
-                                this
-                                model, a single master device can be connected to up to Max seven different slave
-                                devices.
-                                Any slave device in one piconet can only be connected to a single master. Master can
-                                send
-                                data to any of its slaves and request data from them as well. Slaves are only allowed to
-                                transmit to and receive from their master. They can't talk to other slaves in the
-                                piconet.
-                            </p>
-                        </div>
-                        <div id="masterpico2" class="d-none text-left">
-                            <p>In Bluetooth networks, Master Node to control when and where devices can send data. In
-                                this
-                                Scatternet, Master devices can be connected to up to seven different slave devices and
-                                Can
-                                Communicate with only those 7 Slaves. Slave that is connected to M1 and M2 is known as
-                                Bridge slave which Communicates with two masters. Masters can send data to any of its
-                                slaves
-                                and request data from them as well. Slaves are only allowed to transmit to and receive
-                                from
-                                their master. They can't talk to other slaves in the Scatternet.</p>
-                        </div>
-                        <div id="masterpico3" class="d-none text-left">
-                            <p>In Bluetooth networks, Master Device to control when and where devices can send data. In
-                                this
-                                Scatternet, Master devices can be connected to up to seven different slave devices and
-                                can
-                                only communicate with only those 7 devices. The M3 is a slave in Piconet 2. master
-                                Devices
-                                send data to any of its slaves and request data from them as well. Slaves are only
-                                allowed
-                                to transmit to and receive from their master. They can't talk to other slaves in the
-                                Scatternet.</p>
-                        </div>
-                    </div>
+
                 </div>
                 <div class="text-center" id="hovertext">
                     Hover over each device or press the Pause/Resume button to see the MAC addresses.
@@ -603,7 +530,78 @@
                     </div>
                 </div>
             </form>
+            <div class="col-12 pl-4">
+                <div id="masterinfo1" class="d-none text-left pt-5">
+                    <p><b>MAC ADDRESS:</b></p>
+                    <p>MAC address is a unique identifier assigned to a network interface controller (NIC) for
+                        use
+                        as a network address in communications within a network segment</p>
+                    <p>A Bluetooth address sometimes referred to as a Bluetooth MAC address, is a 48-bit value
+                        that
+                        uniquely identifies a Bluetooth device.</p>
+                    <p>A MAC address is usually what is displayed on one Bluetooth device when another Bluetooth
+                        device need to be differentiated between other Bluetooth devices.</p>
+                </div>
+                <div class="pl-3">
+                    <p class="text-center mt-5 d-none s_head" id="cani">Click On Play Button for Bluetooth
+                        Animation
+                    </p>
 
+                </div>
+                <div id="masterpico1" class="d-none" style="width: 100%">
+                    <p>In Bluetooth networks, Master Node to control when and where devices can send data. In
+                        this
+                        model, a single master device can be connected to up to Max seven different slave
+                        devices.
+                        Any slave device in one piconet can only be connected to a single master. Master can
+                        send
+                        data to any of its slaves and request data from them as well. Slaves are only allowed to
+                        transmit to and receive from their master. They can't talk to other slaves in the
+                        piconet.
+                    </p>
+                </div>
+                <div id="masterpico2" class="d-none text-left">
+                    <p>In Bluetooth networks, Master Node to control when and where devices can send data. In
+                        this
+                        Scatternet, Master devices can be connected to up to seven different slave devices and
+                        Can
+                        Communicate with only those 7 Slaves. Slave that is connected to M1 and M2 is known as
+                        Bridge slave which Communicates with two masters. Masters can send data to any of its
+                        slaves
+                        and request data from them as well. Slaves are only allowed to transmit to and receive
+                        from
+                        their master. They can't talk to other slaves in the Scatternet.</p>
+                </div>
+                <div id="masterpico3" class="d-none text-left">
+                    <p>In Bluetooth networks, Master Device to control when and where devices can send data. In
+                        this
+                        Scatternet, Master devices can be connected to up to seven different slave devices and
+                        can
+                        only communicate with only those 7 devices. The M3 is a slave in Piconet 2. master
+                        Devices
+                        send data to any of its slaves and request data from them as well. Slaves are only
+                        allowed
+                        to transmit to and receive from their master. They can't talk to other slaves in the
+                        Scatternet.</p>
+                </div>
+                <div id="txtz" class="d-none">
+                    <p class="" id="">General Operation of Master and Slave: The Master transmits
+                        information to the Slave and the Slave listens to master.</p>
+
+                    <p>
+                        <b>Inquiry Process:</b> First time Master and Slave devices know nothing about each other,
+                        so
+                        they must discover each other. Thus, one device sends an inquiry to the other. The listening
+                        device will then respond with its unique network address (MAC ADDRESS).
+                    </p>
+                    <p>
+                        <b>Paring Process:</b> Once the Master and Slave exchanged their identification (MAC
+                        ADDRESS).
+                        Next, they form the actual Bluetooth connection by having each other’s network address (MAC
+                        ADDRESS), which is exchanged in Inquiry Process.
+                    </p>
+                </div>
+            </div>
         </div>
         </div>
     </body>
