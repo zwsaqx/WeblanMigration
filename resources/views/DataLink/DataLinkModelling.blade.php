@@ -41,6 +41,13 @@
             margin-top: 20px;
             font-size: 14px;
         }
+
+        #Packet {
+            display: none;
+            position: absolute;
+            left: 66px;
+            top: 46px;
+        }
     </style>
 
     @include('partials.header')
@@ -65,15 +72,38 @@
                         <br />
 
                         <div id="container" style="margin: 0 auto;">
-                            <div id="PC1" class="device" style="left: 66px; top: 46px;">PC1</div>
-                            <div id="PC2" class="device" style="left: 66px; top: 173px;">PC2</div>
-                            <div id="PC3" class="device" style="left: 62px; top: 291px;">PC3</div>
-                            <div id="Switch" class="device" style="left: 372px; top: 188px;">Switch</div>
-                            <div id="Packet" class="packet" style="left: 66px; top: 46px;">Packet</div>
+                            <div id="PC1" class="device" style="left: 66px; top: 46px;"><img
+                                    src="{{ asset('../Images/Data/PC1.png') }}" width="156" height="87" /><br>PC1
+                            </div>
+                            <div id="PC2" class="device" style="left: 66px; top: 173px;"><img
+                                    src="{{ asset('../Images/Data/PC1.png') }}" width="156" height="87" />PC2</div>
+                            <div id="PC3" class="device" style="left: 62px; top: 291px;"><img
+                                    src="{{ asset('../Images/Data/PC1.png') }}" width="156" height="87" />PC3</div>
+                            <div id="Switch" class="device" style="left: 372px; top: 188px; position: absolute;">
+                                <img src="{{ asset('../Images/Data/Switch.png') }}" width="86" height="66" />
+
+                            </div>
+                            <div id="Switch" style="left: 385px; top: 255px; position: absolute;">
+
+                                <span style="">Switch</span>
+
+                            </div>
+
+                            <div id="Packet" class="packet" style="left: 66px; top: 46px;"><img
+                                    src="{{ asset('../Images/Data/PPP-Frame.png') }}" width="96" height="66" /></div>
+
+
+                            <svg width="100%" height="100%">
+                                <line x1="190" y1="85" x2="350" y2="175" stroke="black"
+                                    stroke-width="2" />
+                                <line x1="190" y1="210" x2="350" y2="210" stroke="black"
+                                    stroke-width="2" />
+                                <line x1="190" y1="320" x2="350" y2="255" stroke="black"
+                                    stroke-width="2" />
+                            </svg>
                         </div>
 
-                        <div
-                            style=" height: 100%; margin: 0; display: flex; justify-content: center; align-items: center;  ">
+                        <div style=" height: 100%; margin: 0; display: flex; justify-content: center; align-items: center;">
                             <button id="PlayButton">Play</button>
                             <button id="PauseButton">Pause/Resume</button>
                             <button id="StopButton">Stop</button>
@@ -86,18 +116,22 @@
 
                                 function startAnimation() {
                                     animation = anime({
-                                        targets: ['#PC1', '#PC2', '#PC3', '#Switch'],
+                                        targets: ['#Packet'],
                                         translateX: [{
                                                 value: 100,
-                                                duration: 1000
+                                                duration: 2000
                                             },
                                             {
                                                 value: 0,
-                                                duration: 1000
+                                                duration: 2000
                                             }
                                         ],
-                                        easing: 'easeInOutSine',
-                                        loop: true,
+                                        translateY: [{
+                                            value: 100,
+                                            duration: 2000
+                                        }],
+                                        easing: 'easeInOutQuad',
+                                        loop: false,
                                         autoplay: false
                                     });
                                     animation.play();
@@ -117,7 +151,8 @@
 
                                 document.getElementById("StopButton").onclick = function() {
                                     animation.pause();
-                                    animation.seek(0); // Reset animation
+                                    animation.seek(0);
+                                    location.reload();
                                 };
 
                                 const devices = [{
@@ -149,7 +184,14 @@
                                 });
                             });
                         </script>
-
+                        <script>
+                            document.getElementById("PlayButton").addEventListener("click", function() {
+                                document.getElementById("Packet").style.display = "block"; // Show the Packet
+                            });
+                            document.getElementById("StopButton").addEventListener("click", function() {
+                                document.getElementById("Packet").style.display = "none"; // Show the Packet
+                            });
+                        </script>
                         <br />
 
                         <p>In this scenario, PC1 is connected to PC2 and PC3 via a switch.

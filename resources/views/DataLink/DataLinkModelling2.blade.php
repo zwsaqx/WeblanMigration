@@ -335,6 +335,7 @@
                 animation.seek(0);
                 document.getElementById("EthernetFrame").style.opacity = 0;
                 isPaused = false;
+                location.reload();
             };
 
             const devices = [{
