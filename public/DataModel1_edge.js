@@ -15,7 +15,7 @@ console.log('datamodel1');
         },
         resources = [],
         scripts = [];
-    
+
     var symbols = {
         "stage": {
             v: "5.0.1",

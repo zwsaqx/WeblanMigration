@@ -276,7 +276,7 @@
                 animation = anime({
                     targets: frame,
                     translateX: [{
-                            value: 50,
+                            value: 100,
                             duration: 2000
                         }, // Move to Switch
                         {
@@ -292,17 +292,14 @@
                             duration: 2000
                         }, // Move to PC4
                         {
-                            value: 400,
+                            value: 450,
                             duration: 2000
                         }, // Back to Switch
                         {
-                            value: 500,
-                            duration: 2000
-                        }, // Move to Laptop1
-                        {
                             value: 600,
                             duration: 2000
-                        } // Move to Laptop2
+                        }, // Move to Laptop1
+
                     ],
                     easing: 'easeInOutSine',
                     loop: false,
@@ -383,8 +380,8 @@
 
         #animation-container {
             position: relative;
-            width: 900px;
-            height: 600px;
+            width: 800px;
+            height: 270px;
             margin: 0 auto;
             border: 1px solid #ccc;
             background: white;
@@ -464,21 +461,40 @@
                                 style="left: 650px; top: 100px;" alt="Laptop2">
                             <img src="{{ asset('../Images/Data/Switch.png') }}" id="Switch" class="device"
                                 style="left: 140px; top: 110px;" alt="Switch">
-                            <img src="{{ asset('../Images/Data/Ethernet Frame Sturcture.png') }}" id="EthernetFrame"
-                                class="frame" alt="Ethernet Frame">
+                            <img src="{{ asset('../Images/Data/PPP-Frame.png') }}" id="EthernetFrame" class="frame"
+                                style="left: 38px; top: 26px; width: 15%; height: 25%;">
+
+                            <div id="Text" style="left: 55px; top: 165px; position: absolute; ">
+                                <span style="">PC1</span>
+                            </div>
+                            <div id="Text" style="left: 155px; top: 165px; position: absolute; ">
+                                <span style="">Switch</span>
+                            </div>
+                            <div id="Text" style="left: 255px; top: 165px; position: absolute; ">
+                                <span style="">PC2</span>
+                            </div>
+                            <div id="Text" style="left: 355px; top: 165px; position: absolute; ">
+                                <span style="">PC3</span>
+                            </div>
+                            <div id="Text" style="left: 505px; top: 165px; position: absolute; ">
+                                <span style="">Laptop1</span>
+                            </div>
+                            <div id="Text" style="left: 655px; top: 165px; position: absolute; ">
+                                <span style="">Laptop2</span>
+                            </div>
 
                             <!-- Lines connecting devices to the switch -->
                             <div id="line1" class="line"
-                                style="left: 120px; top: 120px; width: 30px; transform: rotate(0deg);"></div>
+                                style="left: 112px; top: 120px; width: 32px; transform: rotate(0deg);"></div>
                             <div id="line2" class="line"
-                                style="left: 200px; top: 120px; width: 55px; transform: rotate(0deg);"></div>
+                                style="left: 205px; top: 120px; width: 50px; transform: rotate(0deg);"></div>
 
                             <div id="line3" class="line"
-                                style="left: 300px; top: 120px; width: 55px; transform: rotate(0deg);"></div>
+                                style="left: 309px; top: 120px; width: 50px; transform: rotate(0deg);"></div>
                             <div id="line3" class="line"
-                                style="left: 400px; top: 120px; width: 125px; transform: rotate(0deg);"></div>
+                                style="left: 409px; top: 120px; width: 120px; transform: rotate(0deg);"></div>
                             <div id="line4" class="line"
-                                style="left: 580px; top: 120px; width: 105px; transform: rotate(0deg);"></div>
+                                style="left: 585px; top: 120px; width: 90px; transform: rotate(0deg);"></div>
 
                         </div>
 

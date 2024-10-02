@@ -84,12 +84,20 @@
 
                             </div>
                             <div id="Switch" style="left: 385px; top: 255px; position: absolute;">
-
                                 <span style="">Switch</span>
-
                             </div>
 
-                            <div id="Packet" class="packet" style="left: 66px; top: 46px;"><img
+                            <div id="Text"
+                                style="left: 355px; top: 25px; position: absolute; color:hsl(105, 97%, 25%); ">
+                                <span style=""><strong>PC1 can send data to PC2 and PC3. <br> The data is encapsulated
+                                        in
+                                        the
+                                        Ethernet Frame. <br><br> See "Ethernet frame structure" below for more
+                                        details.</strong></span>
+                            </div>
+
+
+                            <div id="Packet" class="packet" style="left: 38px; top: 16px;"><img
                                     src="{{ asset('../Images/Data/PPP-Frame.png') }}" width="96" height="66" /></div>
 
 
@@ -118,7 +126,7 @@
                                     animation = anime({
                                         targets: ['#Packet'],
                                         translateX: [{
-                                                value: 100,
+                                                value: 310,
                                                 duration: 2000
                                             },
                                             {
@@ -127,9 +135,14 @@
                                             }
                                         ],
                                         translateY: [{
-                                            value: 100,
-                                            duration: 2000
-                                        }],
+                                                value: 180,
+                                                duration: 2000
+                                            },
+                                            {
+                                                value: 280,
+                                                duration: 2000
+                                            }
+                                        ],
                                         easing: 'easeInOutQuad',
                                         loop: false,
                                         autoplay: false
@@ -138,6 +151,7 @@
                                 }
 
                                 document.getElementById("PlayButton").onclick = function() {
+
                                     startAnimation();
                                 };
 
