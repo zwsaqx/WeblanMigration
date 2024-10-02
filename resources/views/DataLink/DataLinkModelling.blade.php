@@ -64,7 +64,7 @@
                         </span>
                         <br />
 
-                        <div id="container">
+                        <div id="container" style="margin: 0 auto;">
                             <div id="PC1" class="device" style="left: 66px; top: 46px;">PC1</div>
                             <div id="PC2" class="device" style="left: 66px; top: 173px;">PC2</div>
                             <div id="PC3" class="device" style="left: 62px; top: 291px;">PC3</div>
@@ -72,7 +72,8 @@
                             <div id="Packet" class="packet" style="left: 66px; top: 46px;">Packet</div>
                         </div>
 
-                        <div>
+                        <div
+                            style=" height: 100%; margin: 0; display: flex; justify-content: center; align-items: center;  ">
                             <button id="PlayButton">Play</button>
                             <button id="PauseButton">Pause/Resume</button>
                             <button id="StopButton">Stop</button>
@@ -150,20 +151,19 @@
                         </script>
 
                         <br />
-                        <br />
 
-                        <p>In this scenario, PC1 is connected to PC2 and PC3 via a switch. <br>
-                            PC1 is the “source host”, whereas PC2 and PC3 are the “destination hosts.”</p>
-                        <p>
+                        <p>In this scenario, PC1 is connected to PC2 and PC3 via a switch.
+                            PC1 is the “source host”, whereas PC2 and PC3 are the “destination hosts.”
+
                             The Data Link Layer is divided into two sublayers: the Media Access Control layer (MAC)
                             and the Logical Link Control layer (LLC).
-                        </p>
-                        <p>The MAC addresses you see on each device are implemented on the devices' adapters.</p>
-                        <p>
+
+                            The MAC addresses you see on each device are implemented on the devices' adapters.
+
                             The model below shows a wired network topology, where an Ethernet Frame is used to encapsulate
                             PC1's data before transmission over the link to PC3.
-                        </p>
-                        <br />
+
+
                         <p>When the switch receives a frame, the switch inspects the MAC address of the source host, learns
                             the source host's location, stores the information in the switch table and use a
                             &ldquo;time-to-live&rdquo; (TTL) field to forget the mapping in the end. It indexes the switch
@@ -179,7 +179,9 @@
                         </p>
                         <span class="redText"><strong><em>Structure of Frame</em></strong></span>
                         <br />
-                        <img src="../images/Basic Frame Structure.png" width="745" height="99" alt="" />
+
+                        <img src="{{ asset('../Images/Data/Basic Frame Structure.png') }}" width="745" height="99"
+                            alt="" />
                         <p><span class="redText">Header: </span>Contains information as to what network interface and
                             protocols are being used.</p>
                         <p><span class="redText">Payload:</span> Contains the actual information being transmitted.
@@ -188,7 +190,8 @@
                         <br />
 
                         <span class="redText"><em><strong>Ethernet Frame Structure</strong></em></span>
-                        <p><img src="../images/Ethernet Frame Sturcture.png" width="806" height="137" alt="" />
+                        <p><img src="{{ asset('../Images/Data/Ethernet Frame Sturcture.png') }}" width="806"
+                                height="137" alt="" />
                         </p>
                         <p><span class="redText">Preamble (8 bytes): </span>Each of the first 7 bytes has a value of
                             10101010; followed by one last byte of 10101011. The first 7 bytes are used to wake up the

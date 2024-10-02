@@ -433,9 +433,6 @@
     <body class="body">
         <div class='loggedInBody'>
             <h1 class='header1'>Data Link Protocol Modelling</h1>
-            <br />
-            <div class='header1'>Animation-based Models</div>
-            <br />
             <div style="text-align: center; margin: 0 auto; width: fit-content;">
                 <a href="/DataLink/DataLinkModelling">[Model 1]</a>
                 <a href="/DataLink/DataLinkModelling2">[Model 2]</a><br />
@@ -451,12 +448,7 @@
                             </div>
                         </span>
                         <br />
-                        <br />
-                        In this model, PC1 is sending packets to PC3, PC4, Laptop 1, and Laptop 2.
-                        PC1 is the “source host,” PC3, PC4, Laptop 1, and Laptop 2 are the “destination hosts.”
 
-                        <p>As the packet travels from source host to destination hosts, it will cross devices using various
-                            protocol types...</p>
 
                         <div id="animation-container">
                             <img src="{{ asset('../Images/Data/PC1.png') }}" id="PC1" class="device"
@@ -489,15 +481,23 @@
 
                         </div>
 
-                        <div>
+                        <div
+                            style=" height: 100%; margin: 0; display: flex; justify-content: center; align-items: center;  ">
                             <button id="PlayButton">Play</button>
                             <button id="PauseButton">Pause/Resume</button>
                             <button id="StopButton">Stop</button>
                         </div>
-                        <div id="info">Hover over a device to see its MAC address.</div>
+
 
                         <br />
                         <br />
+
+                        <br />
+                        In this model, PC1 is sending packets to PC3, PC4, Laptop 1, and Laptop 2.
+                        PC1 is the “source host,” PC3, PC4, Laptop 1, and Laptop 2 are the “destination hosts.”
+
+                        <p>As the packet travels from source host to destination hosts, it will cross devices using various
+                            protocol types...</p>
                         <span class="redText"><strong>Ethernet Frame Structure</strong></span>
                         <p><img src="{{ asset('../Images/Data/Ethernet Frame Sturcture.png') }}" width="1000"
                                 height="150" alt="" /></p>
