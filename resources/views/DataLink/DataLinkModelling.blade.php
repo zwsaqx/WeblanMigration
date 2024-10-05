@@ -96,6 +96,17 @@
                                         details.</strong></span>
                             </div>
 
+                            <div id="Text" style="left: 35px; top: 115px; position: absolute;">
+                                <span style="font-size: 12px;">3A:5B:4C:1D:2E:9F</span>
+                            </div>
+
+                            <div id="Text" style="left: 35px; top: 245px; position: absolute;">
+                                <span style="font-size: 12px;">D4:A7:22:4B:56</span>
+                            </div>
+
+                            <div id="Text" style="left: 35px; top: 360px; position: absolute;">
+                                <span style="font-size: 12px;">89:13:7C:20:1F</span>
+                            </div>
 
                             <div id="Packet" class="packet" style="left: 38px; top: 16px;"><img
                                     src="{{ asset('../Images/Data/PPP-Frame.png') }}" width="96" height="66" /></div>

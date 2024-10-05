@@ -473,7 +473,7 @@
                             <div id="Text" style="left: 255px; top: 165px; position: absolute; ">
                                 <span style="">PC2</span>
                             </div>
-                            <div id="Text" style="left: 355px; top: 165px; position: absolute; ">
+                            <div id="Text" style="left: 365px; top: 165px; position: absolute; ">
                                 <span style="">PC3</span>
                             </div>
                             <div id="Text" style="left: 505px; top: 165px; position: absolute; ">
@@ -481,6 +481,29 @@
                             </div>
                             <div id="Text" style="left: 655px; top: 165px; position: absolute; ">
                                 <span style="">Laptop2</span>
+                            </div>
+
+                            <div id="Text" style="left: 25px; top: 185px; position: absolute;">
+                                <span style="font-size: 12px;">F0:7A:21:DC:68:14</span>
+                            </div>
+                            <div id="Text" style="left: 225px; top: 185px; position: absolute;">
+                                <span style="font-size: 12px;">5D:09:83:27:F0
+                                </span>
+                            </div>
+
+                            <div id="Text" style="left: 345px; top: 185px; position: absolute;">
+                                <span style="font-size: 12px;">9B:3F:6D:E1:74:85
+                                </span>
+                            </div>
+
+                            <div id="Text" style="left: 485px; top: 185px; position: absolute;">
+                                <span style="font-size: 12px;">1E:94:CD:07:5A:21
+                                </span>
+                            </div>
+
+                            <div id="Text" style="left: 635px; top: 185px; position: absolute;">
+                                <span style="font-size: 12px;">02:F9:A8:6D:4B
+                                </span>
                             </div>
 
                             <!-- Lines connecting devices to the switch -->
