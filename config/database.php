@@ -97,7 +97,7 @@ return [
         'sqlsrv' => [
             'driver' => 'sqlsrv',
             'url' => env('DB_URL'),
-            'host' => env('DB_HOST', 'ecms-win2022db'),
+            'host' => env('DB_HOST', 'ecms-win2022db\weblandb1'),
             'port' => env('DB_PORT', '1433'),
             'database' => env('DB_DATABASE', 'Weblan'),
             'username' => env('DB_USERNAME', 'Weblan'),
